@@ -1,0 +1,787 @@
+@prefix : <http://www.unigeSki#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.unigeSki> .
+
+<http://www.unigeSki> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.unigeSki/Ski#canSkiOn
+<http://www.unigeSki/Ski#canSkiOn> rdf:type owl:ObjectProperty ;
+                                   rdfs:subPropertyOf owl:topObjectProperty ;
+                                   rdfs:domain <http://www.unigeSki/Ski#Skier> ;
+                                   rdfs:range <http://www.unigeSki/Ski#SkiRun> .
+
+
+###  http://www.unigeSki/Ski#endsAt
+<http://www.unigeSki/Ski#endsAt> rdf:type owl:ObjectProperty ;
+                                 rdfs:subPropertyOf owl:topObjectProperty ;
+                                 owl:inverseOf <http://www.unigeSki/Ski#isEndOf> ;
+                                 rdfs:domain [ rdf:type owl:Class ;
+                                               owl:unionOf ( <http://www.unigeSki/Ski#SkiLift>
+                                                             <http://www.unigeSki/Ski#SkiRun>
+                                                           )
+                                             ] ;
+                                 rdfs:range <http://www.unigeSki/Ski#Place> .
+
+
+###  http://www.unigeSki/Ski#isEndOf
+<http://www.unigeSki/Ski#isEndOf> rdf:type owl:ObjectProperty ;
+                                  rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.unigeSki/Ski#isLocationOf
+<http://www.unigeSki/Ski#isLocationOf> rdf:type owl:ObjectProperty ;
+                                       rdfs:subPropertyOf owl:topObjectProperty ;
+                                       owl:inverseOf <http://www.unigeSki/Ski#locatedAt> .
+
+
+###  http://www.unigeSki/Ski#isStartOf
+<http://www.unigeSki/Ski#isStartOf> rdf:type owl:ObjectProperty ;
+                                    rdfs:subPropertyOf owl:topObjectProperty ;
+                                    owl:inverseOf <http://www.unigeSki/Ski#startsAt> .
+
+
+###  http://www.unigeSki/Ski#locatedAt
+<http://www.unigeSki/Ski#locatedAt> rdf:type owl:ObjectProperty ;
+                                    rdfs:subPropertyOf owl:topObjectProperty ;
+                                    rdfs:domain <http://www.unigeSki/Ski#Restaurant> ;
+                                    rdfs:range <http://www.unigeSki/Ski#Place> .
+
+
+###  http://www.unigeSki/Ski#startsAt
+<http://www.unigeSki/Ski#startsAt> rdf:type owl:ObjectProperty ;
+                                   rdfs:subPropertyOf owl:topObjectProperty ;
+                                   rdfs:domain [ rdf:type owl:Class ;
+                                                 owl:unionOf ( <http://www.unigeSki/Ski#SkiLift>
+                                                               <http://www.unigeSki/Ski#SkiRun>
+                                                             )
+                                               ] ;
+                                   rdfs:range <http://www.unigeSki/Ski#Place> .
+
+
+###  http://www.w3.org/2002/07/owl#topObjectProperty
+owl:topObjectProperty owl:inverseOf owl:topObjectProperty ;
+                      rdf:type owl:SymmetricProperty ,
+                               owl:TransitiveProperty .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.unigeSki#AllPlacesReachedByAverage
+:AllPlacesReachedByAverage rdf:type owl:Class ;
+                           owl:equivalentClass [ owl:intersectionOf ( :PlacesReachedByStartSequence
+                                                                      [ rdf:type owl:Class ;
+                                                                        owl:unionOf ( [ rdf:type owl:Restriction ;
+                                                                                        owl:onProperty <http://www.unigeSki/Ski#isEndOf> ;
+                                                                                        owl:someValuesFrom <http://www.unigeSki/Ski#SkiLift>
+                                                                                      ]
+                                                                                      [ rdf:type owl:Restriction ;
+                                                                                        owl:onProperty <http://www.unigeSki/Ski#isEndOf> ;
+                                                                                        owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                                             owl:unionOf ( <http://www.unigeSki/Ski#BlueRun>
+                                                                                                                           <http://www.unigeSki/Ski#RedRun>
+                                                                                                                         )
+                                                                                                           ]
+                                                                                      ]
+                                                                                    )
+                                                                      ]
+                                                                    ) ;
+                                                 rdf:type owl:Class
+                                               ] ;
+                           rdfs:subClassOf :PlacesReachedByStartSequence .
+
+
+###  http://www.unigeSki#PlaceWithLiftToRestaurant
+:PlaceWithLiftToRestaurant rdf:type owl:Class ;
+                           owl:equivalentClass [ owl:intersectionOf ( <http://www.unigeSki/Ski#Place>
+                                                                      [ rdf:type owl:Restriction ;
+                                                                        owl:onProperty <http://www.unigeSki/Ski#isStartOf> ;
+                                                                        owl:someValuesFrom [ owl:intersectionOf ( <http://www.unigeSki/Ski#SkiLift>
+                                                                                                                  [ rdf:type owl:Restriction ;
+                                                                                                                    owl:onProperty <http://www.unigeSki/Ski#endsAt> ;
+                                                                                                                    owl:someValuesFrom [ rdf:type owl:Restriction ;
+                                                                                                                                         owl:onProperty <http://www.unigeSki/Ski#isLocationOf> ;
+                                                                                                                                         owl:someValuesFrom <http://www.unigeSki/Ski#Restaurant>
+                                                                                                                                       ]
+                                                                                                                  ]
+                                                                                                                ) ;
+                                                                                             rdf:type owl:Class
+                                                                                           ]
+                                                                      ]
+                                                                    ) ;
+                                                 rdf:type owl:Class
+                                               ] ;
+                           rdfs:subClassOf :PlaceWithLiftToRestaurantSequence .
+
+
+###  http://www.unigeSki#PlaceWithLiftToRestaurantSequence
+:PlaceWithLiftToRestaurantSequence rdf:type owl:Class ;
+                                   owl:equivalentClass [ rdf:type owl:Class ;
+                                                         owl:unionOf ( :PlaceWithLiftToRestaurant
+                                                                       [ rdf:type owl:Restriction ;
+                                                                         owl:onProperty <http://www.unigeSki/Ski#isStartOf> ;
+                                                                         owl:someValuesFrom [ owl:intersectionOf ( <http://www.unigeSki/Ski#SkiLift>
+                                                                                                                   [ rdf:type owl:Restriction ;
+                                                                                                                     owl:onProperty <http://www.unigeSki/Ski#endsAt> ;
+                                                                                                                     owl:someValuesFrom :PlaceWithLiftToRestaurantSequence
+                                                                                                                   ]
+                                                                                                                 ) ;
+                                                                                              rdf:type owl:Class
+                                                                                            ]
+                                                                       ]
+                                                                     )
+                                                       ] ;
+                                   rdfs:subClassOf <http://www.unigeSki/Ski#Place> .
+
+
+###  http://www.unigeSki#PlacesReachedByStart
+:PlacesReachedByStart rdf:type owl:Class ;
+                      owl:equivalentClass [ owl:intersectionOf ( <http://www.unigeSki/Ski#Place>
+                                                                 [ rdf:type owl:Restriction ;
+                                                                   owl:onProperty <http://www.unigeSki/Ski#isEndOf> ;
+                                                                   owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                        owl:unionOf ( [ owl:intersectionOf ( <http://www.unigeSki/Ski#SkiLift>
+                                                                                                                             [ rdf:type owl:Restriction ;
+                                                                                                                               owl:onProperty <http://www.unigeSki/Ski#startsAt> ;
+                                                                                                                               owl:someValuesFrom :Start
+                                                                                                                             ]
+                                                                                                                           ) ;
+                                                                                                        rdf:type owl:Class
+                                                                                                      ]
+                                                                                                      [ owl:intersectionOf ( <http://www.unigeSki/Ski#SkiRun>
+                                                                                                                             [ rdf:type owl:Restriction ;
+                                                                                                                               owl:onProperty <http://www.unigeSki/Ski#startsAt> ;
+                                                                                                                               owl:someValuesFrom :Start
+                                                                                                                             ]
+                                                                                                                           ) ;
+                                                                                                        rdf:type owl:Class
+                                                                                                      ]
+                                                                                                    )
+                                                                                      ]
+                                                                 ]
+                                                               ) ;
+                                            rdf:type owl:Class
+                                          ] ;
+                      rdfs:subClassOf :PlacesReachedByStartSequence .
+
+
+###  http://www.unigeSki#PlacesReachedByStartSequence
+:PlacesReachedByStartSequence rdf:type owl:Class ;
+                              owl:equivalentClass [ rdf:type owl:Class ;
+                                                    owl:unionOf ( :PlacesReachedByStart
+                                                                  [ rdf:type owl:Restriction ;
+                                                                    owl:onProperty <http://www.unigeSki/Ski#isEndOf> ;
+                                                                    owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                         owl:unionOf ( [ owl:intersectionOf ( <http://www.unigeSki/Ski#SkiLift>
+                                                                                                                              [ rdf:type owl:Restriction ;
+                                                                                                                                owl:onProperty <http://www.unigeSki/Ski#startsAt> ;
+                                                                                                                                owl:someValuesFrom :PlacesReachedByStartSequence
+                                                                                                                              ]
+                                                                                                                            ) ;
+                                                                                                         rdf:type owl:Class
+                                                                                                       ]
+                                                                                                       [ owl:intersectionOf ( <http://www.unigeSki/Ski#SkiRun>
+                                                                                                                              [ rdf:type owl:Restriction ;
+                                                                                                                                owl:onProperty <http://www.unigeSki/Ski#startsAt> ;
+                                                                                                                                owl:someValuesFrom :PlacesReachedByStartSequence
+                                                                                                                              ]
+                                                                                                                            ) ;
+                                                                                                         rdf:type owl:Class
+                                                                                                       ]
+                                                                                                     )
+                                                                                       ]
+                                                                  ]
+                                                                )
+                                                  ] ;
+                              rdfs:subClassOf <http://www.unigeSki/Ski#Place> .
+
+
+###  http://www.unigeSki#RestaurantFromStart
+:RestaurantFromStart rdf:type owl:Class ;
+                     owl:equivalentClass [ owl:intersectionOf ( :PlacesReachedByStart
+                                                                [ rdf:type owl:Restriction ;
+                                                                  owl:onProperty <http://www.unigeSki/Ski#isLocationOf> ;
+                                                                  owl:someValuesFrom <http://www.unigeSki/Ski#Restaurant>
+                                                                ]
+                                                              ) ;
+                                           rdf:type owl:Class
+                                         ] ;
+                     rdfs:subClassOf :AllPlacesReachedByAverage ,
+                                     :PlacesReachedByStart ,
+                                     :RestaurantFromStartSequence ,
+                                     <http://www.unigeSki/Ski#BeginnerPlace> .
+
+
+###  http://www.unigeSki#RestaurantFromStartSequence
+:RestaurantFromStartSequence rdf:type owl:Class ;
+                             owl:equivalentClass <http://www.unigeSki/Ski#BeginnerPlace> ,
+                                                 [ rdf:type owl:Class ;
+                                                   owl:unionOf ( :RestaurantFromStart
+                                                                 [ owl:intersectionOf ( [ rdf:type owl:Restriction ;
+                                                                                          owl:onProperty <http://www.unigeSki/Ski#isEndOf> ;
+                                                                                          owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                                               owl:unionOf ( [ owl:intersectionOf ( <http://www.unigeSki/Ski#SkiLift>
+                                                                                                                                                    [ rdf:type owl:Restriction ;
+                                                                                                                                                      owl:onProperty <http://www.unigeSki/Ski#startsAt> ;
+                                                                                                                                                      owl:someValuesFrom :RestaurantFromStartSequence
+                                                                                                                                                    ]
+                                                                                                                                                  ) ;
+                                                                                                                               rdf:type owl:Class
+                                                                                                                             ]
+                                                                                                                             [ owl:intersectionOf ( <http://www.unigeSki/Ski#SkiRun>
+                                                                                                                                                    [ rdf:type owl:Restriction ;
+                                                                                                                                                      owl:onProperty <http://www.unigeSki/Ski#startsAt> ;
+                                                                                                                                                      owl:someValuesFrom :RestaurantFromStartSequence
+                                                                                                                                                    ]
+                                                                                                                                                  ) ;
+                                                                                                                               rdf:type owl:Class
+                                                                                                                             ]
+                                                                                                                           )
+                                                                                                             ]
+                                                                                        ]
+                                                                                        [ rdf:type owl:Restriction ;
+                                                                                          owl:onProperty <http://www.unigeSki/Ski#isLocationOf> ;
+                                                                                          owl:someValuesFrom <http://www.unigeSki/Ski#Restaurant>
+                                                                                        ]
+                                                                                      ) ;
+                                                                   rdf:type owl:Class
+                                                                 ]
+                                                               )
+                                                 ] ;
+                             rdfs:subClassOf <http://www.unigeSki/Ski#Place> .
+
+
+###  http://www.unigeSki#Start
+:Start rdf:type owl:Class ;
+       rdfs:subClassOf <http://www.unigeSki/Ski#Place> .
+
+
+###  http://www.unigeSki/Ski#AveragePlace
+<http://www.unigeSki/Ski#AveragePlace> rdf:type owl:Class ;
+                                       rdfs:subClassOf <http://www.unigeSki/Ski#Place> ,
+                                                       [ rdf:type owl:Restriction ;
+                                                         owl:onProperty <http://www.unigeSki/Ski#isStartOf> ;
+                                                         owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                         owl:onClass <http://www.unigeSki/Ski#RedRun>
+                                                       ] .
+
+
+###  http://www.unigeSki/Ski#AverageSkiLift
+<http://www.unigeSki/Ski#AverageSkiLift> rdf:type owl:Class ;
+                                         rdfs:subClassOf <http://www.unigeSki/Ski#SkiLift> ,
+                                                         [ rdf:type owl:Restriction ;
+                                                           owl:onProperty <http://www.unigeSki/Ski#endsAt> ;
+                                                           owl:someValuesFrom <http://www.unigeSki/Ski#AveragePlace>
+                                                         ] .
+
+
+###  http://www.unigeSki/Ski#AverageSkier
+<http://www.unigeSki/Ski#AverageSkier> rdf:type owl:Class ;
+                                       rdfs:subClassOf <http://www.unigeSki/Ski#Skier> ,
+                                                       [ rdf:type owl:Restriction ;
+                                                         owl:onProperty <http://www.unigeSki/Ski#canSkiOn> ;
+                                                         owl:allValuesFrom [ rdf:type owl:Class ;
+                                                                             owl:unionOf ( <http://www.unigeSki/Ski#BlueRun>
+                                                                                           <http://www.unigeSki/Ski#RedRun>
+                                                                                         )
+                                                                           ]
+                                                       ] ;
+                                       owl:disjointWith <http://www.unigeSki/Ski#BeginnerSkier> ,
+                                                        <http://www.unigeSki/Ski#GoodSkier> .
+
+
+###  http://www.unigeSki/Ski#BeginnerPlace
+<http://www.unigeSki/Ski#BeginnerPlace> rdf:type owl:Class ;
+                                        owl:equivalentClass [ rdf:type owl:Class ;
+                                                              owl:unionOf ( :RestaurantFromStart
+                                                                            [ rdf:type owl:Restriction ;
+                                                                              owl:onProperty <http://www.unigeSki/Ski#isEndOf> ;
+                                                                              owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                                   owl:unionOf ( [ owl:intersectionOf ( <http://www.unigeSki/Ski#SkiLift>
+                                                                                                                                        [ rdf:type owl:Restriction ;
+                                                                                                                                          owl:onProperty <http://www.unigeSki/Ski#endsAt> ;
+                                                                                                                                          owl:someValuesFrom :RestaurantFromStartSequence
+                                                                                                                                        ]
+                                                                                                                                      ) ;
+                                                                                                                   rdf:type owl:Class
+                                                                                                                 ]
+                                                                                                                 [ owl:intersectionOf ( <http://www.unigeSki/Ski#SkiRun>
+                                                                                                                                        [ rdf:type owl:Restriction ;
+                                                                                                                                          owl:onProperty <http://www.unigeSki/Ski#endsAt> ;
+                                                                                                                                          owl:someValuesFrom :RestaurantFromStartSequence
+                                                                                                                                        ]
+                                                                                                                                      ) ;
+                                                                                                                   rdf:type owl:Class
+                                                                                                                 ]
+                                                                                                               )
+                                                                                                 ]
+                                                                            ]
+                                                                          )
+                                                            ] ;
+                                        rdfs:subClassOf <http://www.unigeSki/Ski#Place> ,
+                                                        [ rdf:type owl:Restriction ;
+                                                          owl:onProperty <http://www.unigeSki/Ski#isStartOf> ;
+                                                          owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                          owl:onClass <http://www.unigeSki/Ski#BlueRun>
+                                                        ] .
+
+
+###  http://www.unigeSki/Ski#BeginnerSkiLift
+<http://www.unigeSki/Ski#BeginnerSkiLift> rdf:type owl:Class ;
+                                          rdfs:subClassOf <http://www.unigeSki/Ski#SkiLift> ,
+                                                          [ rdf:type owl:Restriction ;
+                                                            owl:onProperty <http://www.unigeSki/Ski#endsAt> ;
+                                                            owl:someValuesFrom <http://www.unigeSki/Ski#BeginnerPlace>
+                                                          ] .
+
+
+###  http://www.unigeSki/Ski#BeginnerSkier
+<http://www.unigeSki/Ski#BeginnerSkier> rdf:type owl:Class ;
+                                        rdfs:subClassOf <http://www.unigeSki/Ski#Skier> ,
+                                                        [ rdf:type owl:Restriction ;
+                                                          owl:onProperty <http://www.unigeSki/Ski#canSkiOn> ;
+                                                          owl:allValuesFrom <http://www.unigeSki/Ski#BlueRun>
+                                                        ] ;
+                                        owl:disjointWith <http://www.unigeSki/Ski#GoodSkier> .
+
+
+###  http://www.unigeSki/Ski#BlackRun
+<http://www.unigeSki/Ski#BlackRun> rdf:type owl:Class ;
+                                   rdfs:subClassOf <http://www.unigeSki/Ski#SkiRun> ;
+                                   owl:disjointWith <http://www.unigeSki/Ski#BlueRun> ,
+                                                    <http://www.unigeSki/Ski#RedRun> .
+
+
+###  http://www.unigeSki/Ski#BlueRun
+<http://www.unigeSki/Ski#BlueRun> rdf:type owl:Class ;
+                                  rdfs:subClassOf <http://www.unigeSki/Ski#SkiRun> ;
+                                  owl:disjointWith <http://www.unigeSki/Ski#RedRun> .
+
+
+###  http://www.unigeSki/Ski#GoodPlace
+<http://www.unigeSki/Ski#GoodPlace> rdf:type owl:Class ;
+                                    rdfs:subClassOf <http://www.unigeSki/Ski#Place> ,
+                                                    [ rdf:type owl:Restriction ;
+                                                      owl:onProperty <http://www.unigeSki/Ski#isStartOf> ;
+                                                      owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                      owl:onClass <http://www.unigeSki/Ski#BlackRun>
+                                                    ] .
+
+
+###  http://www.unigeSki/Ski#GoodSkiLift
+<http://www.unigeSki/Ski#GoodSkiLift> rdf:type owl:Class ;
+                                      rdfs:subClassOf <http://www.unigeSki/Ski#SkiLift> ,
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty <http://www.unigeSki/Ski#endsAt> ;
+                                                        owl:someValuesFrom <http://www.unigeSki/Ski#GoodPlace>
+                                                      ] .
+
+
+###  http://www.unigeSki/Ski#GoodSkier
+<http://www.unigeSki/Ski#GoodSkier> rdf:type owl:Class ;
+                                    rdfs:subClassOf <http://www.unigeSki/Ski#Skier> ,
+                                                    [ rdf:type owl:Restriction ;
+                                                      owl:onProperty <http://www.unigeSki/Ski#canSkiOn> ;
+                                                      owl:allValuesFrom [ rdf:type owl:Class ;
+                                                                          owl:unionOf ( <http://www.unigeSki/Ski#BlackRun>
+                                                                                        <http://www.unigeSki/Ski#BlueRun>
+                                                                                        <http://www.unigeSki/Ski#RedRun>
+                                                                                      )
+                                                                        ]
+                                                    ] .
+
+
+###  http://www.unigeSki/Ski#Place
+<http://www.unigeSki/Ski#Place> rdf:type owl:Class ;
+                                rdfs:subClassOf [ rdf:type owl:Class ;
+                                                  owl:unionOf ( [ rdf:type owl:Class ;
+                                                                  owl:complementOf [ rdf:type owl:Restriction ;
+                                                                                     owl:onProperty <http://www.unigeSki/Ski#isLocationOf> ;
+                                                                                     owl:someValuesFrom <http://www.unigeSki/Ski#Restaurant>
+                                                                                   ]
+                                                                ]
+                                                                [ rdf:type owl:Restriction ;
+                                                                  owl:onProperty <http://www.unigeSki/Ski#isEndOf> ;
+                                                                  owl:someValuesFrom <http://www.unigeSki/Ski#SkiLift>
+                                                                ]
+                                                              )
+                                                ] ,
+                                                [ rdf:type owl:Class ;
+                                                  owl:unionOf ( [ rdf:type owl:Class ;
+                                                                  owl:complementOf [ rdf:type owl:Restriction ;
+                                                                                     owl:onProperty <http://www.unigeSki/Ski#isStartOf> ;
+                                                                                     owl:someValuesFrom <http://www.unigeSki/Ski#SkiRun>
+                                                                                   ]
+                                                                ]
+                                                                [ rdf:type owl:Restriction ;
+                                                                  owl:onProperty <http://www.unigeSki/Ski#isEndOf> ;
+                                                                  owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                       owl:unionOf ( <http://www.unigeSki/Ski#SkiLift>
+                                                                                                     <http://www.unigeSki/Ski#SkiRun>
+                                                                                                   )
+                                                                                     ]
+                                                                ]
+                                                              )
+                                                ] .
+
+
+###  http://www.unigeSki/Ski#RedRun
+<http://www.unigeSki/Ski#RedRun> rdf:type owl:Class ;
+                                 rdfs:subClassOf <http://www.unigeSki/Ski#SkiRun> .
+
+
+###  http://www.unigeSki/Ski#Restaurant
+<http://www.unigeSki/Ski#Restaurant> rdf:type owl:Class .
+
+
+###  http://www.unigeSki/Ski#SkiLift
+<http://www.unigeSki/Ski#SkiLift> rdf:type owl:Class ;
+                                  rdfs:subClassOf [ owl:intersectionOf ( [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty <http://www.unigeSki/Ski#endsAt> ;
+                                                                           owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                           owl:onClass <http://www.unigeSki/Ski#Place>
+                                                                         ]
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty <http://www.unigeSki/Ski#startsAt> ;
+                                                                           owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                           owl:onClass <http://www.unigeSki/Ski#Place>
+                                                                         ]
+                                                                       ) ;
+                                                    rdf:type owl:Class
+                                                  ] .
+
+
+###  http://www.unigeSki/Ski#SkiRun
+<http://www.unigeSki/Ski#SkiRun> rdf:type owl:Class ;
+                                 rdfs:subClassOf [ owl:intersectionOf ( [ rdf:type owl:Restriction ;
+                                                                          owl:onProperty <http://www.unigeSki/Ski#endsAt> ;
+                                                                          owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                          owl:onClass <http://www.unigeSki/Ski#Place>
+                                                                        ]
+                                                                        [ rdf:type owl:Restriction ;
+                                                                          owl:onProperty <http://www.unigeSki/Ski#startsAt> ;
+                                                                          owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                          owl:onClass <http://www.unigeSki/Ski#Place>
+                                                                        ]
+                                                                      ) ;
+                                                   rdf:type owl:Class
+                                                 ] .
+
+
+###  http://www.unigeSki/Ski#Skier
+<http://www.unigeSki/Ski#Skier> rdf:type owl:Class .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://www.unigeSki#Arrive
+:Arrive rdf:type owl:NamedIndividual ,
+                 :AllPlacesReachedByAverage ,
+                 :PlacesReachedByStartSequence ,
+                 <http://www.unigeSki/Ski#Place> ;
+        <http://www.unigeSki/Ski#isEndOf> :telesige_pour_l_arrive ;
+        <http://www.unigeSki/Ski#isLocationOf> :Chez_Nous .
+
+
+###  http://www.unigeSki#BonSkieurSeulementPlace
+:BonSkieurSeulementPlace rdf:type owl:NamedIndividual ,
+                                  :PlacesReachedByStart ,
+                                  :PlacesReachedByStartSequence ,
+                                  <http://www.unigeSki/Ski#Place> ;
+                         <http://www.unigeSki/Ski#isEndOf> :pisteNoir2 .
+
+
+###  http://www.unigeSki#Chez_Nous
+:Chez_Nous rdf:type owl:NamedIndividual ,
+                    <http://www.unigeSki/Ski#Restaurant> ;
+           <http://www.unigeSki/Ski#locatedAt> :Arrive .
+
+
+###  http://www.unigeSki#Depart
+:Depart rdf:type owl:NamedIndividual ,
+                 :AllPlacesReachedByAverage ,
+                 :PlaceWithLiftToRestaurant ,
+                 :PlaceWithLiftToRestaurantSequence ,
+                 :PlacesReachedByStartSequence ,
+                 :RestaurantFromStartSequence ,
+                 :Start ,
+                 <http://www.unigeSki/Ski#BeginnerPlace> ,
+                 <http://www.unigeSki/Ski#Place> ;
+        <http://www.unigeSki/Ski#isEndOf> :colibri ;
+        <http://www.unigeSki/Ski#isLocationOf> :Le_Bon_Coin ;
+        <http://www.unigeSki/Ski#isStartOf> :deuxiemePisteRouge ,
+                                            :pisteNoir2 ,
+                                            :telesiegeRestau1 ,
+                                            :telesiege_pour_debutant .
+
+
+###  http://www.unigeSki#EndroitIndependant
+:EndroitIndependant rdf:type owl:NamedIndividual ,
+                             <http://www.unigeSki/Ski#Place> .
+
+
+###  http://www.unigeSki#EndroitRestau1
+:EndroitRestau1 rdf:type owl:NamedIndividual ,
+                         :AllPlacesReachedByAverage ,
+                         :PlacesReachedByStart ,
+                         :PlacesReachedByStartSequence ,
+                         :RestaurantFromStart ,
+                         :RestaurantFromStartSequence ,
+                         <http://www.unigeSki/Ski#BeginnerPlace> ,
+                         <http://www.unigeSki/Ski#Place> ;
+                <http://www.unigeSki/Ski#isEndOf> :telesiegeRestau1 ;
+                <http://www.unigeSki/Ski#isLocationOf> :Restaurant1 ;
+                <http://www.unigeSki/Ski#isStartOf> :lift ,
+                                                    :pisteRestau2 .
+
+
+###  http://www.unigeSki#EndroitRestau2
+:EndroitRestau2 rdf:type owl:NamedIndividual ,
+                         :AllPlacesReachedByAverage ,
+                         :PlacesReachedByStartSequence ,
+                         :RestaurantFromStartSequence ,
+                         <http://www.unigeSki/Ski#BeginnerPlace> ,
+                         <http://www.unigeSki/Ski#Place> ;
+                <http://www.unigeSki/Ski#isEndOf> :lift ,
+                                                  :pisteRestau2 ;
+                <http://www.unigeSki/Ski#isLocationOf> :Restaurant2 .
+
+
+###  http://www.unigeSki#La_Fondue
+:La_Fondue rdf:type owl:NamedIndividual ,
+                    <http://www.unigeSki/Ski#Restaurant> ;
+           <http://www.unigeSki/Ski#locatedAt> :debut_piste_noir .
+
+
+###  http://www.unigeSki#Le_Bon_Coin
+:Le_Bon_Coin rdf:type owl:NamedIndividual ,
+                      <http://www.unigeSki/Ski#Restaurant> ;
+             <http://www.unigeSki/Ski#locatedAt> :Depart .
+
+
+###  http://www.unigeSki#PlaceAtteignableParMoyenSkier
+:PlaceAtteignableParMoyenSkier rdf:type owl:NamedIndividual ,
+                                        :AllPlacesReachedByAverage ,
+                                        :PlacesReachedByStart ,
+                                        :PlacesReachedByStartSequence ,
+                                        <http://www.unigeSki/Ski#Place> ;
+                               <http://www.unigeSki/Ski#isEndOf> :deuxiemePisteRouge ;
+                               <http://www.unigeSki/Ski#isStartOf> :troisiemePisteRouge .
+
+
+###  http://www.unigeSki#PlaceAtteignableParMoyenSkierSequence
+:PlaceAtteignableParMoyenSkierSequence rdf:type owl:NamedIndividual ,
+                                                :AllPlacesReachedByAverage ,
+                                                :PlacesReachedByStartSequence ,
+                                                <http://www.unigeSki/Ski#Place> ;
+                                       <http://www.unigeSki/Ski#isEndOf> :troisiemePisteRouge .
+
+
+###  http://www.unigeSki#RestauPisteBleu
+:RestauPisteBleu rdf:type owl:NamedIndividual ,
+                          <http://www.unigeSki/Ski#Restaurant> ,
+                          <http://www.unigeSki/Ski#SkiRun> ;
+                 <http://www.unigeSki/Ski#locatedAt> :debut_piste_bleu .
+
+
+###  http://www.unigeSki#Restaurant1
+:Restaurant1 rdf:type owl:NamedIndividual ,
+                      <http://www.unigeSki/Ski#Restaurant> ;
+             <http://www.unigeSki/Ski#locatedAt> :EndroitRestau1 .
+
+
+###  http://www.unigeSki#Restaurant2
+:Restaurant2 rdf:type owl:NamedIndividual ,
+                      <http://www.unigeSki/Ski#Restaurant> ;
+             <http://www.unigeSki/Ski#locatedAt> :EndroitRestau2 .
+
+
+###  http://www.unigeSki#colibri
+:colibri rdf:type owl:NamedIndividual ,
+                  <http://www.unigeSki/Ski#BlueRun> ,
+                  <http://www.unigeSki/Ski#SkiRun> ;
+         <http://www.unigeSki/Ski#endsAt> :Depart ;
+         <http://www.unigeSki/Ski#startsAt> :debut_piste_bleu .
+
+
+###  http://www.unigeSki#debut_piste_bleu
+:debut_piste_bleu rdf:type owl:NamedIndividual ,
+                           :AllPlacesReachedByAverage ,
+                           :PlaceWithLiftToRestaurantSequence ,
+                           :PlacesReachedByStart ,
+                           :PlacesReachedByStartSequence ,
+                           :RestaurantFromStart ,
+                           :RestaurantFromStartSequence ,
+                           <http://www.unigeSki/Ski#BeginnerPlace> ,
+                           <http://www.unigeSki/Ski#Place> ;
+                  <http://www.unigeSki/Ski#isEndOf> :piste_rouge ,
+                                                    :telesiege_pour_debutant ;
+                  <http://www.unigeSki/Ski#isLocationOf> :RestauPisteBleu ;
+                  <http://www.unigeSki/Ski#isStartOf> :colibri ,
+                                                      :telesiege_pour_moyen .
+
+
+###  http://www.unigeSki#debut_piste_noir
+:debut_piste_noir rdf:type owl:NamedIndividual ,
+                           :AllPlacesReachedByAverage ,
+                           :PlaceWithLiftToRestaurant ,
+                           :PlaceWithLiftToRestaurantSequence ,
+                           :PlacesReachedByStartSequence ,
+                           <http://www.unigeSki/Ski#GoodPlace> ,
+                           <http://www.unigeSki/Ski#Place> ;
+                  <http://www.unigeSki/Ski#isEndOf> :telesiege_bon ;
+                  <http://www.unigeSki/Ski#isLocationOf> :La_Fondue ;
+                  <http://www.unigeSki/Ski#isStartOf> :piste_noir ,
+                                                      :telesige_pour_l_arrive .
+
+
+###  http://www.unigeSki#debut_piste_rouge
+:debut_piste_rouge rdf:type owl:NamedIndividual ,
+                            :AllPlacesReachedByAverage ,
+                            :PlaceWithLiftToRestaurant ,
+                            :PlaceWithLiftToRestaurantSequence ,
+                            :PlacesReachedByStartSequence ,
+                            <http://www.unigeSki/Ski#AveragePlace> ,
+                            <http://www.unigeSki/Ski#Place> ;
+                   <http://www.unigeSki/Ski#isEndOf> :piste_noir ,
+                                                     :telesiege_pour_moyen ;
+                   <http://www.unigeSki/Ski#isStartOf> :piste_rouge ,
+                                                       :telesiege_bon .
+
+
+###  http://www.unigeSki#deniz
+:deniz rdf:type owl:NamedIndividual ,
+                <http://www.unigeSki/Ski#AverageSkier> ,
+                <http://www.unigeSki/Ski#Skier> ;
+       <http://www.unigeSki/Ski#canSkiOn> :RestauPisteBleu ,
+                                          :colibri ,
+                                          :deuxiemePisteRouge ,
+                                          :piste_rouge ,
+                                          :troisiemePisteRouge .
+
+
+###  http://www.unigeSki#deuxiemePisteRouge
+:deuxiemePisteRouge rdf:type owl:NamedIndividual ,
+                             <http://www.unigeSki/Ski#RedRun> ,
+                             <http://www.unigeSki/Ski#SkiRun> ;
+                    <http://www.unigeSki/Ski#endsAt> :PlaceAtteignableParMoyenSkier ;
+                    <http://www.unigeSki/Ski#startsAt> :Depart .
+
+
+###  http://www.unigeSki#lift
+:lift rdf:type owl:NamedIndividual ;
+      <http://www.unigeSki/Ski#endsAt> :EndroitRestau2 ;
+      <http://www.unigeSki/Ski#startsAt> :EndroitRestau1 .
+
+
+###  http://www.unigeSki#luke
+:luke rdf:type owl:NamedIndividual ,
+               <http://www.unigeSki/Ski#GoodSkier> ,
+               <http://www.unigeSki/Ski#Skier> ;
+      <http://www.unigeSki/Ski#canSkiOn> :colibri ,
+                                         :deuxiemePisteRouge ,
+                                         :pisteNoir2 ,
+                                         :pisteRestau2 ,
+                                         :piste_noir ,
+                                         :piste_rouge ,
+                                         :troisiemePisteRouge .
+
+
+###  http://www.unigeSki#pisteNoir2
+:pisteNoir2 rdf:type owl:NamedIndividual ,
+                     <http://www.unigeSki/Ski#BlackRun> ,
+                     <http://www.unigeSki/Ski#SkiRun> ;
+            <http://www.unigeSki/Ski#endsAt> :BonSkieurSeulementPlace ;
+            <http://www.unigeSki/Ski#startsAt> :Depart .
+
+
+###  http://www.unigeSki#pisteRestau2
+:pisteRestau2 rdf:type owl:NamedIndividual ,
+                       <http://www.unigeSki/Ski#BlueRun> ,
+                       <http://www.unigeSki/Ski#SkiRun> ;
+              <http://www.unigeSki/Ski#endsAt> :EndroitRestau2 ;
+              <http://www.unigeSki/Ski#startsAt> :EndroitRestau1 .
+
+
+###  http://www.unigeSki#piste_noir
+:piste_noir rdf:type owl:NamedIndividual ,
+                     <http://www.unigeSki/Ski#BlackRun> ,
+                     <http://www.unigeSki/Ski#SkiRun> ;
+            <http://www.unigeSki/Ski#endsAt> :debut_piste_rouge ;
+            <http://www.unigeSki/Ski#startsAt> :debut_piste_noir .
+
+
+###  http://www.unigeSki#piste_rouge
+:piste_rouge rdf:type owl:NamedIndividual ,
+                      <http://www.unigeSki/Ski#RedRun> ,
+                      <http://www.unigeSki/Ski#SkiRun> ;
+             <http://www.unigeSki/Ski#endsAt> :debut_piste_bleu ;
+             <http://www.unigeSki/Ski#startsAt> :debut_piste_rouge .
+
+
+###  http://www.unigeSki#sajay
+:sajay rdf:type owl:NamedIndividual ,
+                <http://www.unigeSki/Ski#BeginnerSkier> ,
+                <http://www.unigeSki/Ski#Skier> ;
+       <http://www.unigeSki/Ski#canSkiOn> :colibri ,
+                                          :pisteRestau2 .
+
+
+###  http://www.unigeSki#telesiegeRestau1
+:telesiegeRestau1 rdf:type owl:NamedIndividual ,
+                           <http://www.unigeSki/Ski#SkiLift> ;
+                  <http://www.unigeSki/Ski#endsAt> :EndroitRestau1 ;
+                  <http://www.unigeSki/Ski#startsAt> :Depart .
+
+
+###  http://www.unigeSki#telesiege_bon
+:telesiege_bon rdf:type owl:NamedIndividual ,
+                        <http://www.unigeSki/Ski#GoodSkiLift> ,
+                        <http://www.unigeSki/Ski#SkiLift> ;
+               <http://www.unigeSki/Ski#endsAt> :debut_piste_noir ;
+               <http://www.unigeSki/Ski#startsAt> :debut_piste_rouge .
+
+
+###  http://www.unigeSki#telesiege_pour_debutant
+:telesiege_pour_debutant rdf:type owl:NamedIndividual ,
+                                  <http://www.unigeSki/Ski#BeginnerSkiLift> ,
+                                  <http://www.unigeSki/Ski#SkiLift> ;
+                         <http://www.unigeSki/Ski#endsAt> :debut_piste_bleu ;
+                         <http://www.unigeSki/Ski#startsAt> :Depart .
+
+
+###  http://www.unigeSki#telesiege_pour_moyen
+:telesiege_pour_moyen rdf:type owl:NamedIndividual ,
+                               <http://www.unigeSki/Ski#AverageSkiLift> ,
+                               <http://www.unigeSki/Ski#SkiLift> ;
+                      <http://www.unigeSki/Ski#endsAt> :debut_piste_rouge ;
+                      <http://www.unigeSki/Ski#startsAt> :debut_piste_bleu .
+
+
+###  http://www.unigeSki#telesige_pour_l_arrive
+:telesige_pour_l_arrive rdf:type owl:NamedIndividual ,
+                                 <http://www.unigeSki/Ski#SkiLift> ;
+                        <http://www.unigeSki/Ski#endsAt> :Arrive ;
+                        <http://www.unigeSki/Ski#startsAt> :debut_piste_noir .
+
+
+###  http://www.unigeSki#troisiemePisteRouge
+:troisiemePisteRouge rdf:type owl:NamedIndividual ,
+                              <http://www.unigeSki/Ski#RedRun> ,
+                              <http://www.unigeSki/Ski#SkiRun> ;
+                     <http://www.unigeSki/Ski#endsAt> :PlaceAtteignableParMoyenSkierSequence ;
+                     <http://www.unigeSki/Ski#startsAt> :PlaceAtteignableParMoyenSkier .
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi

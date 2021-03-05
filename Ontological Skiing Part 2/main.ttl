@@ -1,0 +1,751 @@
+@prefix : <http://unigeSki#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://unigeSki> .
+
+<http://unigeSki> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.unigeSki#hasFirst
+<http://www.unigeSki#hasFirst> rdf:type owl:ObjectProperty .
+
+
+###  http://www.unigeSki#hasMember
+<http://www.unigeSki#hasMember> rdf:type owl:ObjectProperty .
+
+
+###  http://www.unigeSki#hasRest
+<http://www.unigeSki#hasRest> rdf:type owl:ObjectProperty .
+
+
+###  http://www.unigeSki#open
+<http://www.unigeSki#open> rdf:type owl:ObjectProperty .
+
+
+###  http://www.unigeSki/Ski#canSkiOn
+<http://www.unigeSki/Ski#canSkiOn> rdf:type owl:ObjectProperty .
+
+
+###  http://www.unigeSki/Ski#endsAt
+<http://www.unigeSki/Ski#endsAt> rdf:type owl:ObjectProperty ;
+                                 owl:inverseOf <http://www.unigeSki/Ski#isEndOf> .
+
+
+###  http://www.unigeSki/Ski#isEndOf
+<http://www.unigeSki/Ski#isEndOf> rdf:type owl:ObjectProperty .
+
+
+###  http://www.unigeSki/Ski#isLocationOf
+<http://www.unigeSki/Ski#isLocationOf> rdf:type owl:ObjectProperty ;
+                                       owl:inverseOf <http://www.unigeSki/Ski#locatedAt> .
+
+
+###  http://www.unigeSki/Ski#isStartOf
+<http://www.unigeSki/Ski#isStartOf> rdf:type owl:ObjectProperty ;
+                                    owl:inverseOf <http://www.unigeSki/Ski#startsAt> .
+
+
+###  http://www.unigeSki/Ski#locatedAt
+<http://www.unigeSki/Ski#locatedAt> rdf:type owl:ObjectProperty .
+
+
+###  http://www.unigeSki/Ski#startsAt
+<http://www.unigeSki/Ski#startsAt> rdf:type owl:ObjectProperty .
+
+
+###  http://www.w3.org/2002/07/owl#topObjectProperty
+owl:topObjectProperty rdf:type owl:SymmetricProperty ,
+                               owl:TransitiveProperty ,
+                               owl:ReflexiveProperty .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.unigeSki#Duration
+<http://www.unigeSki#Duration> rdf:type owl:DatatypeProperty ,
+                                        owl:FunctionalProperty .
+
+
+###  http://www.unigeSki#difficulty
+<http://www.unigeSki#difficulty> rdf:type owl:DatatypeProperty .
+
+
+###  http://www.unigeSki#endDate
+<http://www.unigeSki#endDate> rdf:type owl:DatatypeProperty ,
+                                       owl:FunctionalProperty .
+
+
+###  http://www.unigeSki#startDate
+<http://www.unigeSki#startDate> rdf:type owl:DatatypeProperty ,
+                                         owl:FunctionalProperty .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.unigeSki#AllPlacesReachedByAverage
+<http://www.unigeSki#AllPlacesReachedByAverage> rdf:type owl:Class ;
+                                                rdfs:subClassOf <http://www.unigeSki#PlacesReachedByStartSequence> .
+
+
+###  http://www.unigeSki#EmptyRoute
+<http://www.unigeSki#EmptyRoute> rdf:type owl:Class .
+
+
+###  http://www.unigeSki#PlaceWithLiftToRestaurant
+<http://www.unigeSki#PlaceWithLiftToRestaurant> rdf:type owl:Class ;
+                                                rdfs:subClassOf <http://www.unigeSki#PlaceWithLiftToRestaurantSequence> .
+
+
+###  http://www.unigeSki#PlaceWithLiftToRestaurantSequence
+<http://www.unigeSki#PlaceWithLiftToRestaurantSequence> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://www.unigeSki/Ski#Place> .
+
+
+###  http://www.unigeSki#PlacesReachedByStart
+<http://www.unigeSki#PlacesReachedByStart> rdf:type owl:Class ;
+                                           rdfs:subClassOf <http://www.unigeSki#PlacesReachedByStartSequence> .
+
+
+###  http://www.unigeSki#PlacesReachedByStartSequence
+<http://www.unigeSki#PlacesReachedByStartSequence> rdf:type owl:Class ;
+                                                   rdfs:subClassOf <http://www.unigeSki/Ski#Place> .
+
+
+###  http://www.unigeSki#RestaurantFromStart
+<http://www.unigeSki#RestaurantFromStart> rdf:type owl:Class ;
+                                          rdfs:subClassOf <http://www.unigeSki#AllPlacesReachedByAverage> ,
+                                                          <http://www.unigeSki#PlacesReachedByStart> ,
+                                                          <http://www.unigeSki#RestaurantFromStartSequence> ,
+                                                          <http://www.unigeSki/Ski#BeginnerPlace> .
+
+
+###  http://www.unigeSki#RestaurantFromStartSequence
+<http://www.unigeSki#RestaurantFromStartSequence> rdf:type owl:Class ;
+                                                  owl:equivalentClass <http://www.unigeSki/Ski#BeginnerPlace> ;
+                                                  rdfs:subClassOf <http://www.unigeSki/Ski#Place> .
+
+
+###  http://www.unigeSki#Route
+<http://www.unigeSki#Route> rdf:type owl:Class .
+
+
+###  http://www.unigeSki#Start
+<http://www.unigeSki#Start> rdf:type owl:Class ;
+                            rdfs:subClassOf <http://www.unigeSki/Ski#Place> .
+
+
+###  http://www.unigeSki#TimeInterval
+<http://www.unigeSki#TimeInterval> rdf:type owl:Class .
+
+
+###  http://www.unigeSki/Ski#AveragePlace
+<http://www.unigeSki/Ski#AveragePlace> rdf:type owl:Class ;
+                                       rdfs:subClassOf <http://www.unigeSki/Ski#Place> .
+
+
+###  http://www.unigeSki/Ski#AverageSkiLift
+<http://www.unigeSki/Ski#AverageSkiLift> rdf:type owl:Class ;
+                                         rdfs:subClassOf <http://www.unigeSki/Ski#SkiLift> .
+
+
+###  http://www.unigeSki/Ski#AverageSkier
+<http://www.unigeSki/Ski#AverageSkier> rdf:type owl:Class ;
+                                       rdfs:subClassOf <http://www.unigeSki/Ski#Skier> ;
+                                       owl:disjointWith <http://www.unigeSki/Ski#BeginnerSkier> ,
+                                                        <http://www.unigeSki/Ski#GoodSkier> .
+
+
+###  http://www.unigeSki/Ski#BeginnerPlace
+<http://www.unigeSki/Ski#BeginnerPlace> rdf:type owl:Class ;
+                                        rdfs:subClassOf <http://www.unigeSki/Ski#Place> .
+
+
+###  http://www.unigeSki/Ski#BeginnerSkiLift
+<http://www.unigeSki/Ski#BeginnerSkiLift> rdf:type owl:Class ;
+                                          rdfs:subClassOf <http://www.unigeSki/Ski#SkiLift> .
+
+
+###  http://www.unigeSki/Ski#BeginnerSkier
+<http://www.unigeSki/Ski#BeginnerSkier> rdf:type owl:Class ;
+                                        rdfs:subClassOf <http://www.unigeSki/Ski#Skier> ;
+                                        owl:disjointWith <http://www.unigeSki/Ski#GoodSkier> .
+
+
+###  http://www.unigeSki/Ski#BlackRun
+<http://www.unigeSki/Ski#BlackRun> rdf:type owl:Class ;
+                                   rdfs:subClassOf <http://www.unigeSki/Ski#SkiRun> ;
+                                   owl:disjointWith <http://www.unigeSki/Ski#BlueRun> ,
+                                                    <http://www.unigeSki/Ski#RedRun> .
+
+
+###  http://www.unigeSki/Ski#BlueRun
+<http://www.unigeSki/Ski#BlueRun> rdf:type owl:Class ;
+                                  rdfs:subClassOf <http://www.unigeSki/Ski#SkiRun> ;
+                                  owl:disjointWith <http://www.unigeSki/Ski#RedRun> .
+
+
+###  http://www.unigeSki/Ski#GoodPlace
+<http://www.unigeSki/Ski#GoodPlace> rdf:type owl:Class ;
+                                    rdfs:subClassOf <http://www.unigeSki/Ski#Place> .
+
+
+###  http://www.unigeSki/Ski#GoodSkiLift
+<http://www.unigeSki/Ski#GoodSkiLift> rdf:type owl:Class ;
+                                      rdfs:subClassOf <http://www.unigeSki/Ski#SkiLift> .
+
+
+###  http://www.unigeSki/Ski#GoodSkier
+<http://www.unigeSki/Ski#GoodSkier> rdf:type owl:Class ;
+                                    rdfs:subClassOf <http://www.unigeSki/Ski#Skier> .
+
+
+###  http://www.unigeSki/Ski#Place
+<http://www.unigeSki/Ski#Place> rdf:type owl:Class .
+
+
+###  http://www.unigeSki/Ski#RedRun
+<http://www.unigeSki/Ski#RedRun> rdf:type owl:Class ;
+                                 rdfs:subClassOf <http://www.unigeSki/Ski#SkiRun> .
+
+
+###  http://www.unigeSki/Ski#Restaurant
+<http://www.unigeSki/Ski#Restaurant> rdf:type owl:Class ;
+                                     rdfs:subClassOf <http://www.unigeSki/Ski#Place> .
+
+
+###  http://www.unigeSki/Ski#SkiLift
+<http://www.unigeSki/Ski#SkiLift> rdf:type owl:Class .
+
+
+###  http://www.unigeSki/Ski#SkiRun
+<http://www.unigeSki/Ski#SkiRun> rdf:type owl:Class .
+
+
+###  http://www.unigeSki/Ski#Skier
+<http://www.unigeSki/Ski#Skier> rdf:type owl:Class .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://www.unigeSki#Arrive
+<http://www.unigeSki#Arrive> rdf:type owl:NamedIndividual ,
+                                      <http://www.unigeSki#AllPlacesReachedByAverage> ,
+                                      <http://www.unigeSki#PlacesReachedByStartSequence> ,
+                                      <http://www.unigeSki/Ski#Place> ;
+                             <http://www.unigeSki/Ski#isEndOf> <http://www.unigeSki#telesige_pour_l_arrive> ;
+                             <http://www.unigeSki/Ski#isLocationOf> <http://www.unigeSki#Chez_Nous> .
+
+
+###  http://www.unigeSki#BonSkieurSeulementPlace
+<http://www.unigeSki#BonSkieurSeulementPlace> rdf:type owl:NamedIndividual ,
+                                                       <http://www.unigeSki#PlacesReachedByStart> ,
+                                                       <http://www.unigeSki#PlacesReachedByStartSequence> ,
+                                                       <http://www.unigeSki/Ski#Place> ;
+                                              <http://www.unigeSki/Ski#isEndOf> <http://www.unigeSki#pisteNoir2> .
+
+
+###  http://www.unigeSki#Chez_Nous
+<http://www.unigeSki#Chez_Nous> rdf:type owl:NamedIndividual ,
+                                         <http://www.unigeSki/Ski#Place> ,
+                                         <http://www.unigeSki/Ski#Restaurant> ;
+                                <http://www.unigeSki/Ski#locatedAt> <http://www.unigeSki#Arrive> .
+
+
+###  http://www.unigeSki#Depart
+<http://www.unigeSki#Depart> rdf:type owl:NamedIndividual ,
+                                      <http://www.unigeSki#AllPlacesReachedByAverage> ,
+                                      <http://www.unigeSki#PlaceWithLiftToRestaurant> ,
+                                      <http://www.unigeSki#PlaceWithLiftToRestaurantSequence> ,
+                                      <http://www.unigeSki#PlacesReachedByStartSequence> ,
+                                      <http://www.unigeSki#RestaurantFromStartSequence> ,
+                                      <http://www.unigeSki#Start> ,
+                                      <http://www.unigeSki/Ski#BeginnerPlace> ,
+                                      <http://www.unigeSki/Ski#Place> ;
+                             <http://www.unigeSki/Ski#isEndOf> <http://www.unigeSki#colibri> ;
+                             <http://www.unigeSki/Ski#isLocationOf> <http://www.unigeSki#Le_Bon_Coin> ;
+                             <http://www.unigeSki/Ski#isStartOf> <http://www.unigeSki#deuxiemePisteRouge> ,
+                                                                 <http://www.unigeSki#pisteNoir2> ,
+                                                                 <http://www.unigeSki#telesiegeRestau1> ,
+                                                                 <http://www.unigeSki#telesiege_pour_debutant> .
+
+
+###  http://www.unigeSki#EndroitIndependant
+<http://www.unigeSki#EndroitIndependant> rdf:type owl:NamedIndividual ,
+                                                  <http://www.unigeSki/Ski#Place> .
+
+
+###  http://www.unigeSki#EndroitRestau1
+<http://www.unigeSki#EndroitRestau1> rdf:type owl:NamedIndividual ,
+                                              <http://www.unigeSki#AllPlacesReachedByAverage> ,
+                                              <http://www.unigeSki#PlaceWithLiftToRestaurant> ,
+                                              <http://www.unigeSki#PlaceWithLiftToRestaurantSequence> ,
+                                              <http://www.unigeSki#PlacesReachedByStart> ,
+                                              <http://www.unigeSki#PlacesReachedByStartSequence> ,
+                                              <http://www.unigeSki#RestaurantFromStart> ,
+                                              <http://www.unigeSki#RestaurantFromStartSequence> ,
+                                              <http://www.unigeSki/Ski#BeginnerPlace> ,
+                                              <http://www.unigeSki/Ski#Place> ;
+                                     <http://www.unigeSki/Ski#isEndOf> <http://www.unigeSki#telesiegeRestau1> ;
+                                     <http://www.unigeSki/Ski#isLocationOf> <http://www.unigeSki#Restaurant1> ;
+                                     <http://www.unigeSki/Ski#isStartOf> <http://www.unigeSki#lift> ,
+                                                                         <http://www.unigeSki#pisteRestau2> .
+
+
+###  http://www.unigeSki#EndroitRestau2
+<http://www.unigeSki#EndroitRestau2> rdf:type owl:NamedIndividual ,
+                                              <http://www.unigeSki#AllPlacesReachedByAverage> ,
+                                              <http://www.unigeSki#PlacesReachedByStartSequence> ,
+                                              <http://www.unigeSki#RestaurantFromStartSequence> ,
+                                              <http://www.unigeSki/Ski#BeginnerPlace> ,
+                                              <http://www.unigeSki/Ski#Place> ;
+                                     <http://www.unigeSki/Ski#isEndOf> <http://www.unigeSki#lift> ,
+                                                                       <http://www.unigeSki#pisteRestau2> ;
+                                     <http://www.unigeSki/Ski#isLocationOf> <http://www.unigeSki#Restaurant2> .
+
+
+###  http://www.unigeSki#Fermer
+<http://www.unigeSki#Fermer> rdf:type owl:NamedIndividual ,
+                                      <http://www.unigeSki#TimeInterval> ;
+                             <http://www.unigeSki#endDate> "2020-06-06T15:00:00"^^xsd:dateTime ;
+                             <http://www.unigeSki#startDate> "2020-05-05T15:00:00"^^xsd:dateTime .
+
+
+###  http://www.unigeSki#FinRouteRetour
+<http://www.unigeSki#FinRouteRetour> rdf:type owl:NamedIndividual ,
+                                              <http://www.unigeSki#EmptyRoute> ;
+                                     <http://www.unigeSki#Duration> 0 .
+
+
+###  http://www.unigeSki#La_Fondue
+<http://www.unigeSki#La_Fondue> rdf:type owl:NamedIndividual ,
+                                         <http://www.unigeSki/Ski#Place> ,
+                                         <http://www.unigeSki/Ski#Restaurant> ;
+                                <http://www.unigeSki/Ski#locatedAt> <http://www.unigeSki#debut_piste_noir> .
+
+
+###  http://www.unigeSki#Le_Bon_Coin
+<http://www.unigeSki#Le_Bon_Coin> rdf:type owl:NamedIndividual ,
+                                           <http://www.unigeSki/Ski#Place> ,
+                                           <http://www.unigeSki/Ski#Restaurant> ;
+                                  <http://www.unigeSki/Ski#locatedAt> <http://www.unigeSki#Depart> .
+
+
+###  http://www.unigeSki#Ouvert
+<http://www.unigeSki#Ouvert> rdf:type owl:NamedIndividual ,
+                                      <http://www.unigeSki#TimeInterval> ;
+                             <http://www.unigeSki#endDate> "2020-03-03T15:00:00"^^xsd:dateTime ;
+                             <http://www.unigeSki#startDate> "2021-01-01T15:00:00"^^xsd:dateTime .
+
+
+###  http://www.unigeSki#PlaceAtteignableParMoyenSkier
+<http://www.unigeSki#PlaceAtteignableParMoyenSkier> rdf:type owl:NamedIndividual ,
+                                                             <http://www.unigeSki#AllPlacesReachedByAverage> ,
+                                                             <http://www.unigeSki#PlacesReachedByStart> ,
+                                                             <http://www.unigeSki#PlacesReachedByStartSequence> ,
+                                                             <http://www.unigeSki/Ski#Place> ;
+                                                    <http://www.unigeSki/Ski#isEndOf> <http://www.unigeSki#deuxiemePisteRouge> ;
+                                                    <http://www.unigeSki/Ski#isStartOf> <http://www.unigeSki#troisiemePisteRouge> .
+
+
+###  http://www.unigeSki#PlaceAtteignableParMoyenSkierSequence
+<http://www.unigeSki#PlaceAtteignableParMoyenSkierSequence> rdf:type owl:NamedIndividual ,
+                                                                     <http://www.unigeSki#AllPlacesReachedByAverage> ,
+                                                                     <http://www.unigeSki#PlacesReachedByStartSequence> ,
+                                                                     <http://www.unigeSki/Ski#Place> ;
+                                                            <http://www.unigeSki/Ski#isEndOf> <http://www.unigeSki#troisiemePisteRouge> .
+
+
+###  http://www.unigeSki#RestauPisteBleu
+<http://www.unigeSki#RestauPisteBleu> rdf:type owl:NamedIndividual ,
+                                               <http://www.unigeSki/Ski#Place> ,
+                                               <http://www.unigeSki/Ski#Restaurant> ;
+                                      <http://www.unigeSki/Ski#locatedAt> <http://www.unigeSki#debut_piste_bleu> .
+
+
+###  http://www.unigeSki#Restaurant1
+<http://www.unigeSki#Restaurant1> rdf:type owl:NamedIndividual ,
+                                           <http://www.unigeSki/Ski#Place> ,
+                                           <http://www.unigeSki/Ski#Restaurant> ;
+                                  <http://www.unigeSki/Ski#locatedAt> <http://www.unigeSki#EndroitRestau1> .
+
+
+###  http://www.unigeSki#Restaurant2
+<http://www.unigeSki#Restaurant2> rdf:type owl:NamedIndividual ,
+                                           <http://www.unigeSki/Ski#Place> ,
+                                           <http://www.unigeSki/Ski#Restaurant> ;
+                                  <http://www.unigeSki/Ski#locatedAt> <http://www.unigeSki#EndroitRestau2> .
+
+
+###  http://www.unigeSki#RouteArrive
+<http://www.unigeSki#RouteArrive> rdf:type owl:NamedIndividual ,
+                                           <http://www.unigeSki#EmptyRoute> ;
+                                  <http://www.unigeSki#Duration> 0 .
+
+
+###  http://www.unigeSki#RouteDepart
+<http://www.unigeSki#RouteDepart> rdf:type owl:NamedIndividual ,
+                                           <http://www.unigeSki#Route> ;
+                                  <http://www.unigeSki#hasFirst> <http://www.unigeSki#telesiege_pour_debutant> ;
+                                  <http://www.unigeSki#hasMember> <http://www.unigeSki#Arrive> ,
+                                                                  <http://www.unigeSki#Chez_Nous> ,
+                                                                  <http://www.unigeSki#Depart> ,
+                                                                  <http://www.unigeSki#La_Fondue> ,
+                                                                  <http://www.unigeSki#Le_Bon_Coin> ,
+                                                                  <http://www.unigeSki#RestauPisteBleu> ,
+                                                                  <http://www.unigeSki#colibri> ,
+                                                                  <http://www.unigeSki#debut_piste_bleu> ,
+                                                                  <http://www.unigeSki#debut_piste_noir> ,
+                                                                  <http://www.unigeSki#debut_piste_rouge> ,
+                                                                  <http://www.unigeSki#deuxiemePisteRouge> ,
+                                                                  <http://www.unigeSki#pisteNoir2> ,
+                                                                  <http://www.unigeSki#piste_noir> ,
+                                                                  <http://www.unigeSki#piste_rouge> ,
+                                                                  <http://www.unigeSki#telesiegeRestau1> ,
+                                                                  <http://www.unigeSki#telesiege_bon> ,
+                                                                  <http://www.unigeSki#telesiege_pour_debutant> ,
+                                                                  <http://www.unigeSki#telesiege_pour_moyen> ,
+                                                                  <http://www.unigeSki#telesige_pour_l_arrive> ;
+                                  <http://www.unigeSki#hasRest> <http://www.unigeSki#RoutePisteBleu> ;
+                                  <http://www.unigeSki#Duration> 85 ;
+                                  <http://www.unigeSki#difficulty> 0 .
+
+
+###  http://www.unigeSki#RoutePisteBleu
+<http://www.unigeSki#RoutePisteBleu> rdf:type owl:NamedIndividual ,
+                                              <http://www.unigeSki#Route> ;
+                                     <http://www.unigeSki#hasFirst> <http://www.unigeSki#telesiege_pour_moyen> ;
+                                     <http://www.unigeSki#hasMember> <http://www.unigeSki#Arrive> ,
+                                                                     <http://www.unigeSki#Chez_Nous> ,
+                                                                     <http://www.unigeSki#La_Fondue> ,
+                                                                     <http://www.unigeSki#RestauPisteBleu> ,
+                                                                     <http://www.unigeSki#colibri> ,
+                                                                     <http://www.unigeSki#debut_piste_bleu> ,
+                                                                     <http://www.unigeSki#debut_piste_noir> ,
+                                                                     <http://www.unigeSki#debut_piste_rouge> ,
+                                                                     <http://www.unigeSki#piste_noir> ,
+                                                                     <http://www.unigeSki#piste_rouge> ,
+                                                                     <http://www.unigeSki#telesiege_bon> ,
+                                                                     <http://www.unigeSki#telesiege_pour_debutant> ,
+                                                                     <http://www.unigeSki#telesiege_pour_moyen> ,
+                                                                     <http://www.unigeSki#telesige_pour_l_arrive> ;
+                                     <http://www.unigeSki#hasRest> <http://www.unigeSki#RoutePisteRouge> ;
+                                     <http://www.unigeSki#Duration> 75 ;
+                                     <http://www.unigeSki#difficulty> 0 .
+
+
+###  http://www.unigeSki#RoutePisteNoir
+<http://www.unigeSki#RoutePisteNoir> rdf:type owl:NamedIndividual ,
+                                              <http://www.unigeSki#Route> ;
+                                     <http://www.unigeSki#hasFirst> <http://www.unigeSki#telesige_pour_l_arrive> ;
+                                     <http://www.unigeSki#hasMember> <http://www.unigeSki#Arrive> ,
+                                                                     <http://www.unigeSki#Chez_Nous> ,
+                                                                     <http://www.unigeSki#La_Fondue> ,
+                                                                     <http://www.unigeSki#debut_piste_noir> ,
+                                                                     <http://www.unigeSki#piste_noir> ,
+                                                                     <http://www.unigeSki#telesiege_bon> ,
+                                                                     <http://www.unigeSki#telesige_pour_l_arrive> ;
+                                     <http://www.unigeSki#hasRest> <http://www.unigeSki#RouteArrive> ;
+                                     <http://www.unigeSki#Duration> 40 ;
+                                     <http://www.unigeSki#difficulty> 0 .
+
+
+###  http://www.unigeSki#RoutePisteRouge
+<http://www.unigeSki#RoutePisteRouge> rdf:type owl:NamedIndividual ,
+                                               <http://www.unigeSki#Route> ;
+                                      <http://www.unigeSki#hasFirst> <http://www.unigeSki#telesiege_bon> ;
+                                      <http://www.unigeSki#hasMember> <http://www.unigeSki#Arrive> ,
+                                                                      <http://www.unigeSki#Chez_Nous> ,
+                                                                      <http://www.unigeSki#La_Fondue> ,
+                                                                      <http://www.unigeSki#debut_piste_noir> ,
+                                                                      <http://www.unigeSki#debut_piste_rouge> ,
+                                                                      <http://www.unigeSki#piste_noir> ,
+                                                                      <http://www.unigeSki#piste_rouge> ,
+                                                                      <http://www.unigeSki#telesiege_bon> ,
+                                                                      <http://www.unigeSki#telesiege_pour_moyen> ,
+                                                                      <http://www.unigeSki#telesige_pour_l_arrive> ;
+                                      <http://www.unigeSki#hasRest> <http://www.unigeSki#RoutePisteNoir> ;
+                                      <http://www.unigeSki#Duration> 60 ;
+                                      <http://www.unigeSki#difficulty> 0 .
+
+
+###  http://www.unigeSki#RouteRetourPisteBleu
+<http://www.unigeSki#RouteRetourPisteBleu> rdf:type owl:NamedIndividual ,
+                                                    <http://www.unigeSki#Route> ;
+                                           <http://www.unigeSki#hasFirst> <http://www.unigeSki#colibri> ;
+                                           <http://www.unigeSki#hasMember> <http://www.unigeSki#Depart> ,
+                                                                           <http://www.unigeSki#Le_Bon_Coin> ,
+                                                                           <http://www.unigeSki#RestauPisteBleu> ,
+                                                                           <http://www.unigeSki#colibri> ,
+                                                                           <http://www.unigeSki#debut_piste_bleu> ,
+                                                                           <http://www.unigeSki#deuxiemePisteRouge> ,
+                                                                           <http://www.unigeSki#pisteNoir2> ,
+                                                                           <http://www.unigeSki#piste_rouge> ,
+                                                                           <http://www.unigeSki#telesiegeRestau1> ,
+                                                                           <http://www.unigeSki#telesiege_pour_debutant> ,
+                                                                           <http://www.unigeSki#telesiege_pour_moyen> ;
+                                           <http://www.unigeSki#hasRest> <http://www.unigeSki#FinRouteRetour> ;
+                                           <http://www.unigeSki#Duration> 15 ;
+                                           <http://www.unigeSki#difficulty> 0 .
+
+
+###  http://www.unigeSki#RouteRetourPisteNoir
+<http://www.unigeSki#RouteRetourPisteNoir> rdf:type owl:NamedIndividual ,
+                                                    <http://www.unigeSki#Route> ;
+                                           <http://www.unigeSki#hasFirst> <http://www.unigeSki#piste_noir> ;
+                                           <http://www.unigeSki#hasMember> <http://www.unigeSki#Depart> ,
+                                                                           <http://www.unigeSki#La_Fondue> ,
+                                                                           <http://www.unigeSki#Le_Bon_Coin> ,
+                                                                           <http://www.unigeSki#RestauPisteBleu> ,
+                                                                           <http://www.unigeSki#colibri> ,
+                                                                           <http://www.unigeSki#debut_piste_bleu> ,
+                                                                           <http://www.unigeSki#debut_piste_noir> ,
+                                                                           <http://www.unigeSki#debut_piste_rouge> ,
+                                                                           <http://www.unigeSki#deuxiemePisteRouge> ,
+                                                                           <http://www.unigeSki#pisteNoir2> ,
+                                                                           <http://www.unigeSki#piste_noir> ,
+                                                                           <http://www.unigeSki#piste_rouge> ,
+                                                                           <http://www.unigeSki#telesiegeRestau1> ,
+                                                                           <http://www.unigeSki#telesiege_bon> ,
+                                                                           <http://www.unigeSki#telesiege_pour_debutant> ,
+                                                                           <http://www.unigeSki#telesiege_pour_moyen> ,
+                                                                           <http://www.unigeSki#telesige_pour_l_arrive> ;
+                                           <http://www.unigeSki#hasRest> <http://www.unigeSki#RouteRetourPisteRouge> ;
+                                           <http://www.unigeSki#Duration> 75 ;
+                                           <http://www.unigeSki#difficulty> 2 .
+
+
+###  http://www.unigeSki#RouteRetourPisteRouge
+<http://www.unigeSki#RouteRetourPisteRouge> rdf:type owl:NamedIndividual ,
+                                                     <http://www.unigeSki#Route> ;
+                                            <http://www.unigeSki#hasFirst> <http://www.unigeSki#piste_rouge> ;
+                                            <http://www.unigeSki#hasMember> <http://www.unigeSki#Depart> ,
+                                                                            <http://www.unigeSki#Le_Bon_Coin> ,
+                                                                            <http://www.unigeSki#RestauPisteBleu> ,
+                                                                            <http://www.unigeSki#colibri> ,
+                                                                            <http://www.unigeSki#debut_piste_bleu> ,
+                                                                            <http://www.unigeSki#debut_piste_rouge> ,
+                                                                            <http://www.unigeSki#deuxiemePisteRouge> ,
+                                                                            <http://www.unigeSki#pisteNoir2> ,
+                                                                            <http://www.unigeSki#piste_noir> ,
+                                                                            <http://www.unigeSki#piste_rouge> ,
+                                                                            <http://www.unigeSki#telesiegeRestau1> ,
+                                                                            <http://www.unigeSki#telesiege_bon> ,
+                                                                            <http://www.unigeSki#telesiege_pour_debutant> ,
+                                                                            <http://www.unigeSki#telesiege_pour_moyen> ;
+                                            <http://www.unigeSki#hasRest> <http://www.unigeSki#RouteRetourPisteBleu> ;
+                                            <http://www.unigeSki#Duration> 40 ;
+                                            <http://www.unigeSki#difficulty> 1 .
+
+
+###  http://www.unigeSki#colibri
+<http://www.unigeSki#colibri> rdf:type owl:NamedIndividual ,
+                                       <http://www.unigeSki#Route> ,
+                                       <http://www.unigeSki/Ski#BlueRun> ,
+                                       <http://www.unigeSki/Ski#SkiRun> ;
+                              <http://www.unigeSki/Ski#endsAt> <http://www.unigeSki#Depart> ;
+                              <http://www.unigeSki/Ski#startsAt> <http://www.unigeSki#debut_piste_bleu> ;
+                              <http://www.unigeSki#Duration> 15 ;
+                              <http://www.unigeSki#difficulty> 0 .
+
+
+###  http://www.unigeSki#debut_piste_bleu
+<http://www.unigeSki#debut_piste_bleu> rdf:type owl:NamedIndividual ,
+                                                <http://www.unigeSki#AllPlacesReachedByAverage> ,
+                                                <http://www.unigeSki#PlaceWithLiftToRestaurantSequence> ,
+                                                <http://www.unigeSki#PlacesReachedByStart> ,
+                                                <http://www.unigeSki#PlacesReachedByStartSequence> ,
+                                                <http://www.unigeSki#RestaurantFromStart> ,
+                                                <http://www.unigeSki#RestaurantFromStartSequence> ,
+                                                <http://www.unigeSki/Ski#BeginnerPlace> ,
+                                                <http://www.unigeSki/Ski#Place> ;
+                                       <http://www.unigeSki/Ski#isEndOf> <http://www.unigeSki#piste_rouge> ,
+                                                                         <http://www.unigeSki#telesiege_pour_debutant> ;
+                                       <http://www.unigeSki/Ski#isLocationOf> <http://www.unigeSki#RestauPisteBleu> ;
+                                       <http://www.unigeSki/Ski#isStartOf> <http://www.unigeSki#colibri> ,
+                                                                           <http://www.unigeSki#telesiege_pour_moyen> .
+
+
+###  http://www.unigeSki#debut_piste_noir
+<http://www.unigeSki#debut_piste_noir> rdf:type owl:NamedIndividual ,
+                                                <http://www.unigeSki#AllPlacesReachedByAverage> ,
+                                                <http://www.unigeSki#PlaceWithLiftToRestaurant> ,
+                                                <http://www.unigeSki#PlaceWithLiftToRestaurantSequence> ,
+                                                <http://www.unigeSki#PlacesReachedByStartSequence> ,
+                                                <http://www.unigeSki/Ski#GoodPlace> ,
+                                                <http://www.unigeSki/Ski#Place> ;
+                                       <http://www.unigeSki/Ski#isEndOf> <http://www.unigeSki#telesiege_bon> ;
+                                       <http://www.unigeSki/Ski#isLocationOf> <http://www.unigeSki#La_Fondue> ;
+                                       <http://www.unigeSki/Ski#isStartOf> <http://www.unigeSki#piste_noir> ,
+                                                                           <http://www.unigeSki#telesige_pour_l_arrive> .
+
+
+###  http://www.unigeSki#debut_piste_rouge
+<http://www.unigeSki#debut_piste_rouge> rdf:type owl:NamedIndividual ,
+                                                 <http://www.unigeSki#AllPlacesReachedByAverage> ,
+                                                 <http://www.unigeSki#PlaceWithLiftToRestaurant> ,
+                                                 <http://www.unigeSki#PlaceWithLiftToRestaurantSequence> ,
+                                                 <http://www.unigeSki#PlacesReachedByStartSequence> ,
+                                                 <http://www.unigeSki/Ski#AveragePlace> ,
+                                                 <http://www.unigeSki/Ski#Place> ;
+                                        <http://www.unigeSki/Ski#isEndOf> <http://www.unigeSki#piste_noir> ,
+                                                                          <http://www.unigeSki#telesiege_pour_moyen> ;
+                                        <http://www.unigeSki/Ski#isStartOf> <http://www.unigeSki#piste_rouge> ,
+                                                                            <http://www.unigeSki#telesiege_bon> .
+
+
+###  http://www.unigeSki#deniz
+<http://www.unigeSki#deniz> rdf:type owl:NamedIndividual ,
+                                     <http://www.unigeSki/Ski#AverageSkier> ,
+                                     <http://www.unigeSki/Ski#Skier> ;
+                            <http://www.unigeSki/Ski#canSkiOn> <http://www.unigeSki#colibri> ,
+                                                               <http://www.unigeSki#deuxiemePisteRouge> ,
+                                                               <http://www.unigeSki#piste_rouge> ,
+                                                               <http://www.unigeSki#troisiemePisteRouge> .
+
+
+###  http://www.unigeSki#deuxiemePisteRouge
+<http://www.unigeSki#deuxiemePisteRouge> rdf:type owl:NamedIndividual ,
+                                                  <http://www.unigeSki/Ski#RedRun> ,
+                                                  <http://www.unigeSki/Ski#SkiRun> ;
+                                         <http://www.unigeSki/Ski#endsAt> <http://www.unigeSki#PlaceAtteignableParMoyenSkier> ;
+                                         <http://www.unigeSki/Ski#startsAt> <http://www.unigeSki#Depart> .
+
+
+###  http://www.unigeSki#lift
+<http://www.unigeSki#lift> rdf:type owl:NamedIndividual ,
+                                    <http://www.unigeSki/Ski#SkiLift> ;
+                           <http://www.unigeSki/Ski#endsAt> <http://www.unigeSki#EndroitRestau2> ;
+                           <http://www.unigeSki/Ski#startsAt> <http://www.unigeSki#EndroitRestau1> .
+
+
+###  http://www.unigeSki#luke
+<http://www.unigeSki#luke> rdf:type owl:NamedIndividual ,
+                                    <http://www.unigeSki/Ski#GoodSkier> ,
+                                    <http://www.unigeSki/Ski#Skier> ;
+                           <http://www.unigeSki/Ski#canSkiOn> <http://www.unigeSki#colibri> ,
+                                                              <http://www.unigeSki#deuxiemePisteRouge> ,
+                                                              <http://www.unigeSki#pisteNoir2> ,
+                                                              <http://www.unigeSki#pisteRestau2> ,
+                                                              <http://www.unigeSki#piste_noir> ,
+                                                              <http://www.unigeSki#piste_rouge> ,
+                                                              <http://www.unigeSki#troisiemePisteRouge> .
+
+
+###  http://www.unigeSki#pisteNoir2
+<http://www.unigeSki#pisteNoir2> rdf:type owl:NamedIndividual ,
+                                          <http://www.unigeSki/Ski#BlackRun> ,
+                                          <http://www.unigeSki/Ski#SkiRun> ;
+                                 <http://www.unigeSki/Ski#endsAt> <http://www.unigeSki#BonSkieurSeulementPlace> ;
+                                 <http://www.unigeSki/Ski#startsAt> <http://www.unigeSki#Depart> .
+
+
+###  http://www.unigeSki#pisteRestau2
+<http://www.unigeSki#pisteRestau2> rdf:type owl:NamedIndividual ,
+                                            <http://www.unigeSki/Ski#BlueRun> ,
+                                            <http://www.unigeSki/Ski#SkiRun> ;
+                                   <http://www.unigeSki/Ski#endsAt> <http://www.unigeSki#EndroitRestau2> ;
+                                   <http://www.unigeSki/Ski#startsAt> <http://www.unigeSki#EndroitRestau1> .
+
+
+###  http://www.unigeSki#piste_noir
+<http://www.unigeSki#piste_noir> rdf:type owl:NamedIndividual ,
+                                          <http://www.unigeSki#Route> ,
+                                          <http://www.unigeSki/Ski#BlackRun> ,
+                                          <http://www.unigeSki/Ski#SkiRun> ;
+                                 <http://www.unigeSki/Ski#endsAt> <http://www.unigeSki#debut_piste_rouge> ;
+                                 <http://www.unigeSki/Ski#startsAt> <http://www.unigeSki#debut_piste_noir> ;
+                                 <http://www.unigeSki#Duration> 35 ;
+                                 <http://www.unigeSki#difficulty> 2 .
+
+
+###  http://www.unigeSki#piste_rouge
+<http://www.unigeSki#piste_rouge> rdf:type owl:NamedIndividual ,
+                                           <http://www.unigeSki#Route> ,
+                                           <http://www.unigeSki/Ski#RedRun> ,
+                                           <http://www.unigeSki/Ski#SkiRun> ;
+                                  <http://www.unigeSki/Ski#endsAt> <http://www.unigeSki#debut_piste_bleu> ;
+                                  <http://www.unigeSki/Ski#startsAt> <http://www.unigeSki#debut_piste_rouge> ;
+                                  <http://www.unigeSki#Duration> 25 ;
+                                  <http://www.unigeSki#difficulty> 1 .
+
+
+###  http://www.unigeSki#sajay
+<http://www.unigeSki#sajay> rdf:type owl:NamedIndividual ,
+                                     <http://www.unigeSki/Ski#BeginnerSkier> ,
+                                     <http://www.unigeSki/Ski#Skier> ;
+                            <http://www.unigeSki/Ski#canSkiOn> <http://www.unigeSki#colibri> ,
+                                                               <http://www.unigeSki#pisteRestau2> .
+
+
+###  http://www.unigeSki#telesiegeRestau1
+<http://www.unigeSki#telesiegeRestau1> rdf:type owl:NamedIndividual ,
+                                                <http://www.unigeSki/Ski#SkiLift> ;
+                                       <http://www.unigeSki/Ski#endsAt> <http://www.unigeSki#EndroitRestau1> ;
+                                       <http://www.unigeSki/Ski#startsAt> <http://www.unigeSki#Depart> .
+
+
+###  http://www.unigeSki#telesiege_bon
+<http://www.unigeSki#telesiege_bon> rdf:type owl:NamedIndividual ,
+                                             <http://www.unigeSki#Route> ,
+                                             <http://www.unigeSki/Ski#GoodSkiLift> ,
+                                             <http://www.unigeSki/Ski#SkiLift> ;
+                                    <http://www.unigeSki/Ski#endsAt> <http://www.unigeSki#debut_piste_noir> ;
+                                    <http://www.unigeSki/Ski#startsAt> <http://www.unigeSki#debut_piste_rouge> ;
+                                    <http://www.unigeSki#Duration> 20 ;
+                                    <http://www.unigeSki#difficulty> 0 .
+
+
+###  http://www.unigeSki#telesiege_pour_debutant
+<http://www.unigeSki#telesiege_pour_debutant> rdf:type owl:NamedIndividual ,
+                                                       <http://www.unigeSki#Route> ,
+                                                       <http://www.unigeSki/Ski#BeginnerSkiLift> ,
+                                                       <http://www.unigeSki/Ski#SkiLift> ;
+                                              <http://www.unigeSki#open> <http://www.unigeSki#Ouvert> ;
+                                              <http://www.unigeSki/Ski#endsAt> <http://www.unigeSki#debut_piste_bleu> ;
+                                              <http://www.unigeSki/Ski#startsAt> <http://www.unigeSki#Depart> ;
+                                              <http://www.unigeSki#Duration> 10 ;
+                                              <http://www.unigeSki#difficulty> 0 .
+
+
+###  http://www.unigeSki#telesiege_pour_moyen
+<http://www.unigeSki#telesiege_pour_moyen> rdf:type owl:NamedIndividual ,
+                                                    <http://www.unigeSki#Route> ,
+                                                    <http://www.unigeSki/Ski#AverageSkiLift> ,
+                                                    <http://www.unigeSki/Ski#SkiLift> ;
+                                           <http://www.unigeSki/Ski#endsAt> <http://www.unigeSki#debut_piste_rouge> ;
+                                           <http://www.unigeSki/Ski#startsAt> <http://www.unigeSki#debut_piste_bleu> ;
+                                           <http://www.unigeSki#Duration> 15 ;
+                                           <http://www.unigeSki#difficulty> 0 .
+
+
+###  http://www.unigeSki#telesige_pour_l_arrive
+<http://www.unigeSki#telesige_pour_l_arrive> rdf:type owl:NamedIndividual ,
+                                                      <http://www.unigeSki#Route> ,
+                                                      <http://www.unigeSki/Ski#SkiLift> ;
+                                             <http://www.unigeSki/Ski#endsAt> <http://www.unigeSki#Arrive> ;
+                                             <http://www.unigeSki/Ski#startsAt> <http://www.unigeSki#debut_piste_noir> ;
+                                             <http://www.unigeSki#Duration> 40 ;
+                                             <http://www.unigeSki#difficulty> 0 .
+
+
+###  http://www.unigeSki#troisiemePisteRouge
+<http://www.unigeSki#troisiemePisteRouge> rdf:type owl:NamedIndividual ,
+                                                   <http://www.unigeSki/Ski#RedRun> ,
+                                                   <http://www.unigeSki/Ski#SkiRun> ;
+                                          <http://www.unigeSki/Ski#endsAt> <http://www.unigeSki#PlaceAtteignableParMoyenSkierSequence> ;
+                                          <http://www.unigeSki/Ski#startsAt> <http://www.unigeSki#PlaceAtteignableParMoyenSkier> .
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi

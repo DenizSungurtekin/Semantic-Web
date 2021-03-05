@@ -1,0 +1,6016 @@
+@prefix ns1: <http://osmInfo/> .
+@prefix ns2: <http://trackpoint/> .
+
+ns1:0 a ns1:node ;
+    ns1:latitude "46.2041172" ;
+    ns1:longitude "6.3970958" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:1 a ns1:node ;
+    ns1:latitude "46.1610165" ;
+    ns1:longitude "6.3166047" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:100 a ns1:node ;
+    ns1:latitude "46.1842896" ;
+    ns1:longitude "6.3667893" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2008" .
+
+ns1:101 a ns1:node ;
+    ns1:latitude "46.1843611" ;
+    ns1:longitude "6.3674699" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2008" .
+
+ns1:102 a ns1:node ;
+    ns1:latitude "46.1842371" ;
+    ns1:longitude "6.3681926" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2008" .
+
+ns1:103 a ns1:node ;
+    ns1:latitude "46.1840465" ;
+    ns1:longitude "6.3685108" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2008" .
+
+ns1:104 a ns1:node ;
+    ns1:latitude "46.1836311" ;
+    ns1:longitude "6.3691413" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2008" .
+
+ns1:105 a ns1:node ;
+    ns1:latitude "46.1836215" ;
+    ns1:longitude "6.3694800" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2008" .
+
+ns1:106 a ns1:node ;
+    ns1:latitude "46.1835124" ;
+    ns1:longitude "6.3699210" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2008" .
+
+ns1:107 a ns1:node ;
+    ns1:latitude "46.1835938" ;
+    ns1:longitude "6.3700507" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2008" .
+
+ns1:108 a ns1:node ;
+    ns1:latitude "46.1836881" ;
+    ns1:longitude "6.3704360" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2008" .
+
+ns1:109 a ns1:node ;
+    ns1:latitude "46.1836401" ;
+    ns1:longitude "6.3708850" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2008" .
+
+ns1:11 a ns1:node ;
+    ns1:latitude "46.2371796" ;
+    ns1:longitude "6.3625850" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:110 a ns1:node ;
+    ns1:latitude "46.1833338" ;
+    ns1:longitude "6.3710745" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2008" .
+
+ns1:111 a ns1:node ;
+    ns1:latitude "46.1831192" ;
+    ns1:longitude "6.3713061" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2008" .
+
+ns1:112 a ns1:node ;
+    ns1:latitude "46.1828100" ;
+    ns1:longitude "6.3715060" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2008" .
+
+ns1:113 a ns1:node ;
+    ns1:latitude "46.1827310" ;
+    ns1:longitude "6.3716557" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2008" .
+
+ns1:114 a ns1:node ;
+    ns1:latitude "46.1824524" ;
+    ns1:longitude "6.3718932" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2008" .
+
+ns1:115 a ns1:node ;
+    ns1:latitude "46.1823403" ;
+    ns1:longitude "6.3721430" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2008" .
+
+ns1:116 a ns1:node ;
+    ns1:latitude "46.1822028" ;
+    ns1:longitude "6.3722813" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2008" .
+
+ns1:117 a ns1:node ;
+    ns1:latitude "46.1817311" ;
+    ns1:longitude "6.3731126" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2008" .
+
+ns1:118 a ns1:node ;
+    ns1:latitude "46.1814725" ;
+    ns1:longitude "6.3734082" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2008" .
+
+ns1:119 a ns1:node ;
+    ns1:latitude "46.1813175" ;
+    ns1:longitude "6.3734851" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2008" .
+
+ns1:12 a ns1:node ;
+    ns1:latitude "46.2372180" ;
+    ns1:longitude "6.3647997" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:120 a ns1:node ;
+    ns1:latitude "46.1811375" ;
+    ns1:longitude "6.3736415" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2008" .
+
+ns1:121 a ns1:node ;
+    ns1:latitude "46.1809671" ;
+    ns1:longitude "6.3736678" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2008" .
+
+ns1:122 a ns1:node ;
+    ns1:latitude "46.1808776" ;
+    ns1:longitude "6.3737672" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2008" .
+
+ns1:123 a ns1:node ;
+    ns1:latitude "46.1806340" ;
+    ns1:longitude "6.3737810" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2008" .
+
+ns1:124 a ns1:node ;
+    ns1:latitude "46.1805502" ;
+    ns1:longitude "6.3735839" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2008" .
+
+ns1:125 a ns1:node ;
+    ns1:latitude "46.1804328" ;
+    ns1:longitude "6.3735716" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2008" .
+
+ns1:126 a ns1:node ;
+    ns1:latitude "46.1803163" ;
+    ns1:longitude "6.3736691" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2008" .
+
+ns1:127 a ns1:node ;
+    ns1:latitude "46.1802653" ;
+    ns1:longitude "6.3738598" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2008" .
+
+ns1:128 a ns1:node ;
+    ns1:latitude "46.1802053" ;
+    ns1:longitude "6.3745094" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2008" .
+
+ns1:129 a ns1:node ;
+    ns1:latitude "46.1798778" ;
+    ns1:longitude "6.3754963" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2008" .
+
+ns1:13 a ns1:node ;
+    ns1:latitude "46.2379009" ;
+    ns1:longitude "6.3721742" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:130 a ns1:node ;
+    ns1:latitude "46.2099839" ;
+    ns1:longitude "6.3601009" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:131 a ns1:node ;
+    ns1:latitude "46.2092171" ;
+    ns1:longitude "6.3607290" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:132 a ns1:node ;
+    ns1:latitude "46.2094522" ;
+    ns1:longitude "6.3622659" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:133 a ns1:node ;
+    ns1:latitude "46.2094100" ;
+    ns1:longitude "6.3636154" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:134 a ns1:node ;
+    ns1:latitude "46.2078384" ;
+    ns1:longitude "6.3654280" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:135 a ns1:node ;
+    ns1:latitude "46.2069876" ;
+    ns1:longitude "6.3660414" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:136 a ns1:node ;
+    ns1:latitude "46.2066021" ;
+    ns1:longitude "6.3667726" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:137 a ns1:node ;
+    ns1:latitude "46.2060664" ;
+    ns1:longitude "6.3681440" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:138 a ns1:node ;
+    ns1:latitude "46.2056465" ;
+    ns1:longitude "6.3688644" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:139 a ns1:node ;
+    ns1:latitude "46.2053823" ;
+    ns1:longitude "6.3692523" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:14 a ns1:node ;
+    ns1:latitude "46.2384298" ;
+    ns1:longitude "6.3728986" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:140 a ns1:node ;
+    ns1:latitude "46.2042482" ;
+    ns1:longitude "6.3701034" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:141 a ns1:node ;
+    ns1:latitude "46.2041765" ;
+    ns1:longitude "6.3704254" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:142 a ns1:node ;
+    ns1:latitude "46.2040798" ;
+    ns1:longitude "6.3706654" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:143 a ns1:node ;
+    ns1:latitude "46.2039427" ;
+    ns1:longitude "6.3708689" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:144 a ns1:node ;
+    ns1:latitude "46.2039330" ;
+    ns1:longitude "6.3711421" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:145 a ns1:node ;
+    ns1:latitude "46.2039717" ;
+    ns1:longitude "6.3712251" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:146 a ns1:node ;
+    ns1:latitude "46.2039490" ;
+    ns1:longitude "6.3717178" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:147 a ns1:node ;
+    ns1:latitude "46.2039275" ;
+    ns1:longitude "6.3717880" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:148 a ns1:node ;
+    ns1:latitude "46.2039244" ;
+    ns1:longitude "6.3720066" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:149 a ns1:node ;
+    ns1:latitude "46.2041055" ;
+    ns1:longitude "6.3727210" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:15 a ns1:node ;
+    ns1:latitude "46.2385744" ;
+    ns1:longitude "6.3732288" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:150 a ns1:node ;
+    ns1:latitude "46.2041022" ;
+    ns1:longitude "6.3730799" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:151 a ns1:node ;
+    ns1:latitude "46.2041949" ;
+    ns1:longitude "6.3733432" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:152 a ns1:node ;
+    ns1:latitude "46.2041901" ;
+    ns1:longitude "6.3735446" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:153 a ns1:node ;
+    ns1:latitude "46.2042418" ;
+    ns1:longitude "6.3736920" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:154 a ns1:node ;
+    ns1:latitude "46.2040940" ;
+    ns1:longitude "6.3740402" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:155 a ns1:node ;
+    ns1:latitude "46.2040981" ;
+    ns1:longitude "6.3742593" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:156 a ns1:node ;
+    ns1:latitude "46.2039179" ;
+    ns1:longitude "6.3745845" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:157 a ns1:node ;
+    ns1:latitude "46.2037513" ;
+    ns1:longitude "6.3748628" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:158 a ns1:node ;
+    ns1:latitude "46.2037444" ;
+    ns1:longitude "6.3749889" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:159 a ns1:node ;
+    ns1:latitude "46.2035377" ;
+    ns1:longitude "6.3752574" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:16 a ns1:node ;
+    ns1:latitude "46.2386414" ;
+    ns1:longitude "6.3735955" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:160 a ns1:node ;
+    ns1:latitude "46.2034260" ;
+    ns1:longitude "6.3753278" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:161 a ns1:node ;
+    ns1:latitude "46.2033600" ;
+    ns1:longitude "6.3755144" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:162 a ns1:node ;
+    ns1:latitude "46.2030482" ;
+    ns1:longitude "6.3757341" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:163 a ns1:node ;
+    ns1:latitude "46.2029673" ;
+    ns1:longitude "6.3760734" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:164 a ns1:node ;
+    ns1:latitude "46.2027879" ;
+    ns1:longitude "6.3762414" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:165 a ns1:node ;
+    ns1:latitude "46.2027698" ;
+    ns1:longitude "6.3763495" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:166 a ns1:node ;
+    ns1:latitude "46.2026286" ;
+    ns1:longitude "6.3767151" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:167 a ns1:node ;
+    ns1:latitude "46.2026133" ;
+    ns1:longitude "6.3771415" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:168 a ns1:node ;
+    ns1:latitude "46.2026926" ;
+    ns1:longitude "6.3772499" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:169 a ns1:node ;
+    ns1:latitude "46.2027218" ;
+    ns1:longitude "6.3773615" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:17 a ns1:node ;
+    ns1:latitude "46.2386317" ;
+    ns1:longitude "6.3742310" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:170 a ns1:node ;
+    ns1:latitude "46.2026725" ;
+    ns1:longitude "6.3777443" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:171 a ns1:node ;
+    ns1:latitude "46.2026933" ;
+    ns1:longitude "6.3778928" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:172 a ns1:node ;
+    ns1:latitude "46.2026804" ;
+    ns1:longitude "6.3780560" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:173 a ns1:node ;
+    ns1:latitude "46.2026169" ;
+    ns1:longitude "6.3781060" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:174 a ns1:node ;
+    ns1:latitude "46.2025114" ;
+    ns1:longitude "6.3785325" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:175 a ns1:node ;
+    ns1:latitude "46.2024509" ;
+    ns1:longitude "6.3788973" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:176 a ns1:node ;
+    ns1:latitude "46.2026645" ;
+    ns1:longitude "6.3790978" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:177 a ns1:node ;
+    ns1:latitude "46.2028195" ;
+    ns1:longitude "6.3796769" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:178 a ns1:node ;
+    ns1:latitude "46.2027661" ;
+    ns1:longitude "6.3798439" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:179 a ns1:node ;
+    ns1:latitude "46.2026453" ;
+    ns1:longitude "6.3801017" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:18 a ns1:node ;
+    ns1:latitude "46.2387008" ;
+    ns1:longitude "6.3743546" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:180 a ns1:node ;
+    ns1:latitude "46.2026446" ;
+    ns1:longitude "6.3803205" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:181 a ns1:node ;
+    ns1:latitude "46.2025183" ;
+    ns1:longitude "6.3805984" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:182 a ns1:node ;
+    ns1:latitude "46.2024258" ;
+    ns1:longitude "6.3807283" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:183 a ns1:node ;
+    ns1:latitude "46.2025047" ;
+    ns1:longitude "6.3811103" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:184 a ns1:node ;
+    ns1:latitude "46.2025716" ;
+    ns1:longitude "6.3812999" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:185 a ns1:node ;
+    ns1:latitude "46.2025710" ;
+    ns1:longitude "6.3816487" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:186 a ns1:node ;
+    ns1:latitude "46.2026227" ;
+    ns1:longitude "6.3817277" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:187 a ns1:node ;
+    ns1:latitude "46.2025132" ;
+    ns1:longitude "6.3820684" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:188 a ns1:node ;
+    ns1:latitude "46.2025313" ;
+    ns1:longitude "6.3822270" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:189 a ns1:node ;
+    ns1:latitude "46.2024995" ;
+    ns1:longitude "6.3823854" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:19 a ns1:node ;
+    ns1:latitude "46.2394373" ;
+    ns1:longitude "6.3750017" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:190 a ns1:node ;
+    ns1:latitude "46.2024321" ;
+    ns1:longitude "6.3824761" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:191 a ns1:node ;
+    ns1:latitude "46.2023552" ;
+    ns1:longitude "6.3827679" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:192 a ns1:node ;
+    ns1:latitude "46.2023554" ;
+    ns1:longitude "6.3829629" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:193 a ns1:node ;
+    ns1:latitude "46.2022517" ;
+    ns1:longitude "6.3830065" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:194 a ns1:node ;
+    ns1:latitude "46.2021904" ;
+    ns1:longitude "6.3831284" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:195 a ns1:node ;
+    ns1:latitude "46.2021844" ;
+    ns1:longitude "6.3833605" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:196 a ns1:node ;
+    ns1:latitude "46.2022081" ;
+    ns1:longitude "6.3836290" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:197 a ns1:node ;
+    ns1:latitude "46.2021249" ;
+    ns1:longitude "6.3837630" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:198 a ns1:node ;
+    ns1:latitude "46.2020606" ;
+    ns1:longitude "6.3841002" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:199 a ns1:node ;
+    ns1:latitude "46.2020049" ;
+    ns1:longitude "6.3841986" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:2 a ns1:node ;
+    ns1:latitude "46.1788673" ;
+    ns1:longitude "6.3765167" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2007" .
+
+ns1:20 a ns1:node ;
+    ns1:latitude "46.2396899" ;
+    ns1:longitude "6.3753822" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:200 a ns1:node ;
+    ns1:latitude "46.2019705" ;
+    ns1:longitude "6.3844970" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:201 a ns1:node ;
+    ns1:latitude "46.2017975" ;
+    ns1:longitude "6.3846859" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:202 a ns1:node ;
+    ns1:latitude "46.2017860" ;
+    ns1:longitude "6.3848082" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:203 a ns1:node ;
+    ns1:latitude "46.2017095" ;
+    ns1:longitude "6.3848230" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:204 a ns1:node ;
+    ns1:latitude "46.2015651" ;
+    ns1:longitude "6.3850106" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:205 a ns1:node ;
+    ns1:latitude "46.2016554" ;
+    ns1:longitude "6.3852738" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:206 a ns1:node ;
+    ns1:latitude "46.2016046" ;
+    ns1:longitude "6.3857624" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:207 a ns1:node ;
+    ns1:latitude "46.2016831" ;
+    ns1:longitude "6.3858264" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:208 a ns1:node ;
+    ns1:latitude "46.2018372" ;
+    ns1:longitude "6.3858993" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:209 a ns1:node ;
+    ns1:latitude "46.2018379" ;
+    ns1:longitude "6.3860122" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:21 a ns1:node ;
+    ns1:latitude "46.2397149" ;
+    ns1:longitude "6.3757115" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:210 a ns1:node ;
+    ns1:latitude "46.2019435" ;
+    ns1:longitude "6.3862458" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:211 a ns1:node ;
+    ns1:latitude "46.2020615" ;
+    ns1:longitude "6.3862648" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:212 a ns1:node ;
+    ns1:latitude "46.2020887" ;
+    ns1:longitude "6.3865677" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:213 a ns1:node ;
+    ns1:latitude "46.2022162" ;
+    ns1:longitude "6.3865875" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:214 a ns1:node ;
+    ns1:latitude "46.2023827" ;
+    ns1:longitude "6.3866443" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:215 a ns1:node ;
+    ns1:latitude "46.2023862" ;
+    ns1:longitude "6.3871438" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:216 a ns1:node ;
+    ns1:latitude "46.2024441" ;
+    ns1:longitude "6.3874490" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:217 a ns1:node ;
+    ns1:latitude "46.2024087" ;
+    ns1:longitude "6.3877097" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:218 a ns1:node ;
+    ns1:latitude "46.2024436" ;
+    ns1:longitude "6.3877943" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:219 a ns1:node ;
+    ns1:latitude "46.2024436" ;
+    ns1:longitude "6.3879927" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:22 a ns1:node ;
+    ns1:latitude "46.2398732" ;
+    ns1:longitude "6.3761255" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:220 a ns1:node ;
+    ns1:latitude "46.2023535" ;
+    ns1:longitude "6.3881228" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:221 a ns1:node ;
+    ns1:latitude "46.2023551" ;
+    ns1:longitude "6.3884101" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:222 a ns1:node ;
+    ns1:latitude "46.2022535" ;
+    ns1:longitude "6.3885291" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:223 a ns1:node ;
+    ns1:latitude "46.2022584" ;
+    ns1:longitude "6.3885910" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:224 a ns1:node ;
+    ns1:latitude "46.2023526" ;
+    ns1:longitude "6.3886117" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:225 a ns1:node ;
+    ns1:latitude "46.2023546" ;
+    ns1:longitude "6.3887554" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:226 a ns1:node ;
+    ns1:latitude "46.2022575" ;
+    ns1:longitude "6.3888132" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:227 a ns1:node ;
+    ns1:latitude "46.2022797" ;
+    ns1:longitude "6.3889243" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:228 a ns1:node ;
+    ns1:latitude "46.2022294" ;
+    ns1:longitude "6.3890026" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:229 a ns1:node ;
+    ns1:latitude "46.2023155" ;
+    ns1:longitude "6.3891184" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:23 a ns1:node ;
+    ns1:latitude "46.2399164" ;
+    ns1:longitude "6.3764936" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:230 a ns1:node ;
+    ns1:latitude "46.2022271" ;
+    ns1:longitude "6.3891324" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:231 a ns1:node ;
+    ns1:latitude "46.2021470" ;
+    ns1:longitude "6.3891811" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:232 a ns1:node ;
+    ns1:latitude "46.2021818" ;
+    ns1:longitude "6.3893376" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:233 a ns1:node ;
+    ns1:latitude "46.2021425" ;
+    ns1:longitude "6.3894407" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:234 a ns1:node ;
+    ns1:latitude "46.2021926" ;
+    ns1:longitude "6.3894991" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:235 a ns1:node ;
+    ns1:latitude "46.2022512" ;
+    ns1:longitude "6.3895206" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:236 a ns1:node ;
+    ns1:latitude "46.2021558" ;
+    ns1:longitude "6.3896639" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:237 a ns1:node ;
+    ns1:latitude "46.2021805" ;
+    ns1:longitude "6.3897034" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:238 a ns1:node ;
+    ns1:latitude "46.2023120" ;
+    ns1:longitude "6.3897439" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:239 a ns1:node ;
+    ns1:latitude "46.2023483" ;
+    ns1:longitude "6.3898595" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:24 a ns1:node ;
+    ns1:latitude "46.2397475" ;
+    ns1:longitude "6.3769800" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:240 a ns1:node ;
+    ns1:latitude "46.2024646" ;
+    ns1:longitude "6.3897929" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:241 a ns1:node ;
+    ns1:latitude "46.2024842" ;
+    ns1:longitude "6.3899756" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:242 a ns1:node ;
+    ns1:latitude "46.2023802" ;
+    ns1:longitude "6.3900294" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:243 a ns1:node ;
+    ns1:latitude "46.2024511" ;
+    ns1:longitude "6.3901715" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:244 a ns1:node ;
+    ns1:latitude "46.2023549" ;
+    ns1:longitude "6.3902053" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:245 a ns1:node ;
+    ns1:latitude "46.2024540" ;
+    ns1:longitude "6.3903529" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:246 a ns1:node ;
+    ns1:latitude "46.2025326" ;
+    ns1:longitude "6.3902151" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:247 a ns1:node ;
+    ns1:latitude "46.2025916" ;
+    ns1:longitude "6.3903563" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:248 a ns1:node ;
+    ns1:latitude "46.2025373" ;
+    ns1:longitude "6.3904138" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:249 a ns1:node ;
+    ns1:latitude "46.2025308" ;
+    ns1:longitude "6.3905296" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:25 a ns1:node ;
+    ns1:latitude "46.2397488" ;
+    ns1:longitude "6.3771267" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:250 a ns1:node ;
+    ns1:latitude "46.2027378" ;
+    ns1:longitude "6.3906510" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:251 a ns1:node ;
+    ns1:latitude "46.2027461" ;
+    ns1:longitude "6.3907508" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:252 a ns1:node ;
+    ns1:latitude "46.2027057" ;
+    ns1:longitude "6.3908846" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:253 a ns1:node ;
+    ns1:latitude "46.2027449" ;
+    ns1:longitude "6.3909832" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:254 a ns1:node ;
+    ns1:latitude "46.2027154" ;
+    ns1:longitude "6.3911417" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:255 a ns1:node ;
+    ns1:latitude "46.2027664" ;
+    ns1:longitude "6.3914430" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:256 a ns1:node ;
+    ns1:latitude "46.2028393" ;
+    ns1:longitude "6.3915271" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:257 a ns1:node ;
+    ns1:latitude "46.2030439" ;
+    ns1:longitude "6.3915834" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:258 a ns1:node ;
+    ns1:latitude "46.2031225" ;
+    ns1:longitude "6.3918422" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:259 a ns1:node ;
+    ns1:latitude "46.2030778" ;
+    ns1:longitude "6.3919620" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:26 a ns1:node ;
+    ns1:latitude "46.2398014" ;
+    ns1:longitude "6.3773489" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:260 a ns1:node ;
+    ns1:latitude "46.2029925" ;
+    ns1:longitude "6.3920890" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:261 a ns1:node ;
+    ns1:latitude "46.2030935" ;
+    ns1:longitude "6.3922539" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:262 a ns1:node ;
+    ns1:latitude "46.2032502" ;
+    ns1:longitude "6.3923202" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:263 a ns1:node ;
+    ns1:latitude "46.2032813" ;
+    ns1:longitude "6.3926440" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:264 a ns1:node ;
+    ns1:latitude "46.2032800" ;
+    ns1:longitude "6.3928114" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:265 a ns1:node ;
+    ns1:latitude "46.2033344" ;
+    ns1:longitude "6.3930822" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:266 a ns1:node ;
+    ns1:latitude "46.2035210" ;
+    ns1:longitude "6.3933081" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:267 a ns1:node ;
+    ns1:latitude "46.2035111" ;
+    ns1:longitude "6.3933860" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:268 a ns1:node ;
+    ns1:latitude "46.2034063" ;
+    ns1:longitude "6.3937270" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:269 a ns1:node ;
+    ns1:latitude "46.2034509" ;
+    ns1:longitude "6.3938740" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:27 a ns1:node ;
+    ns1:latitude "46.2398855" ;
+    ns1:longitude "6.3774799" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:270 a ns1:node ;
+    ns1:latitude "46.2036380" ;
+    ns1:longitude "6.3939529" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:271 a ns1:node ;
+    ns1:latitude "46.2036587" ;
+    ns1:longitude "6.3940365" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:272 a ns1:node ;
+    ns1:latitude "46.2036518" ;
+    ns1:longitude "6.3943608" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:273 a ns1:node ;
+    ns1:latitude "46.2037099" ;
+    ns1:longitude "6.3946627" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:274 a ns1:node ;
+    ns1:latitude "46.2038627" ;
+    ns1:longitude "6.3950365" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:275 a ns1:node ;
+    ns1:latitude "46.2038555" ;
+    ns1:longitude "6.3951693" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:276 a ns1:node ;
+    ns1:latitude "46.2039862" ;
+    ns1:longitude "6.3952988" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:277 a ns1:node ;
+    ns1:latitude "46.2040092" ;
+    ns1:longitude "6.3955843" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:278 a ns1:node ;
+    ns1:latitude "46.2039867" ;
+    ns1:longitude "6.3958801" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:279 a ns1:node ;
+    ns1:latitude "46.2039561" ;
+    ns1:longitude "6.3960728" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:28 a ns1:node ;
+    ns1:latitude "46.2399353" ;
+    ns1:longitude "6.3777206" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:280 a ns1:node ;
+    ns1:latitude "46.2040294" ;
+    ns1:longitude "6.3962800" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:281 a ns1:node ;
+    ns1:latitude "46.2039982" ;
+    ns1:longitude "6.3966196" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:282 a ns1:node ;
+    ns1:latitude "46.2040537" ;
+    ns1:longitude "6.3967913" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:283 a ns1:node ;
+    ns1:latitude "46.2040799" ;
+    ns1:longitude "6.3969882" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:284 a ns1:node ;
+    ns1:latitude "46.2042686" ;
+    ns1:longitude "6.3975528" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:285 a ns1:node ;
+    ns1:latitude "46.2042603" ;
+    ns1:longitude "6.3976514" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:286 a ns1:node ;
+    ns1:latitude "46.2038875" ;
+    ns1:longitude "6.3975860" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:287 a ns1:node ;
+    ns1:latitude "46.2036555" ;
+    ns1:longitude "6.3974353" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:288 a ns1:node ;
+    ns1:latitude "46.2033698" ;
+    ns1:longitude "6.3973901" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:289 a ns1:node ;
+    ns1:latitude "46.2031146" ;
+    ns1:longitude "6.3970257" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:29 a ns1:node ;
+    ns1:latitude "46.2399398" ;
+    ns1:longitude "6.3780203" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:290 a ns1:node ;
+    ns1:latitude "46.2027951" ;
+    ns1:longitude "6.3967318" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:291 a ns1:node ;
+    ns1:latitude "46.2022894" ;
+    ns1:longitude "6.3960034" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:292 a ns1:node ;
+    ns1:latitude "46.2021567" ;
+    ns1:longitude "6.3959970" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:293 a ns1:node ;
+    ns1:latitude "46.2016643" ;
+    ns1:longitude "6.3965519" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:294 a ns1:node ;
+    ns1:latitude "46.2015466" ;
+    ns1:longitude "6.3965226" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:295 a ns1:node ;
+    ns1:latitude "46.2011290" ;
+    ns1:longitude "6.3962487" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:296 a ns1:node ;
+    ns1:latitude "46.2010089" ;
+    ns1:longitude "6.3960893" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:297 a ns1:node ;
+    ns1:latitude "46.2008930" ;
+    ns1:longitude "6.3958790" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:298 a ns1:node ;
+    ns1:latitude "46.2006552" ;
+    ns1:longitude "6.3956253" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:299 a ns1:node ;
+    ns1:latitude "46.2003198" ;
+    ns1:longitude "6.3953781" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:30 a ns1:node ;
+    ns1:latitude "46.2400038" ;
+    ns1:longitude "6.3785895" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:300 a ns1:node ;
+    ns1:latitude "46.2001869" ;
+    ns1:longitude "6.3952417" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:301 a ns1:node ;
+    ns1:latitude "46.1999270" ;
+    ns1:longitude "6.3950753" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:302 a ns1:node ;
+    ns1:latitude "46.1997154" ;
+    ns1:longitude "6.3950835" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:303 a ns1:node ;
+    ns1:latitude "46.1992899" ;
+    ns1:longitude "6.3952296" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:304 a ns1:node ;
+    ns1:latitude "46.1991710" ;
+    ns1:longitude "6.3952345" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:305 a ns1:node ;
+    ns1:latitude "46.1990737" ;
+    ns1:longitude "6.3951657" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:306 a ns1:node ;
+    ns1:latitude "46.1988928" ;
+    ns1:longitude "6.3948479" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:307 a ns1:node ;
+    ns1:latitude "46.1986240" ;
+    ns1:longitude "6.3941338" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:308 a ns1:node ;
+    ns1:latitude "46.1985209" ;
+    ns1:longitude "6.3939620" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:309 a ns1:node ;
+    ns1:latitude "46.1983440" ;
+    ns1:longitude "6.3937984" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:31 a ns1:node ;
+    ns1:latitude "46.2399881" ;
+    ns1:longitude "6.3786663" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:310 a ns1:node ;
+    ns1:latitude "46.1979918" ;
+    ns1:longitude "6.3936867" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:311 a ns1:node ;
+    ns1:latitude "46.1977405" ;
+    ns1:longitude "6.3935449" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:312 a ns1:node ;
+    ns1:latitude "46.1971552" ;
+    ns1:longitude "6.3929817" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:313 a ns1:node ;
+    ns1:latitude "46.1969944" ;
+    ns1:longitude "6.3928979" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:314 a ns1:node ;
+    ns1:latitude "46.1966402" ;
+    ns1:longitude "6.3928442" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:315 a ns1:node ;
+    ns1:latitude "46.1963581" ;
+    ns1:longitude "6.3927651" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:316 a ns1:node ;
+    ns1:latitude "46.1959668" ;
+    ns1:longitude "6.3925548" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:317 a ns1:node ;
+    ns1:latitude "46.1959610" ;
+    ns1:longitude "6.3927150" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:318 a ns1:node ;
+    ns1:latitude "46.1960043" ;
+    ns1:longitude "6.3930978" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:319 a ns1:node ;
+    ns1:latitude "46.1960038" ;
+    ns1:longitude "6.3936414" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:32 a ns1:node ;
+    ns1:latitude "46.2404937" ;
+    ns1:longitude "6.3788691" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:320 a ns1:node ;
+    ns1:latitude "46.1959792" ;
+    ns1:longitude "6.3939302" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:321 a ns1:node ;
+    ns1:latitude "46.1958131" ;
+    ns1:longitude "6.3944546" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:322 a ns1:node ;
+    ns1:latitude "46.1957166" ;
+    ns1:longitude "6.3946970" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:323 a ns1:node ;
+    ns1:latitude "46.1956143" ;
+    ns1:longitude "6.3950348" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:324 a ns1:node ;
+    ns1:latitude "46.1964142" ;
+    ns1:longitude "6.3959662" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:325 a ns1:node ;
+    ns1:latitude "46.1972521" ;
+    ns1:longitude "6.3963055" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:326 a ns1:node ;
+    ns1:latitude "46.1973140" ;
+    ns1:longitude "6.3964332" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:327 a ns1:node ;
+    ns1:latitude "46.1973024" ;
+    ns1:longitude "6.3966238" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:328 a ns1:node ;
+    ns1:latitude "46.1973955" ;
+    ns1:longitude "6.3968085" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:329 a ns1:node ;
+    ns1:latitude "46.1976256" ;
+    ns1:longitude "6.3970787" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:330 a ns1:node ;
+    ns1:latitude "46.1977652" ;
+    ns1:longitude "6.3971575" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:331 a ns1:node ;
+    ns1:latitude "46.1979991" ;
+    ns1:longitude "6.3973869" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:332 a ns1:node ;
+    ns1:latitude "46.1981507" ;
+    ns1:longitude "6.3975965" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:333 a ns1:node ;
+    ns1:latitude "46.1983099" ;
+    ns1:longitude "6.3977246" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:334 a ns1:node ;
+    ns1:latitude "46.1988019" ;
+    ns1:longitude "6.3985716" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:335 a ns1:node ;
+    ns1:latitude "46.1988928" ;
+    ns1:longitude "6.3986844" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:336 a ns1:node ;
+    ns1:latitude "46.1989306" ;
+    ns1:longitude "6.3988205" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:337 a ns1:node ;
+    ns1:latitude "46.1993394" ;
+    ns1:longitude "6.3994049" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:338 a ns1:node ;
+    ns1:latitude "46.1997960" ;
+    ns1:longitude "6.3999142" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:339 a ns1:node ;
+    ns1:latitude "46.2000618" ;
+    ns1:longitude "6.4003136" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:340 a ns1:node ;
+    ns1:latitude "46.2001706" ;
+    ns1:longitude "6.4003251" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:341 a ns1:node ;
+    ns1:latitude "46.2003608" ;
+    ns1:longitude "6.4007154" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:342 a ns1:node ;
+    ns1:latitude "46.2004022" ;
+    ns1:longitude "6.4008861" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:343 a ns1:node ;
+    ns1:latitude "46.2005502" ;
+    ns1:longitude "6.4009963" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:344 a ns1:node ;
+    ns1:latitude "46.2008651" ;
+    ns1:longitude "6.4011531" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:345 a ns1:node ;
+    ns1:latitude "46.2009627" ;
+    ns1:longitude "6.4012766" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:346 a ns1:node ;
+    ns1:latitude "46.2011394" ;
+    ns1:longitude "6.4011838" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:347 a ns1:node ;
+    ns1:latitude "46.2014311" ;
+    ns1:longitude "6.4015235" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:348 a ns1:node ;
+    ns1:latitude "46.2014909" ;
+    ns1:longitude "6.4016443" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:349 a ns1:node ;
+    ns1:latitude "46.2016784" ;
+    ns1:longitude "6.4015796" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:350 a ns1:node ;
+    ns1:latitude "46.2017303" ;
+    ns1:longitude "6.4017202" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:351 a ns1:node ;
+    ns1:latitude "46.2018102" ;
+    ns1:longitude "6.4018083" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:352 a ns1:node ;
+    ns1:latitude "46.2018163" ;
+    ns1:longitude "6.4019045" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:353 a ns1:node ;
+    ns1:latitude "46.2020206" ;
+    ns1:longitude "6.4021659" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:354 a ns1:node ;
+    ns1:latitude "46.2022277" ;
+    ns1:longitude "6.4022839" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:355 a ns1:node ;
+    ns1:latitude "46.2023658" ;
+    ns1:longitude "6.4024036" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:356 a ns1:node ;
+    ns1:latitude "46.2025017" ;
+    ns1:longitude "6.4023215" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:357 a ns1:node ;
+    ns1:latitude "46.2029869" ;
+    ns1:longitude "6.4030928" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:358 a ns1:node ;
+    ns1:latitude "46.2032176" ;
+    ns1:longitude "6.4033460" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:359 a ns1:node ;
+    ns1:latitude "46.2036142" ;
+    ns1:longitude "6.4036081" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:360 a ns1:node ;
+    ns1:latitude "46.2046470" ;
+    ns1:longitude "6.4040716" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:361 a ns1:node ;
+    ns1:latitude "46.2051190" ;
+    ns1:longitude "6.4044795" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:362 a ns1:node ;
+    ns1:latitude "46.2056030" ;
+    ns1:longitude "6.4051517" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:363 a ns1:node ;
+    ns1:latitude "46.2053013" ;
+    ns1:longitude "6.4058815" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:364 a ns1:node ;
+    ns1:latitude "46.2050654" ;
+    ns1:longitude "6.4061683" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:365 a ns1:node ;
+    ns1:latitude "46.2047844" ;
+    ns1:longitude "6.4063901" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:366 a ns1:node ;
+    ns1:latitude "46.2047823" ;
+    ns1:longitude "6.4064481" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:367 a ns1:node ;
+    ns1:latitude "46.2045440" ;
+    ns1:longitude "6.4066697" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:368 a ns1:node ;
+    ns1:latitude "46.2044174" ;
+    ns1:longitude "6.4070877" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:369 a ns1:node ;
+    ns1:latitude "46.2042885" ;
+    ns1:longitude "6.4072388" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:370 a ns1:node ;
+    ns1:latitude "46.2041412" ;
+    ns1:longitude "6.4077681" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:371 a ns1:node ;
+    ns1:latitude "46.2038912" ;
+    ns1:longitude "6.4081837" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:372 a ns1:node ;
+    ns1:latitude "46.2038721" ;
+    ns1:longitude "6.4083841" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:373 a ns1:node ;
+    ns1:latitude "46.2038181" ;
+    ns1:longitude "6.4084348" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:374 a ns1:node ;
+    ns1:latitude "46.2038111" ;
+    ns1:longitude "6.4085608" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:375 a ns1:node ;
+    ns1:latitude "46.2037027" ;
+    ns1:longitude "6.4088023" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:376 a ns1:node ;
+    ns1:latitude "46.2036093" ;
+    ns1:longitude "6.4088911" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:377 a ns1:node ;
+    ns1:latitude "46.2035011" ;
+    ns1:longitude "6.4091258" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:378 a ns1:node ;
+    ns1:latitude "46.2033413" ;
+    ns1:longitude "6.4093430" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:379 a ns1:node ;
+    ns1:latitude "46.2033347" ;
+    ns1:longitude "6.4094622" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:380 a ns1:node ;
+    ns1:latitude "46.2032507" ;
+    ns1:longitude "6.4095516" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:381 a ns1:node ;
+    ns1:latitude "46.2032072" ;
+    ns1:longitude "6.4097707" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:382 a ns1:node ;
+    ns1:latitude "46.2030389" ;
+    ns1:longitude "6.4101582" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:383 a ns1:node ;
+    ns1:latitude "46.2029097" ;
+    ns1:longitude "6.4103195" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:384 a ns1:node ;
+    ns1:latitude "46.2028120" ;
+    ns1:longitude "6.4105926" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:385 a ns1:node ;
+    ns1:latitude "46.2028219" ;
+    ns1:longitude "6.4107131" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:386 a ns1:node ;
+    ns1:latitude "46.2027169" ;
+    ns1:longitude "6.4110574" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:387 a ns1:node ;
+    ns1:latitude "46.2025095" ;
+    ns1:longitude "6.4111445" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:388 a ns1:node ;
+    ns1:latitude "46.2023017" ;
+    ns1:longitude "6.4115086" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:389 a ns1:node ;
+    ns1:latitude "46.2021509" ;
+    ns1:longitude "6.4119384" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:390 a ns1:node ;
+    ns1:latitude "46.2017902" ;
+    ns1:longitude "6.4130536" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:391 a ns1:node ;
+    ns1:latitude "46.2011319" ;
+    ns1:longitude "6.4144543" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:392 a ns1:node ;
+    ns1:latitude "46.2009473" ;
+    ns1:longitude "6.4147003" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:393 a ns1:node ;
+    ns1:latitude "46.2007653" ;
+    ns1:longitude "6.4148098" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:394 a ns1:node ;
+    ns1:latitude "46.2003832" ;
+    ns1:longitude "6.4148702" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:395 a ns1:node ;
+    ns1:latitude "46.1999383" ;
+    ns1:longitude "6.4152233" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:396 a ns1:node ;
+    ns1:latitude "46.1985342" ;
+    ns1:longitude "6.4143900" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:397 a ns1:node ;
+    ns1:latitude "46.1960935" ;
+    ns1:longitude "6.4181395" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:398 a ns1:node ;
+    ns1:latitude "46.1961720" ;
+    ns1:longitude "6.3117872" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2009" .
+
+ns1:399 a ns1:node ;
+    ns1:latitude "46.2017644" ;
+    ns1:longitude "6.3210302" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2009" .
+
+ns1:410 a ns1:node ;
+    ns1:highway "turning_circle" ;
+    ns1:latitude "46.2227650" ;
+    ns1:longitude "6.3384183" .
+
+ns1:415 a ns1:node ;
+    ns1:latitude "46.1908267" ;
+    ns1:longitude "6.3582797" ;
+    ns1:name "Le Petai" ;
+    ns1:place "isolated_dwelling" .
+
+ns1:428 a ns1:node ;
+    ns1:latitude "46.2137979" ;
+    ns1:leaf_type "needleleaved" ;
+    ns1:longitude "6.3412123" ;
+    ns1:natural "tree" .
+
+ns1:430 a ns1:node ;
+    ns1:latitude "46.2147008" ;
+    ns1:leaf_type "broadleaved" ;
+    ns1:longitude "6.3381521" ;
+    ns1:natural "tree" .
+
+ns1:431 a ns1:node ;
+    ns1:latitude "46.2149128" ;
+    ns1:leaf_type "broadleaved" ;
+    ns1:longitude "6.3383350" ;
+    ns1:natural "tree" .
+
+ns1:432 a ns1:node ;
+    ns1:latitude "46.2149743" ;
+    ns1:leaf_type "broadleaved" ;
+    ns1:longitude "6.3377666" ;
+    ns1:natural "tree" .
+
+ns1:433 a ns1:node ;
+    ns1:latitude "46.2151761" ;
+    ns1:leaf_type "needleleaved" ;
+    ns1:longitude "6.3384042" ;
+    ns1:natural "tree" .
+
+ns1:435 a ns1:node ;
+    ns1:latitude "46.2158200" ;
+    ns1:leaf_type "needleleaved" ;
+    ns1:longitude "6.3417994" ;
+    ns1:natural "tree" ;
+    ns1:source "Bing" .
+
+ns1:436 a ns1:node ;
+    ns1:latitude "46.2158975" ;
+    ns1:leaf_type "broadleaved" ;
+    ns1:longitude "6.3432131" ;
+    ns1:natural "tree" .
+
+ns1:437 a ns1:node ;
+    ns1:latitude "46.2159817" ;
+    ns1:leaf_type "needleleaved" ;
+    ns1:longitude "6.3417478" ;
+    ns1:natural "tree" ;
+    ns1:source "Bing" .
+
+ns1:438 a ns1:node ;
+    ns1:latitude "46.2160850" ;
+    ns1:leaf_type "broadleaved" ;
+    ns1:longitude "6.3394255" ;
+    ns1:natural "tree" .
+
+ns1:439 a ns1:node ;
+    ns1:latitude "46.2161187" ;
+    ns1:leaf_type "needleleaved" ;
+    ns1:longitude "6.3408364" ;
+    ns1:natural "tree" .
+
+ns1:440 a ns1:node ;
+    ns1:latitude "46.2161266" ;
+    ns1:leaf_type "needleleaved" ;
+    ns1:longitude "6.3423885" ;
+    ns1:natural "tree" ;
+    ns1:source "Bing" .
+
+ns1:441 a ns1:node ;
+    ns1:latitude "46.2161239" ;
+    ns1:leaf_type "needleleaved" ;
+    ns1:longitude "6.3372144" ;
+    ns1:natural "tree" .
+
+ns1:442 a ns1:node ;
+    ns1:latitude "46.2162703" ;
+    ns1:leaf_type "needleleaved" ;
+    ns1:longitude "6.3407775" ;
+    ns1:natural "tree" .
+
+ns1:443 a ns1:node ;
+    ns1:latitude "46.2162819" ;
+    ns1:leaf_type "broadleaved" ;
+    ns1:longitude "6.3369105" ;
+    ns1:natural "tree" .
+
+ns1:444 a ns1:node ;
+    ns1:latitude "46.2162989" ;
+    ns1:leaf_type "needleleaved" ;
+    ns1:longitude "6.3424297" ;
+    ns1:natural "tree" ;
+    ns1:source "Bing" .
+
+ns1:445 a ns1:node ;
+    ns1:latitude "46.2163204" ;
+    ns1:leaf_type "needleleaved" ;
+    ns1:longitude "6.3376654" ;
+    ns1:natural "tree" .
+
+ns1:446 a ns1:node ;
+    ns1:latitude "46.2164806" ;
+    ns1:leaf_type "needleleaved" ;
+    ns1:longitude "6.3401399" ;
+    ns1:natural "tree" .
+
+ns1:447 a ns1:node ;
+    ns1:latitude "46.2168953" ;
+    ns1:leaf_type "needleleaved" ;
+    ns1:longitude "6.3371534" ;
+    ns1:natural "tree" .
+
+ns1:448 a ns1:node ;
+    ns1:latitude "46.2152734" ;
+    ns1:leaf_type "needleleaved" ;
+    ns1:longitude "6.3426463" ;
+    ns1:natural "tree" .
+
+ns1:450 a ns1:node ;
+    ns1:latitude "46.2158272" ;
+    ns1:leaf_type "needleleaved" ;
+    ns1:longitude "6.3429587" ;
+    ns1:natural "tree" ;
+    ns1:source "Bing" .
+
+ns1:454 a ns1:node ;
+    ns1:latitude "46.2168792" ;
+    ns1:leaf_type "needleleaved" ;
+    ns1:longitude "6.3440038" ;
+    ns1:natural "tree" .
+
+ns1:455 a ns1:node ;
+    ns1:latitude "46.2168939" ;
+    ns1:leaf_type "needleleaved" ;
+    ns1:longitude "6.3440612" ;
+    ns1:natural "tree" .
+
+ns1:457 a ns1:node ;
+    ns1:latitude "46.2170997" ;
+    ns1:leaf_type "needleleaved" ;
+    ns1:longitude "6.3389452" ;
+    ns1:natural "tree" .
+
+ns1:458 a ns1:node ;
+    ns1:latitude "46.2173588" ;
+    ns1:longitude "6.3391342" ;
+    ns1:natural "tree" ;
+    ns1:source "Bing" .
+
+ns1:459 a ns1:node ;
+    ns1:latitude "46.2178894" ;
+    ns1:longitude "6.3391663" ;
+    ns1:natural "tree" ;
+    ns1:source "Bing" .
+
+ns1:460 a ns1:node ;
+    ns1:latitude "46.2179585" ;
+    ns1:longitude "6.3391877" ;
+    ns1:natural "tree" ;
+    ns1:source "Bing" .
+
+ns1:461 a ns1:node ;
+    ns1:latitude "46.2181239" ;
+    ns1:longitude "6.3390736" ;
+    ns1:natural "tree" ;
+    ns1:source "Bing" .
+
+ns1:462 a ns1:node ;
+    ns1:latitude "46.2182325" ;
+    ns1:longitude "6.3391556" ;
+    ns1:natural "tree" ;
+    ns1:source "Bing" .
+
+ns1:463 a ns1:node ;
+    ns1:latitude "46.2183040" ;
+    ns1:longitude "6.3412315" ;
+    ns1:natural "tree" ;
+    ns1:source "Bing" .
+
+ns1:464 a ns1:node ;
+    ns1:latitude "46.2184274" ;
+    ns1:longitude "6.3390450" ;
+    ns1:natural "tree" ;
+    ns1:source "Bing" .
+
+ns1:465 a ns1:node ;
+    ns1:latitude "46.2184743" ;
+    ns1:longitude "6.3391770" ;
+    ns1:natural "tree" ;
+    ns1:source "Bing" .
+
+ns1:466 a ns1:node ;
+    ns1:latitude "46.2185558" ;
+    ns1:longitude "6.3396229" ;
+    ns1:natural "tree" ;
+    ns1:source "Bing" .
+
+ns1:467 a ns1:node ;
+    ns1:latitude "46.2186026" ;
+    ns1:longitude "6.3394231" ;
+    ns1:natural "tree" ;
+    ns1:source "Bing" .
+
+ns1:468 a ns1:node ;
+    ns1:latitude "46.2186446" ;
+    ns1:longitude "6.3396906" ;
+    ns1:natural "tree" ;
+    ns1:source "Bing" .
+
+ns1:469 a ns1:node ;
+    ns1:latitude "46.2187532" ;
+    ns1:longitude "6.3409069" ;
+    ns1:natural "tree" ;
+    ns1:source "Bing" .
+
+ns1:470 a ns1:node ;
+    ns1:latitude "46.2192690" ;
+    ns1:longitude "6.3384993" ;
+    ns1:natural "tree" ;
+    ns1:source "Bing" .
+
+ns1:471 a ns1:node ;
+    ns1:latitude "46.2194245" ;
+    ns1:longitude "6.3380998" ;
+    ns1:natural "tree" ;
+    ns1:source "Bing" .
+
+ns1:472 a ns1:node ;
+    ns1:barrier "gate" ;
+    ns1:latitude "46.1903784" ;
+    ns1:longitude "6.3368733" .
+
+ns1:505 a ns1:node ;
+    ns1:highway "turning_circle" ;
+    ns1:latitude "46.2294617" ;
+    ns1:longitude "6.3432267" .
+
+ns1:512 a ns1:node ;
+    ns1:latitude "46.2208897" ;
+    ns1:longitude "6.3596275" ;
+    ns1:operator "Enedis" ;
+    ns1:power "pole" .
+
+ns1:513 a ns1:node ;
+    ns1:latitude "46.2209528" ;
+    ns1:longitude "6.3614300" ;
+    ns1:operator "Enedis" ;
+    ns1:power "pole" .
+
+ns1:514 a ns1:node ;
+    ns1:latitude "46.2209900" ;
+    ns1:longitude "6.3621274" ;
+    ns1:operator "Enedis" ;
+    ns1:power "pole" .
+
+ns1:515 a ns1:node ;
+    ns1:latitude "46.2210679" ;
+    ns1:longitude "6.3634524" ;
+    ns1:operator "Enedis" ;
+    ns1:power "pole" .
+
+ns1:516 a ns1:node ;
+    ns1:latitude "46.2208062" ;
+    ns1:longitude "6.3645709" ;
+    ns1:operator "Enedis" ;
+    ns1:power "pole" .
+
+ns1:517 a ns1:node ;
+    ns1:latitude "46.2203274" ;
+    ns1:longitude "6.3664618" ;
+    ns1:operator "Enedis" ;
+    ns1:power "pole" .
+
+ns1:518 a ns1:node ;
+    ns1:latitude "46.2201530" ;
+    ns1:longitude "6.3671967" ;
+    ns1:operator "Enedis" ;
+    ns1:power "pole" .
+
+ns1:519 a ns1:node ;
+    ns1:latitude "46.2199869" ;
+    ns1:longitude "6.3679156" ;
+    ns1:operator "Enedis" ;
+    ns1:power "pole" .
+
+ns1:520 a ns1:node ;
+    ns1:latitude "46.2197967" ;
+    ns1:longitude "6.3687229" ;
+    ns1:operator "Enedis" ;
+    ns1:power "pole" .
+
+ns1:521 a ns1:node ;
+    ns1:latitude "46.2196037" ;
+    ns1:longitude "6.3694927" ;
+    ns1:operator "Enedis" ;
+    ns1:power "pole" .
+
+ns1:522 a ns1:node ;
+    ns1:latitude "46.2194088" ;
+    ns1:longitude "6.3702947" ;
+    ns1:operator "Enedis" ;
+    ns1:power "pole" .
+
+ns1:523 a ns1:node ;
+    ns1:latitude "46.2190711" ;
+    ns1:longitude "6.3717082" ;
+    ns1:operator "Enedis" ;
+    ns1:power "pole" .
+
+ns1:524 a ns1:node ;
+    ns1:latitude "46.2187407" ;
+    ns1:longitude "6.3730359" ;
+    ns1:operator "Enedis" ;
+    ns1:power "pole" .
+
+ns1:530 a ns1:node ;
+    ns1:latitude "46.2195605" ;
+    ns1:longitude "6.3392982" ;
+    ns1:name "La Quelerdiaz" ;
+    ns1:place "locality" .
+
+ns1:531 a ns1:node ;
+    ns1:latitude "46.2201194" ;
+    ns1:longitude "6.3412905" ;
+    ns1:name "La Jaillette" ;
+    ns1:place "locality" .
+
+ns1:532 a ns1:node ;
+    ns1:ford "yes" ;
+    ns1:latitude "46.2226194" ;
+    ns1:longitude "6.3369656" .
+
+ns1:55 a ns1:node ;
+    ns1:latitude "46.1907843" ;
+    ns1:longitude "6.3568094" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2008" .
+
+ns1:558 a ns1:node ;
+    ns1:ford "yes" ;
+    ns1:latitude "46.2230359" ;
+    ns1:longitude "6.3348904" .
+
+ns1:559 a ns1:node ;
+    ns1:ford "yes" ;
+    ns1:latitude "46.2230922" ;
+    ns1:longitude "6.3346730" .
+
+ns1:56 a ns1:node ;
+    ns1:latitude "46.1906196" ;
+    ns1:longitude "6.3569529" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2008" .
+
+ns1:561 a ns1:node ;
+    ns1:ford "yes" ;
+    ns1:latitude "46.2202411" ;
+    ns1:longitude "6.3381963" .
+
+ns1:563 a ns1:node ;
+    ns1:ford "yes" ;
+    ns1:latitude "46.2333585" ;
+    ns1:longitude "6.3302743" .
+
+ns1:564 a ns1:node ;
+    ns1:ford "yes" ;
+    ns1:latitude "46.2287699" ;
+    ns1:longitude "6.3289145" .
+
+ns1:565 a ns1:node ;
+    ns1:ford "yes" ;
+    ns1:latitude "46.2258028" ;
+    ns1:longitude "6.3408667" .
+
+ns1:566 a ns1:node ;
+    ns1:latitude "46.2316645" ;
+    ns1:longitude "6.3369756" ;
+    ns1:name "Autavel" ;
+    ns1:place "locality" .
+
+ns1:567 a ns1:node ;
+    ns1:disused:place "locality" ;
+    ns1:latitude "46.2314864" ;
+    ns1:longitude "6.3412886" ;
+    ns1:name "Mallepeloux -Sud" .
+
+ns1:568 a ns1:node ;
+    ns1:latitude "46.2271341" ;
+    ns1:longitude "6.3431287" ;
+    ns1:name "Les Molliets" ;
+    ns1:place "locality" .
+
+ns1:569 a ns1:node ;
+    ns1:ford "yes" ;
+    ns1:latitude "46.1901752" ;
+    ns1:longitude "6.3575093" .
+
+ns1:57 a ns1:node ;
+    ns1:latitude "46.1905405" ;
+    ns1:longitude "6.3571734" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2008" .
+
+ns1:570 a ns1:node ;
+    ns1:ford "yes" ;
+    ns1:latitude "46.2337922" ;
+    ns1:longitude "6.3408021" .
+
+ns1:571 a ns1:node ;
+    ns1:ford "yes" ;
+    ns1:latitude "46.2336271" ;
+    ns1:longitude "6.3381095" .
+
+ns1:572 a ns1:node ;
+    ns1:ford "yes" ;
+    ns1:latitude "46.2226479" ;
+    ns1:longitude "6.3367521" .
+
+ns1:58 a ns1:node ;
+    ns1:latitude "46.1903194" ;
+    ns1:longitude "6.3573834" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2008" .
+
+ns1:581 a ns1:node ;
+    ns1:ford "yes" ;
+    ns1:latitude "46.2005091" ;
+    ns1:longitude "6.3594505" .
+
+ns1:582 a ns1:node ;
+    ns1:ford "yes" ;
+    ns1:latitude "46.2009724" ;
+    ns1:longitude "6.3593449" .
+
+ns1:583 a ns1:node ;
+    ns1:latitude "46.2231581" ;
+    ns1:longitude "6.3375700" ;
+    ns1:name "La Rive" ;
+    ns1:place "locality" .
+
+ns1:586 a ns1:node ;
+    ns1:latitude "46.2145652" ;
+    ns1:longitude "6.3422065" ;
+    ns1:name "La Léthaz" ;
+    ns1:place "locality" .
+
+ns1:587 a ns1:node ;
+    ns1:ford "yes" ;
+    ns1:latitude "46.2153282" ;
+    ns1:longitude "6.3367462" .
+
+ns1:588 a ns1:node ;
+    ns1:latitude "46.2161791" ;
+    ns1:longitude "6.3367908" ;
+    ns1:name "La France" ;
+    ns1:place "locality" .
+
+ns1:59 a ns1:node ;
+    ns1:latitude "46.1902730" ;
+    ns1:longitude "6.3575143" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2008" .
+
+ns1:590 a ns1:node ;
+    ns1:ford "yes" ;
+    ns1:latitude "46.2200082" ;
+    ns1:longitude "6.3396191" .
+
+ns1:597 a ns1:node ;
+    ns1:ele "1095" ;
+    ns1:latitude "46.2238245" ;
+    ns1:longitude "6.3403001" ;
+    ns1:name "Les Dades" ;
+    ns1:place "locality" .
+
+ns1:599 a ns1:node ;
+    ns1:ford "yes" ;
+    ns1:latitude "46.2314587" ;
+    ns1:longitude "6.3440833" .
+
+ns1:60 a ns1:node ;
+    ns1:latitude "46.1901561" ;
+    ns1:longitude "6.3574880" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2008" .
+
+ns1:61 a ns1:node ;
+    ns1:latitude "46.1900323" ;
+    ns1:longitude "6.3575850" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2008" .
+
+ns1:610 a ns1:node ;
+    ns1:latitude "46.2295822" ;
+    ns1:longitude "6.3480003" ;
+    ns1:natural "tree" .
+
+ns1:619 a ns1:node ;
+    ns1:latitude "46.1919128" ;
+    ns1:longitude "6.3578273" ;
+    ns1:name "Parfan" ;
+    ns1:place "locality" .
+
+ns1:62 a ns1:node ;
+    ns1:latitude "46.1900597" ;
+    ns1:longitude "6.3579194" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2008" .
+
+ns1:63 a ns1:node ;
+    ns1:latitude "46.1898865" ;
+    ns1:longitude "6.3585077" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2008" .
+
+ns1:633 a ns1:node ;
+    ns1:ford "yes" ;
+    ns1:latitude "46.2272738" ;
+    ns1:longitude "6.3370203" .
+
+ns1:64 a ns1:node ;
+    ns1:latitude "46.1897057" ;
+    ns1:longitude "6.3588268" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2008" .
+
+ns1:65 a ns1:node ;
+    ns1:latitude "46.1896420" ;
+    ns1:longitude "6.3590979" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2008" .
+
+ns1:654 a ns1:node ;
+    ns1:latitude "46.2163281" ;
+    ns1:leaf_type "needleleaved" ;
+    ns1:longitude "6.3424252" ;
+    ns1:natural "tree" .
+
+ns1:655 a ns1:node ;
+    ns1:latitude "46.2162733" ;
+    ns1:leaf_type "needleleaved" ;
+    ns1:longitude "6.3414770" ;
+    ns1:natural "tree" .
+
+ns1:656 a ns1:node ;
+    ns1:latitude "46.2161378" ;
+    ns1:leaf_type "needleleaved" ;
+    ns1:longitude "6.3415186" ;
+    ns1:natural "tree" .
+
+ns1:657 a ns1:node ;
+    ns1:latitude "46.2164311" ;
+    ns1:leaf_type "needleleaved" ;
+    ns1:longitude "6.3408481" ;
+    ns1:natural "tree" .
+
+ns1:66 a ns1:node ;
+    ns1:latitude "46.1895144" ;
+    ns1:longitude "6.3593042" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2008" .
+
+ns1:67 a ns1:node ;
+    ns1:latitude "46.1894341" ;
+    ns1:longitude "6.3593513" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2008" .
+
+ns1:677 a ns1:node ;
+    ns1:latitude "46.2145538" ;
+    ns1:leaf_type "broadleaved" ;
+    ns1:longitude "6.3373531" ;
+    ns1:natural "tree" .
+
+ns1:68 a ns1:node ;
+    ns1:latitude "46.1892097" ;
+    ns1:longitude "6.3598616" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2008" .
+
+ns1:686 a ns1:node ;
+    ns1:latitude "46.2154020" ;
+    ns1:leaf_type "broadleaved" ;
+    ns1:longitude "6.3429469" ;
+    ns1:natural "tree" .
+
+ns1:687 a ns1:node ;
+    ns1:latitude "46.2153843" ;
+    ns1:leaf_type "needleleaved" ;
+    ns1:longitude "6.3427578" ;
+    ns1:natural "tree" .
+
+ns1:688 a ns1:node ;
+    ns1:latitude "46.2154261" ;
+    ns1:leaf_type "needleleaved" ;
+    ns1:longitude "6.3427149" ;
+    ns1:natural "tree" .
+
+ns1:689 a ns1:node ;
+    ns1:latitude "46.2153222" ;
+    ns1:leaf_type "needleleaved" ;
+    ns1:longitude "6.3426438" ;
+    ns1:natural "tree" .
+
+ns1:69 a ns1:node ;
+    ns1:latitude "46.1890738" ;
+    ns1:longitude "6.3599541" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2008" .
+
+ns1:690 a ns1:node ;
+    ns1:latitude "46.2153509" ;
+    ns1:leaf_type "broadleaved" ;
+    ns1:longitude "6.3421878" ;
+    ns1:natural "tree" .
+
+ns1:691 a ns1:node ;
+    ns1:latitude "46.2153741" ;
+    ns1:leaf_type "needleleaved" ;
+    ns1:longitude "6.3421194" ;
+    ns1:natural "tree" ;
+    ns1:source "Bing" .
+
+ns1:692 a ns1:node ;
+    ns1:latitude "46.2154224" ;
+    ns1:leaf_type "needleleaved" ;
+    ns1:longitude "6.3422066" ;
+    ns1:natural "tree" ;
+    ns1:source "Bing" .
+
+ns1:693 a ns1:node ;
+    ns1:latitude "46.2157416" ;
+    ns1:leaf_type "needleleaved" ;
+    ns1:longitude "6.3423407" ;
+    ns1:natural "tree" ;
+    ns1:source "Bing" .
+
+ns1:694 a ns1:node ;
+    ns1:latitude "46.2157277" ;
+    ns1:leaf_type "needleleaved" ;
+    ns1:longitude "6.3422924" ;
+    ns1:natural "tree" ;
+    ns1:source "Bing" .
+
+ns1:695 a ns1:node ;
+    ns1:latitude "46.2168997" ;
+    ns1:leaf_type "needleleaved" ;
+    ns1:longitude "6.3371882" ;
+    ns1:natural "tree" .
+
+ns1:696 a ns1:node ;
+    ns1:latitude "46.2158307" ;
+    ns1:leaf_type "needleleaved" ;
+    ns1:longitude "6.3373692" ;
+    ns1:natural "tree" .
+
+ns1:697 a ns1:node ;
+    ns1:latitude "46.2159328" ;
+    ns1:leaf_type "needleleaved" ;
+    ns1:longitude "6.3431038" ;
+    ns1:natural "tree" .
+
+ns1:698 a ns1:node ;
+    ns1:latitude "46.2167874" ;
+    ns1:leaf_type "needleleaved" ;
+    ns1:longitude "6.3436201" ;
+    ns1:natural "tree" .
+
+ns1:70 a ns1:node ;
+    ns1:latitude "46.1890491" ;
+    ns1:longitude "6.3602317" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2008" .
+
+ns1:71 a ns1:node ;
+    ns1:latitude "46.1886938" ;
+    ns1:longitude "6.3607641" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2008" .
+
+ns1:72 a ns1:node ;
+    ns1:latitude "46.1887144" ;
+    ns1:longitude "6.3609424" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2008" .
+
+ns1:729 a ns1:node ;
+    ns1:latitude "46.1902959" ;
+    ns1:leaf_type "needleleaved" ;
+    ns1:longitude "6.3577875" ;
+    ns1:natural "tree" .
+
+ns1:73 a ns1:node ;
+    ns1:latitude "46.1886071" ;
+    ns1:longitude "6.3611290" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2008" .
+
+ns1:74 a ns1:node ;
+    ns1:latitude "46.1886202" ;
+    ns1:longitude "6.3613138" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2008" .
+
+ns1:745 a ns1:node ;
+    ns1:ford "yes" ;
+    ns1:latitude "46.2267125" ;
+    ns1:longitude "6.3390431" .
+
+ns1:746 a ns1:node ;
+    ns1:board_type "nature" ;
+    ns1:direction "250" ;
+    ns1:information "board" ;
+    ns1:latitude "46.2258185" ;
+    ns1:longitude "6.3402035" ;
+    ns1:name "Forêt Communal de Saint-Cergues" ;
+    ns1:tourism "information" .
+
+ns1:747 a ns1:node ;
+    ns1:ele "1095" ;
+    ns1:information "guidepost" ;
+    ns1:latitude "46.2244284" ;
+    ns1:longitude "6.3408900" ;
+    ns1:name "Les Dades (Ruines)" ;
+    ns1:operator "Haute Savoie Conseil Général" ;
+    ns1:tourism "information" .
+
+ns1:748 a ns1:node ;
+    ns1:ele "1169" ;
+    ns1:information "guidepost" ;
+    ns1:latitude "46.2230721" ;
+    ns1:longitude "6.3454404" ;
+    ns1:name "Communaux des Voirons" ;
+    ns1:operator "Haute Savoie Conseil Général" ;
+    ns1:tourism "information" .
+
+ns1:75 a ns1:node ;
+    ns1:latitude "46.1884774" ;
+    ns1:longitude "6.3615296" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2008" .
+
+ns1:750 a ns1:node ;
+    ns1:barrier "bollard" ;
+    ns1:bollard "fixed" ;
+    ns1:height "1" ;
+    ns1:latitude "46.2229419" ;
+    ns1:longitude "6.3453417" ;
+    ns1:material "wood" .
+
+ns1:751 a ns1:node ;
+    ns1:description "Rouge" ;
+    ns1:information "guidepost" ;
+    ns1:latitude "46.2289406" ;
+    ns1:longitude "6.3449958" ;
+    ns1:name "Les Voirons par le Reposoir" ;
+    ns1:tourism "information" .
+
+ns1:752 a ns1:node ;
+    ns1:description "Rouge$" ;
+    ns1:information "guidepost" ;
+    ns1:latitude "46.2283403" ;
+    ns1:longitude "6.3437431" ;
+    ns1:name "Les Voirons par le Reposoir" ;
+    ns1:tourism "information" .
+
+ns1:76 a ns1:node ;
+    ns1:latitude "46.1884767" ;
+    ns1:longitude "6.3617558" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2008" .
+
+ns1:77 a ns1:node ;
+    ns1:latitude "46.1883418" ;
+    ns1:longitude "6.3618909" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2008" .
+
+ns1:78 a ns1:node ;
+    ns1:latitude "46.1882052" ;
+    ns1:longitude "6.3619338" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2008" .
+
+ns1:79 a ns1:node ;
+    ns1:latitude "46.1881867" ;
+    ns1:longitude "6.3620385" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2008" .
+
+ns1:80 a ns1:node ;
+    ns1:latitude "46.1880843" ;
+    ns1:longitude "6.3620875" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2008" .
+
+ns1:81 a ns1:node ;
+    ns1:latitude "46.1880396" ;
+    ns1:longitude "6.3622398" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2008" .
+
+ns1:82 a ns1:node ;
+    ns1:latitude "46.1878914" ;
+    ns1:longitude "6.3624693" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2008" .
+
+ns1:83 a ns1:node ;
+    ns1:latitude "46.1877647" ;
+    ns1:longitude "6.3625095" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2008" .
+
+ns1:84 a ns1:node ;
+    ns1:latitude "46.1876173" ;
+    ns1:longitude "6.3629264" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2008" .
+
+ns1:85 a ns1:node ;
+    ns1:latitude "46.1868427" ;
+    ns1:longitude "6.3633678" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2008" .
+
+ns1:86 a ns1:node ;
+    ns1:latitude "46.1868043" ;
+    ns1:longitude "6.3634817" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2008" .
+
+ns1:87 a ns1:node ;
+    ns1:latitude "46.1864770" ;
+    ns1:longitude "6.3634999" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2008" .
+
+ns1:88 a ns1:node ;
+    ns1:latitude "46.1862905" ;
+    ns1:longitude "6.3636347" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2008" .
+
+ns1:89 a ns1:node ;
+    ns1:latitude "46.1859329" ;
+    ns1:longitude "6.3637462" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2008" .
+
+ns1:90 a ns1:node ;
+    ns1:latitude "46.1858604" ;
+    ns1:longitude "6.3638504" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2008" .
+
+ns1:91 a ns1:node ;
+    ns1:latitude "46.1855717" ;
+    ns1:longitude "6.3638220" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2008" .
+
+ns1:92 a ns1:node ;
+    ns1:latitude "46.1853025" ;
+    ns1:longitude "6.3641381" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2008" .
+
+ns1:93 a ns1:node ;
+    ns1:latitude "46.1852926" ;
+    ns1:longitude "6.3644874" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2008" .
+
+ns1:94 a ns1:node ;
+    ns1:latitude "46.1847509" ;
+    ns1:longitude "6.3652853" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2008" .
+
+ns1:95 a ns1:node ;
+    ns1:latitude "46.1848218" ;
+    ns1:longitude "6.3654320" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2008" .
+
+ns1:96 a ns1:node ;
+    ns1:latitude "46.1847382" ;
+    ns1:longitude "6.3655708" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2008" .
+
+ns1:97 a ns1:node ;
+    ns1:latitude "46.1845245" ;
+    ns1:longitude "6.3657106" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2008" .
+
+ns1:98 a ns1:node ;
+    ns1:latitude "46.1844563" ;
+    ns1:longitude "6.3658328" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2008" .
+
+ns1:99 a ns1:node ;
+    ns1:latitude "46.1844529" ;
+    ns1:longitude "6.3659987" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2008" .
+
+ns2:0 a ns2:point ;
+    ns2:HasPointOfInterest ns1:421,
+        ns1:485,
+        ns1:527,
+        ns1:528,
+        ns1:533,
+        ns1:534,
+        ns1:536,
+        ns1:554,
+        ns1:578,
+        ns1:591,
+        ns1:592,
+        ns1:593,
+        ns1:594,
+        ns1:608,
+        ns1:609,
+        ns1:626,
+        ns1:641,
+        ns1:642,
+        ns1:643,
+        ns1:645,
+        ns1:646 ;
+    ns2:latitude "46.202284" ;
+    ns2:longitude "6.33679" .
+
+ns2:1 a ns2:point ;
+    ns2:HasPointOfInterest ns1:412,
+        ns1:535,
+        ns1:553 ;
+    ns2:latitude "46.202254" ;
+    ns2:longitude "6.337369" .
+
+ns2:10 a ns2:point ;
+    ns2:latitude "46.200526" ;
+    ns2:longitude "6.339555" .
+
+ns2:100 a ns2:point ;
+    ns2:latitude "46.196496" ;
+    ns2:longitude "6.348064" .
+
+ns2:101 a ns2:point ;
+    ns2:latitude "46.19669" ;
+    ns2:longitude "6.348234" .
+
+ns2:102 a ns2:point ;
+    ns2:latitude "46.19708" ;
+    ns2:longitude "6.348541" .
+
+ns2:103 a ns2:point ;
+    ns2:latitude "46.197281" ;
+    ns2:longitude "6.348707" .
+
+ns2:104 a ns2:point ;
+    ns2:latitude "46.197492" ;
+    ns2:longitude "6.348849" .
+
+ns2:105 a ns2:point ;
+    ns2:latitude "46.197703" ;
+    ns2:longitude "6.348964" .
+
+ns2:106 a ns2:point ;
+    ns2:latitude "46.197917" ;
+    ns2:longitude "6.349113" .
+
+ns2:107 a ns2:point ;
+    ns2:latitude "46.19814" ;
+    ns2:longitude "6.349273" .
+
+ns2:108 a ns2:point ;
+    ns2:HasPointOfInterest ns1:622 ;
+    ns2:latitude "46.198363" ;
+    ns2:longitude "6.349398" .
+
+ns2:109 a ns2:point ;
+    ns2:HasPointOfInterest ns1:743 ;
+    ns2:latitude "46.198571" ;
+    ns2:longitude "6.349553" .
+
+ns2:11 a ns2:point ;
+    ns2:HasPointOfInterest ns1:556 ;
+    ns2:latitude "46.200302" ;
+    ns2:longitude "6.33943" .
+
+ns2:110 a ns2:point ;
+    ns2:HasPointOfInterest ns1:742,
+        ns1:744 ;
+    ns2:latitude "46.199012" ;
+    ns2:longitude "6.34973" .
+
+ns2:111 a ns2:point ;
+    ns2:HasPointOfInterest ns1:741 ;
+    ns2:latitude "46.19923" ;
+    ns2:longitude "6.349839" .
+
+ns2:112 a ns2:point ;
+    ns2:latitude "46.199449" ;
+    ns2:longitude "6.349947" .
+
+ns2:113 a ns2:point ;
+    ns2:HasPointOfInterest ns1:537 ;
+    ns2:latitude "46.199661" ;
+    ns2:longitude "6.350081" .
+
+ns2:114 a ns2:point ;
+    ns2:HasPointOfInterest ns1:673 ;
+    ns2:latitude "46.199871" ;
+    ns2:longitude "6.350206" .
+
+ns2:115 a ns2:point ;
+    ns2:HasPointOfInterest ns1:674 ;
+    ns2:latitude "46.200368" ;
+    ns2:longitude "6.350112" .
+
+ns2:116 a ns2:point ;
+    ns2:latitude "46.200705" ;
+    ns2:longitude "6.350015" .
+
+ns2:117 a ns2:point ;
+    ns2:latitude "46.200854" ;
+    ns2:longitude "6.34977" .
+
+ns2:118 a ns2:point ;
+    ns2:latitude "46.200994" ;
+    ns2:longitude "6.349508" .
+
+ns2:119 a ns2:point ;
+    ns2:latitude "46.201218" ;
+    ns2:longitude "6.349445" .
+
+ns2:12 a ns2:point ;
+    ns2:latitude "46.2001" ;
+    ns2:longitude "6.339586" .
+
+ns2:120 a ns2:point ;
+    ns2:latitude "46.201526" ;
+    ns2:longitude "6.34945" .
+
+ns2:121 a ns2:point ;
+    ns2:latitude "46.201879" ;
+    ns2:longitude "6.349351" .
+
+ns2:122 a ns2:point ;
+    ns2:latitude "46.202119" ;
+    ns2:longitude "6.349335" .
+
+ns2:123 a ns2:point ;
+    ns2:HasPointOfInterest ns1:419 ;
+    ns2:latitude "46.202778" ;
+    ns2:longitude "6.349451" .
+
+ns2:124 a ns2:point ;
+    ns2:HasPointOfInterest ns1:487 ;
+    ns2:latitude "46.203212" ;
+    ns2:longitude "6.349839" .
+
+ns2:125 a ns2:point ;
+    ns2:HasPointOfInterest ns1:550,
+        ns1:664,
+        ns1:666,
+        ns1:667,
+        ns1:668,
+        ns1:669,
+        ns1:670,
+        ns1:671,
+        ns1:672,
+        ns1:676 ;
+    ns2:latitude "46.203886" ;
+    ns2:longitude "6.350045" .
+
+ns2:126 a ns2:point ;
+    ns2:HasPointOfInterest ns1:665 ;
+    ns2:latitude "46.204338" ;
+    ns2:longitude "6.350314" .
+
+ns2:127 a ns2:point ;
+    ns2:latitude "46.204535" ;
+    ns2:longitude "6.350475" .
+
+ns2:128 a ns2:point ;
+    ns2:latitude "46.204755" ;
+    ns2:longitude "6.350593" .
+
+ns2:129 a ns2:point ;
+    ns2:latitude "46.204955" ;
+    ns2:longitude "6.350763" .
+
+ns2:13 a ns2:point ;
+    ns2:latitude "46.199978" ;
+    ns2:longitude "6.339861" .
+
+ns2:130 a ns2:point ;
+    ns2:HasPointOfInterest ns1:551 ;
+    ns2:latitude "46.205192" ;
+    ns2:longitude "6.350818" .
+
+ns2:131 a ns2:point ;
+    ns2:latitude "46.205632" ;
+    ns2:longitude "6.351014" .
+
+ns2:132 a ns2:point ;
+    ns2:HasPointOfInterest ns1:486 ;
+    ns2:latitude "46.206103" ;
+    ns2:longitude "6.351001" .
+
+ns2:133 a ns2:point ;
+    ns2:latitude "46.20679" ;
+    ns2:longitude "6.351025" .
+
+ns2:134 a ns2:point ;
+    ns2:latitude "46.206982" ;
+    ns2:longitude "6.351194" .
+
+ns2:135 a ns2:point ;
+    ns2:latitude "46.207207" ;
+    ns2:longitude "6.351229" .
+
+ns2:136 a ns2:point ;
+    ns2:latitude "46.207445" ;
+    ns2:longitude "6.351292" .
+
+ns2:137 a ns2:point ;
+    ns2:latitude "46.207793" ;
+    ns2:longitude "6.351681" .
+
+ns2:138 a ns2:point ;
+    ns2:latitude "46.208536" ;
+    ns2:longitude "6.352132" .
+
+ns2:139 a ns2:point ;
+    ns2:latitude "46.209085" ;
+    ns2:longitude "6.352325" .
+
+ns2:14 a ns2:point ;
+    ns2:HasPointOfInterest ns1:579,
+        ns1:625 ;
+    ns2:latitude "46.199914" ;
+    ns2:longitude "6.340174" .
+
+ns2:140 a ns2:point ;
+    ns2:latitude "46.209442" ;
+    ns2:longitude "6.352497" .
+
+ns2:141 a ns2:point ;
+    ns2:latitude "46.209664" ;
+    ns2:longitude "6.352849" .
+
+ns2:142 a ns2:point ;
+    ns2:HasPointOfInterest ns1:595,
+        ns1:648,
+        ns1:649,
+        ns1:700 ;
+    ns2:latitude "46.210021" ;
+    ns2:longitude "6.352776" .
+
+ns2:143 a ns2:point ;
+    ns2:HasPointOfInterest ns1:498,
+        ns1:699 ;
+    ns2:latitude "46.210555" ;
+    ns2:longitude "6.35299" .
+
+ns2:144 a ns2:point ;
+    ns2:HasPointOfInterest ns1:402,
+        ns1:500,
+        ns1:615,
+        ns1:628,
+        ns1:629,
+        ns1:630 ;
+    ns2:latitude "46.211314" ;
+    ns2:longitude "6.353515" .
+
+ns2:145 a ns2:point ;
+    ns2:latitude "46.211552" ;
+    ns2:longitude "6.353619" .
+
+ns2:146 a ns2:point ;
+    ns2:latitude "46.211752" ;
+    ns2:longitude "6.35378" .
+
+ns2:147 a ns2:point ;
+    ns2:HasPointOfInterest ns1:497 ;
+    ns2:latitude "46.21219" ;
+    ns2:longitude "6.353964" .
+
+ns2:148 a ns2:point ;
+    ns2:latitude "46.212412" ;
+    ns2:longitude "6.354104" .
+
+ns2:149 a ns2:point ;
+    ns2:latitude "46.212629" ;
+    ns2:longitude "6.354193" .
+
+ns2:15 a ns2:point ;
+    ns2:latitude "46.199842" ;
+    ns2:longitude "6.340481" .
+
+ns2:150 a ns2:point ;
+    ns2:latitude "46.21285" ;
+    ns2:longitude "6.354271" .
+
+ns2:151 a ns2:point ;
+    ns2:HasPointOfInterest ns1:753 ;
+    ns2:latitude "46.213297" ;
+    ns2:longitude "6.354429" .
+
+ns2:152 a ns2:point ;
+    ns2:latitude "46.213525" ;
+    ns2:longitude "6.354431" .
+
+ns2:153 a ns2:point ;
+    ns2:latitude "46.21375" ;
+    ns2:longitude "6.35443" .
+
+ns2:154 a ns2:point ;
+    ns2:latitude "46.213976" ;
+    ns2:longitude "6.35445" .
+
+ns2:155 a ns2:point ;
+    ns2:latitude "46.214238" ;
+    ns2:longitude "6.354535" .
+
+ns2:156 a ns2:point ;
+    ns2:HasPointOfInterest ns1:636 ;
+    ns2:latitude "46.214921" ;
+    ns2:longitude "6.354707" .
+
+ns2:157 a ns2:point ;
+    ns2:latitude "46.214767" ;
+    ns2:longitude "6.354985" .
+
+ns2:158 a ns2:point ;
+    ns2:latitude "46.214727" ;
+    ns2:longitude "6.355308" .
+
+ns2:159 a ns2:point ;
+    ns2:latitude "46.214752" ;
+    ns2:longitude "6.354979" .
+
+ns2:16 a ns2:point ;
+    ns2:latitude "46.199505" ;
+    ns2:longitude "6.340793" .
+
+ns2:160 a ns2:point ;
+    ns2:latitude "46.214935" ;
+    ns2:longitude "6.354772" .
+
+ns2:161 a ns2:point ;
+    ns2:latitude "46.215163" ;
+    ns2:longitude "6.354744" .
+
+ns2:162 a ns2:point ;
+    ns2:latitude "46.215369" ;
+    ns2:longitude "6.354611" .
+
+ns2:163 a ns2:point ;
+    ns2:latitude "46.21558" ;
+    ns2:longitude "6.354486" .
+
+ns2:164 a ns2:point ;
+    ns2:latitude "46.215794" ;
+    ns2:longitude "6.354382" .
+
+ns2:165 a ns2:point ;
+    ns2:latitude "46.216005" ;
+    ns2:longitude "6.354231" .
+
+ns2:166 a ns2:point ;
+    ns2:latitude "46.216233" ;
+    ns2:longitude "6.354145" .
+
+ns2:167 a ns2:point ;
+    ns2:HasPointOfInterest ns1:596,
+        ns1:749 ;
+    ns2:latitude "46.216405" ;
+    ns2:longitude "6.353933" .
+
+ns2:168 a ns2:point ;
+    ns2:latitude "46.21662" ;
+    ns2:longitude "6.353823" .
+
+ns2:169 a ns2:point ;
+    ns2:latitude "46.216825" ;
+    ns2:longitude "6.35365" .
+
+ns2:17 a ns2:point ;
+    ns2:HasPointOfInterest ns1:623,
+        ns1:663 ;
+    ns2:latitude "46.19929" ;
+    ns2:longitude "6.341379" .
+
+ns2:170 a ns2:point ;
+    ns2:HasPointOfInterest ns1:474,
+        ns1:481 ;
+    ns2:latitude "46.217035" ;
+    ns2:longitude "6.353501" .
+
+ns2:171 a ns2:point ;
+    ns2:HasPointOfInterest ns1:496 ;
+    ns2:latitude "46.217261" ;
+    ns2:longitude "6.353367" .
+
+ns2:172 a ns2:point ;
+    ns2:latitude "46.217494" ;
+    ns2:longitude "6.353329" .
+
+ns2:173 a ns2:point ;
+    ns2:HasPointOfInterest ns1:400,
+        ns1:508,
+        ns1:509,
+        ns1:560 ;
+    ns2:latitude "46.218166" ;
+    ns2:longitude "6.353107" .
+
+ns2:174 a ns2:point ;
+    ns2:HasPointOfInterest ns1:483,
+        ns1:507,
+        ns1:510,
+        ns1:635 ;
+    ns2:latitude "46.218761" ;
+    ns2:longitude "6.352864" .
+
+ns2:175 a ns2:point ;
+    ns2:HasPointOfInterest ns1:506 ;
+    ns2:latitude "46.219478" ;
+    ns2:longitude "6.352624" .
+
+ns2:176 a ns2:point ;
+    ns2:latitude "46.219703" ;
+    ns2:longitude "6.352691" .
+
+ns2:177 a ns2:point ;
+    ns2:HasPointOfInterest ns1:484,
+        ns1:495,
+        ns1:529 ;
+    ns2:latitude "46.219936" ;
+    ns2:longitude "6.35268" .
+
+ns2:178 a ns2:point ;
+    ns2:HasPointOfInterest ns1:511 ;
+    ns2:latitude "46.220384" ;
+    ns2:longitude "6.352603" .
+
+ns2:179 a ns2:point ;
+    ns2:latitude "46.220613" ;
+    ns2:longitude "6.352611" .
+
+ns2:18 a ns2:point ;
+    ns2:HasPointOfInterest ns1:580 ;
+    ns2:latitude "46.199315" ;
+    ns2:longitude "6.341771" .
+
+ns2:180 a ns2:point ;
+    ns2:latitude "46.220845" ;
+    ns2:longitude "6.352588" .
+
+ns2:181 a ns2:point ;
+    ns2:HasPointOfInterest ns1:614,
+        ns1:754 ;
+    ns2:latitude "46.221065" ;
+    ns2:longitude "6.35248" .
+
+ns2:182 a ns2:point ;
+    ns2:latitude "46.221295" ;
+    ns2:longitude "6.352425" .
+
+ns2:183 a ns2:point ;
+    ns2:latitude "46.221383" ;
+    ns2:longitude "6.352513" .
+
+ns2:184 a ns2:point ;
+    ns2:latitude "46.221516" ;
+    ns2:longitude "6.352561" .
+
+ns2:185 a ns2:point ;
+    ns2:latitude "46.221609" ;
+    ns2:longitude "6.352652" .
+
+ns2:186 a ns2:point ;
+    ns2:latitude "46.221853" ;
+    ns2:longitude "6.352754" .
+
+ns2:187 a ns2:point ;
+    ns2:HasPointOfInterest ns1:411,
+        ns1:492 ;
+    ns2:latitude "46.222125" ;
+    ns2:longitude "6.352829" .
+
+ns2:188 a ns2:point ;
+    ns2:latitude "46.222309" ;
+    ns2:longitude "6.352892" .
+
+ns2:189 a ns2:point ;
+    ns2:HasPointOfInterest ns1:494,
+        ns1:525,
+        ns1:755 ;
+    ns2:latitude "46.222559" ;
+    ns2:longitude "6.353076" .
+
+ns2:19 a ns2:point ;
+    ns2:HasPointOfInterest ns1:542 ;
+    ns2:latitude "46.199223" ;
+    ns2:longitude "6.34208" .
+
+ns2:190 a ns2:point ;
+    ns2:latitude "46.222775" ;
+    ns2:longitude "6.353194" .
+
+ns2:191 a ns2:point ;
+    ns2:HasPointOfInterest ns1:493,
+        ns1:502,
+        ns1:598 ;
+    ns2:latitude "46.222927" ;
+    ns2:longitude "6.353216" .
+
+ns2:192 a ns2:point ;
+    ns2:HasPointOfInterest ns1:417 ;
+    ns2:latitude "46.223042" ;
+    ns2:longitude "6.353334" .
+
+ns2:193 a ns2:point ;
+    ns2:latitude "46.223177" ;
+    ns2:longitude "6.353343" .
+
+ns2:194 a ns2:point ;
+    ns2:latitude "46.223401" ;
+    ns2:longitude "6.353298" .
+
+ns2:195 a ns2:point ;
+    ns2:latitude "46.223613" ;
+    ns2:longitude "6.353419" .
+
+ns2:196 a ns2:point ;
+    ns2:latitude "46.223837" ;
+    ns2:longitude "6.353483" .
+
+ns2:197 a ns2:point ;
+    ns2:latitude "46.224055" ;
+    ns2:longitude "6.353393" .
+
+ns2:198 a ns2:point ;
+    ns2:latitude "46.224287" ;
+    ns2:longitude "6.353305" .
+
+ns2:199 a ns2:point ;
+    ns2:latitude "46.224523" ;
+    ns2:longitude "6.353361" .
+
+ns2:2 a ns2:point ;
+    ns2:HasPointOfInterest ns1:613 ;
+    ns2:latitude "46.202256" ;
+    ns2:longitude "6.33777" .
+
+ns2:20 a ns2:point ;
+    ns2:HasPointOfInterest ns1:489 ;
+    ns2:latitude "46.199004" ;
+    ns2:longitude "6.342555" .
+
+ns2:200 a ns2:point ;
+    ns2:latitude "46.224731" ;
+    ns2:longitude "6.353484" .
+
+ns2:201 a ns2:point ;
+    ns2:HasPointOfInterest ns1:756 ;
+    ns2:latitude "46.224965" ;
+    ns2:longitude "6.353487" .
+
+ns2:202 a ns2:point ;
+    ns2:latitude "46.225182" ;
+    ns2:longitude "6.353599" .
+
+ns2:203 a ns2:point ;
+    ns2:HasPointOfInterest ns1:491 ;
+    ns2:latitude "46.225407" ;
+    ns2:longitude "6.353696" .
+
+ns2:204 a ns2:point ;
+    ns2:HasPointOfInterest ns1:418 ;
+    ns2:latitude "46.225628" ;
+    ns2:longitude "6.353785" .
+
+ns2:205 a ns2:point ;
+    ns2:HasPointOfInterest ns1:401,
+        ns1:403,
+        ns1:404,
+        ns1:405,
+        ns1:406,
+        ns1:407,
+        ns1:408,
+        ns1:409 ;
+    ns2:latitude "46.226083" ;
+    ns2:longitude "6.353946" .
+
+ns2:206 a ns2:point ;
+    ns2:HasPointOfInterest ns1:499,
+        ns1:634 ;
+    ns2:latitude "46.226325" ;
+    ns2:longitude "6.353898" .
+
+ns2:207 a ns2:point ;
+    ns2:HasPointOfInterest ns1:503 ;
+    ns2:latitude "46.226557" ;
+    ns2:longitude "6.353858" .
+
+ns2:208 a ns2:point ;
+    ns2:latitude "46.226781" ;
+    ns2:longitude "6.353923" .
+
+ns2:209 a ns2:point ;
+    ns2:HasPointOfInterest ns1:504,
+        ns1:600,
+        ns1:601 ;
+    ns2:latitude "46.22701" ;
+    ns2:longitude "6.353983" .
+
+ns2:21 a ns2:point ;
+    ns2:HasPointOfInterest ns1:414,
+        ns1:541,
+        ns1:631 ;
+    ns2:latitude "46.19866" ;
+    ns2:longitude "6.342645" .
+
+ns2:210 a ns2:point ;
+    ns2:latitude "46.227236" ;
+    ns2:longitude "6.354046" .
+
+ns2:211 a ns2:point ;
+    ns2:HasPointOfInterest ns1:3,
+        ns1:611 ;
+    ns2:latitude "46.227463" ;
+    ns2:longitude "6.35411" .
+
+ns2:212 a ns2:point ;
+    ns2:HasPointOfInterest ns1:602,
+        ns1:603,
+        ns1:604,
+        ns1:605 ;
+    ns2:latitude "46.227706" ;
+    ns2:longitude "6.354163" .
+
+ns2:213 a ns2:point ;
+    ns2:HasPointOfInterest ns1:606 ;
+    ns2:latitude "46.227933" ;
+    ns2:longitude "6.354232" .
+
+ns2:214 a ns2:point ;
+    ns2:latitude "46.228128" ;
+    ns2:longitude "6.354406" .
+
+ns2:215 a ns2:point ;
+    ns2:latitude "46.228345" ;
+    ns2:longitude "6.354528" .
+
+ns2:216 a ns2:point ;
+    ns2:latitude "46.228571" ;
+    ns2:longitude "6.354593" .
+
+ns2:217 a ns2:point ;
+    ns2:latitude "46.2288" ;
+    ns2:longitude "6.354676" .
+
+ns2:218 a ns2:point ;
+    ns2:latitude "46.229018" ;
+    ns2:longitude "6.354799" .
+
+ns2:219 a ns2:point ;
+    ns2:HasPointOfInterest ns1:526,
+        ns1:607 ;
+    ns2:latitude "46.229253" ;
+    ns2:longitude "6.354812" .
+
+ns2:22 a ns2:point ;
+    ns2:latitude "46.198304" ;
+    ns2:longitude "6.342663" .
+
+ns2:220 a ns2:point ;
+    ns2:latitude "46.229475" ;
+    ns2:longitude "6.35492" .
+
+ns2:221 a ns2:point ;
+    ns2:HasPointOfInterest ns1:4,
+        ns1:5,
+        ns1:501 ;
+    ns2:latitude "46.229704" ;
+    ns2:longitude "6.35495" .
+
+ns2:222 a ns2:point ;
+    ns2:HasPointOfInterest ns1:6 ;
+    ns2:latitude "46.229928" ;
+    ns2:longitude "6.355025" .
+
+ns2:223 a ns2:point ;
+    ns2:latitude "46.230157" ;
+    ns2:longitude "6.355089" .
+
+ns2:224 a ns2:point ;
+    ns2:HasPointOfInterest ns1:7 ;
+    ns2:latitude "46.230389" ;
+    ns2:longitude "6.35515" .
+
+ns2:225 a ns2:point ;
+    ns2:latitude "46.230617" ;
+    ns2:longitude "6.355201" .
+
+ns2:226 a ns2:point ;
+    ns2:HasPointOfInterest ns1:8 ;
+    ns2:latitude "46.230839" ;
+    ns2:longitude "6.35531" .
+
+ns2:227 a ns2:point ;
+    ns2:latitude "46.231067" ;
+    ns2:longitude "6.355339" .
+
+ns2:228 a ns2:point ;
+    ns2:latitude "46.231284" ;
+    ns2:longitude "6.355465" .
+
+ns2:229 a ns2:point ;
+    ns2:latitude "46.231505" ;
+    ns2:longitude "6.355569" .
+
+ns2:23 a ns2:point ;
+    ns2:HasPointOfInterest ns1:627 ;
+    ns2:latitude "46.197933" ;
+    ns2:longitude "6.341785" .
+
+ns2:230 a ns2:point ;
+    ns2:latitude "46.231742" ;
+    ns2:longitude "6.355566" .
+
+ns2:231 a ns2:point ;
+    ns2:HasPointOfInterest ns1:9 ;
+    ns2:latitude "46.232" ;
+    ns2:longitude "6.355654" .
+
+ns2:232 a ns2:point ;
+    ns2:latitude "46.232152" ;
+    ns2:longitude "6.355855" .
+
+ns2:233 a ns2:point ;
+    ns2:HasPointOfInterest ns1:10 ;
+    ns2:latitude "46.232364" ;
+    ns2:longitude "6.355996" .
+
+ns2:234 a ns2:point ;
+    ns2:latitude "46.232581" ;
+    ns2:longitude "6.356141" .
+
+ns2:235 a ns2:point ;
+    ns2:latitude "46.232769" ;
+    ns2:longitude "6.356319" .
+
+ns2:236 a ns2:point ;
+    ns2:latitude "46.23297" ;
+    ns2:longitude "6.356495" .
+
+ns2:237 a ns2:point ;
+    ns2:latitude "46.233163" ;
+    ns2:longitude "6.356766" .
+
+ns2:238 a ns2:point ;
+    ns2:latitude "46.233374" ;
+    ns2:longitude "6.356958" .
+
+ns2:239 a ns2:point ;
+    ns2:latitude "46.233773" ;
+    ns2:longitude "6.35715" .
+
+ns2:24 a ns2:point ;
+    ns2:HasPointOfInterest ns1:555 ;
+    ns2:latitude "46.197273" ;
+    ns2:longitude "6.341489" .
+
+ns2:240 a ns2:point ;
+    ns2:latitude "46.233882" ;
+    ns2:longitude "6.357276" .
+
+ns2:241 a ns2:point ;
+    ns2:latitude "46.234077" ;
+    ns2:longitude "6.357195" .
+
+ns2:242 a ns2:point ;
+    ns2:latitude "46.234031" ;
+    ns2:longitude "6.357353" .
+
+ns2:243 a ns2:point ;
+    ns2:latitude "46.233913" ;
+    ns2:longitude "6.357579" .
+
+ns2:244 a ns2:point ;
+    ns2:latitude "46.233614" ;
+    ns2:longitude "6.357631" .
+
+ns2:245 a ns2:point ;
+    ns2:latitude "46.233308" ;
+    ns2:longitude "6.357546" .
+
+ns2:246 a ns2:point ;
+    ns2:latitude "46.233224" ;
+    ns2:longitude "6.357496" .
+
+ns2:247 a ns2:point ;
+    ns2:latitude "46.233059" ;
+    ns2:longitude "6.357631" .
+
+ns2:248 a ns2:point ;
+    ns2:latitude "46.232885" ;
+    ns2:longitude "6.357736" .
+
+ns2:249 a ns2:point ;
+    ns2:latitude "46.232754" ;
+    ns2:longitude "6.357729" .
+
+ns2:25 a ns2:point ;
+    ns2:HasPointOfInterest ns1:543,
+        ns1:544,
+        ns1:557 ;
+    ns2:latitude "46.196643" ;
+    ns2:longitude "6.341915" .
+
+ns2:250 a ns2:point ;
+    ns2:latitude "46.232621" ;
+    ns2:longitude "6.357831" .
+
+ns2:251 a ns2:point ;
+    ns2:latitude "46.232422" ;
+    ns2:longitude "6.357914" .
+
+ns2:252 a ns2:point ;
+    ns2:latitude "46.232233" ;
+    ns2:longitude "6.358067" .
+
+ns2:253 a ns2:point ;
+    ns2:latitude "46.23185" ;
+    ns2:longitude "6.358248" .
+
+ns2:254 a ns2:point ;
+    ns2:latitude "46.2316" ;
+    ns2:longitude "6.358282" .
+
+ns2:255 a ns2:point ;
+    ns2:latitude "46.231225" ;
+    ns2:longitude "6.358271" .
+
+ns2:256 a ns2:point ;
+    ns2:latitude "46.230958" ;
+    ns2:longitude "6.358298" .
+
+ns2:257 a ns2:point ;
+    ns2:latitude "46.230512" ;
+    ns2:longitude "6.358225" .
+
+ns2:258 a ns2:point ;
+    ns2:latitude "46.230059" ;
+    ns2:longitude "6.358045" .
+
+ns2:259 a ns2:point ;
+    ns2:latitude "46.229887" ;
+    ns2:longitude "6.357943" .
+
+ns2:26 a ns2:point ;
+    ns2:HasPointOfInterest ns1:706,
+        ns1:707,
+        ns1:708,
+        ns1:709,
+        ns1:711 ;
+    ns2:latitude "46.196418" ;
+    ns2:longitude "6.341939" .
+
+ns2:260 a ns2:point ;
+    ns2:latitude "46.229415" ;
+    ns2:longitude "6.357794" .
+
+ns2:261 a ns2:point ;
+    ns2:latitude "46.229192" ;
+    ns2:longitude "6.357762" .
+
+ns2:262 a ns2:point ;
+    ns2:latitude "46.229012" ;
+    ns2:longitude "6.357604" .
+
+ns2:263 a ns2:point ;
+    ns2:latitude "46.228859" ;
+    ns2:longitude "6.357397" .
+
+ns2:264 a ns2:point ;
+    ns2:latitude "46.228682" ;
+    ns2:longitude "6.357197" .
+
+ns2:265 a ns2:point ;
+    ns2:latitude "46.228484" ;
+    ns2:longitude "6.357017" .
+
+ns2:266 a ns2:point ;
+    ns2:latitude "46.228143" ;
+    ns2:longitude "6.356528" .
+
+ns2:267 a ns2:point ;
+    ns2:latitude "46.227938" ;
+    ns2:longitude "6.356343" .
+
+ns2:268 a ns2:point ;
+    ns2:latitude "46.227725" ;
+    ns2:longitude "6.356207" .
+
+ns2:269 a ns2:point ;
+    ns2:latitude "46.227585" ;
+    ns2:longitude "6.355949" .
+
+ns2:27 a ns2:point ;
+    ns2:HasPointOfInterest ns1:416,
+        ns1:540,
+        ns1:548,
+        ns1:710 ;
+    ns2:latitude "46.195851" ;
+    ns2:longitude "6.342063" .
+
+ns2:270 a ns2:point ;
+    ns2:latitude "46.227514" ;
+    ns2:longitude "6.355624" .
+
+ns2:271 a ns2:point ;
+    ns2:latitude "46.227446" ;
+    ns2:longitude "6.355308" .
+
+ns2:272 a ns2:point ;
+    ns2:latitude "46.227294" ;
+    ns2:longitude "6.355044" .
+
+ns2:273 a ns2:point ;
+    ns2:latitude "46.227143" ;
+    ns2:longitude "6.354786" .
+
+ns2:274 a ns2:point ;
+    ns2:latitude "46.227008" ;
+    ns2:longitude "6.354515" .
+
+ns2:275 a ns2:point ;
+    ns2:latitude "46.226852" ;
+    ns2:longitude "6.354264" .
+
+ns2:276 a ns2:point ;
+    ns2:latitude "46.226709" ;
+    ns2:longitude "6.354182" .
+
+ns2:277 a ns2:point ;
+    ns2:latitude "46.226567" ;
+    ns2:longitude "6.354491" .
+
+ns2:278 a ns2:point ;
+    ns2:latitude "46.226429" ;
+    ns2:longitude "6.354765" .
+
+ns2:279 a ns2:point ;
+    ns2:latitude "46.226302" ;
+    ns2:longitude "6.355047" .
+
+ns2:28 a ns2:point ;
+    ns2:HasPointOfInterest ns1:632,
+        ns1:647,
+        ns1:650,
+        ns1:713,
+        ns1:727 ;
+    ns2:latitude "46.195275" ;
+    ns2:longitude "6.342299" .
+
+ns2:280 a ns2:point ;
+    ns2:latitude "46.226098" ;
+    ns2:longitude "6.355216" .
+
+ns2:281 a ns2:point ;
+    ns2:latitude "46.225866" ;
+    ns2:longitude "6.35519" .
+
+ns2:282 a ns2:point ;
+    ns2:latitude "46.225656" ;
+    ns2:longitude "6.355043" .
+
+ns2:283 a ns2:point ;
+    ns2:latitude "46.225519" ;
+    ns2:longitude "6.35505" .
+
+ns2:284 a ns2:point ;
+    ns2:latitude "46.225175" ;
+    ns2:longitude "6.354779" .
+
+ns2:285 a ns2:point ;
+    ns2:latitude "46.224741" ;
+    ns2:longitude "6.354758" .
+
+ns2:286 a ns2:point ;
+    ns2:latitude "46.224516" ;
+    ns2:longitude "6.35473" .
+
+ns2:287 a ns2:point ;
+    ns2:latitude "46.224313" ;
+    ns2:longitude "6.354673" .
+
+ns2:288 a ns2:point ;
+    ns2:latitude "46.224107" ;
+    ns2:longitude "6.354494" .
+
+ns2:289 a ns2:point ;
+    ns2:latitude "46.223947" ;
+    ns2:longitude "6.354254" .
+
+ns2:29 a ns2:point ;
+    ns2:HasPointOfInterest ns1:420,
+        ns1:546,
+        ns1:547,
+        ns1:573,
+        ns1:575,
+        ns1:576,
+        ns1:577,
+        ns1:701,
+        ns1:702,
+        ns1:703,
+        ns1:704,
+        ns1:705,
+        ns1:712,
+        ns1:714,
+        ns1:715,
+        ns1:716,
+        ns1:718,
+        ns1:719,
+        ns1:720,
+        ns1:722,
+        ns1:724,
+        ns1:725 ;
+    ns2:latitude "46.194506" ;
+    ns2:longitude "6.342222" .
+
+ns2:290 a ns2:point ;
+    ns2:latitude "46.223737" ;
+    ns2:longitude "6.354122" .
+
+ns2:291 a ns2:point ;
+    ns2:latitude "46.223571" ;
+    ns2:longitude "6.3539" .
+
+ns2:292 a ns2:point ;
+    ns2:latitude "46.223361" ;
+    ns2:longitude "6.353743" .
+
+ns2:293 a ns2:point ;
+    ns2:latitude "46.223146" ;
+    ns2:longitude "6.353599" .
+
+ns2:294 a ns2:point ;
+    ns2:latitude "46.22297" ;
+    ns2:longitude "6.353374" .
+
+ns2:295 a ns2:point ;
+    ns2:latitude "46.222766" ;
+    ns2:longitude "6.353217" .
+
+ns2:296 a ns2:point ;
+    ns2:latitude "46.222356" ;
+    ns2:longitude "6.35291" .
+
+ns2:297 a ns2:point ;
+    ns2:latitude "46.22213" ;
+    ns2:longitude "6.352837" .
+
+ns2:298 a ns2:point ;
+    ns2:latitude "46.221843" ;
+    ns2:longitude "6.352748" .
+
+ns2:299 a ns2:point ;
+    ns2:latitude "46.221614" ;
+    ns2:longitude "6.352651" .
+
+ns2:3 a ns2:point ;
+    ns2:HasPointOfInterest ns1:612 ;
+    ns2:latitude "46.202342" ;
+    ns2:longitude "6.338081" .
+
+ns2:30 a ns2:point ;
+    ns2:HasPointOfInterest ns1:717,
+        ns1:723,
+        ns1:726,
+        ns1:728 ;
+    ns2:latitude "46.193662" ;
+    ns2:longitude "6.342301" .
+
+ns2:300 a ns2:point ;
+    ns2:latitude "46.221509" ;
+    ns2:longitude "6.352545" .
+
+ns2:301 a ns2:point ;
+    ns2:latitude "46.221502" ;
+    ns2:longitude "6.352336" .
+
+ns2:302 a ns2:point ;
+    ns2:latitude "46.221288" ;
+    ns2:longitude "6.352205" .
+
+ns2:303 a ns2:point ;
+    ns2:latitude "46.220869" ;
+    ns2:longitude "6.352129" .
+
+ns2:304 a ns2:point ;
+    ns2:latitude "46.220931" ;
+    ns2:longitude "6.351948" .
+
+ns2:305 a ns2:point ;
+    ns2:latitude "46.220673" ;
+    ns2:longitude "6.351496" .
+
+ns2:306 a ns2:point ;
+    ns2:HasPointOfInterest ns1:478,
+        ns1:482 ;
+    ns2:latitude "46.219852" ;
+    ns2:longitude "6.351355" .
+
+ns2:307 a ns2:point ;
+    ns2:HasPointOfInterest ns1:476,
+        ns1:477 ;
+    ns2:latitude "46.219625" ;
+    ns2:longitude "6.351316" .
+
+ns2:308 a ns2:point ;
+    ns2:HasPointOfInterest ns1:473,
+        ns1:475 ;
+    ns2:latitude "46.218938" ;
+    ns2:longitude "6.351237" .
+
+ns2:309 a ns2:point ;
+    ns2:HasPointOfInterest ns1:453 ;
+    ns2:latitude "46.218702" ;
+    ns2:longitude "6.351234" .
+
+ns2:31 a ns2:point ;
+    ns2:latitude "46.193441" ;
+    ns2:longitude "6.342807" .
+
+ns2:310 a ns2:point ;
+    ns2:HasPointOfInterest ns1:451,
+        ns1:452,
+        ns1:480 ;
+    ns2:latitude "46.218029" ;
+    ns2:longitude "6.350996" .
+
+ns2:311 a ns2:point ;
+    ns2:HasPointOfInterest ns1:434,
+        ns1:449,
+        ns1:479,
+        ns1:659,
+        ns1:660,
+        ns1:662,
+        ns1:681,
+        ns1:682,
+        ns1:683,
+        ns1:684,
+        ns1:685 ;
+    ns2:latitude "46.217612" ;
+    ns2:longitude "6.35087" .
+
+ns2:312 a ns2:point ;
+    ns2:HasPointOfInterest ns1:456,
+        ns1:661,
+        ns1:679,
+        ns1:680 ;
+    ns2:latitude "46.21734" ;
+    ns2:longitude "6.350832" .
+
+ns2:313 a ns2:point ;
+    ns2:HasPointOfInterest ns1:658 ;
+    ns2:latitude "46.217112" ;
+    ns2:longitude "6.350845" .
+
+ns2:314 a ns2:point ;
+    ns2:latitude "46.216879" ;
+    ns2:longitude "6.350882" .
+
+ns2:315 a ns2:point ;
+    ns2:latitude "46.216647" ;
+    ns2:longitude "6.35086" .
+
+ns2:316 a ns2:point ;
+    ns2:HasPointOfInterest ns1:562 ;
+    ns2:latitude "46.216418" ;
+    ns2:longitude "6.350774" .
+
+ns2:317 a ns2:point ;
+    ns2:HasPointOfInterest ns1:549 ;
+    ns2:latitude "46.216027" ;
+    ns2:longitude "6.350492" .
+
+ns2:318 a ns2:point ;
+    ns2:latitude "46.215746" ;
+    ns2:longitude "6.350436" .
+
+ns2:319 a ns2:point ;
+    ns2:HasPointOfInterest ns1:644 ;
+    ns2:latitude "46.215308" ;
+    ns2:longitude "6.350334" .
+
+ns2:32 a ns2:point ;
+    ns2:HasPointOfInterest ns1:545,
+        ns1:617 ;
+    ns2:latitude "46.192801" ;
+    ns2:longitude "6.343271" .
+
+ns2:320 a ns2:point ;
+    ns2:latitude "46.214888" ;
+    ns2:longitude "6.350237" .
+
+ns2:321 a ns2:point ;
+    ns2:HasPointOfInterest ns1:589 ;
+    ns2:latitude "46.214451" ;
+    ns2:longitude "6.350029" .
+
+ns2:322 a ns2:point ;
+    ns2:latitude "46.214222" ;
+    ns2:longitude "6.349972" .
+
+ns2:323 a ns2:point ;
+    ns2:latitude "46.214028" ;
+    ns2:longitude "6.349803" .
+
+ns2:324 a ns2:point ;
+    ns2:HasPointOfInterest ns1:429,
+        ns1:678 ;
+    ns2:latitude "46.2138" ;
+    ns2:longitude "6.349694" .
+
+ns2:325 a ns2:point ;
+    ns2:latitude "46.21286" ;
+    ns2:longitude "6.349451" .
+
+ns2:326 a ns2:point ;
+    ns2:HasPointOfInterest ns1:538 ;
+    ns2:latitude "46.212023" ;
+    ns2:longitude "6.349027" .
+
+ns2:327 a ns2:point ;
+    ns2:HasPointOfInterest ns1:675 ;
+    ns2:latitude "46.211616" ;
+    ns2:longitude "6.348587" .
+
+ns2:328 a ns2:point ;
+    ns2:latitude "46.211148" ;
+    ns2:longitude "6.347875" .
+
+ns2:329 a ns2:point ;
+    ns2:HasPointOfInterest ns1:652,
+        ns1:653 ;
+    ns2:latitude "46.210502" ;
+    ns2:longitude "6.347479" .
+
+ns2:33 a ns2:point ;
+    ns2:HasPointOfInterest ns1:33,
+        ns1:574,
+        ns1:721 ;
+    ns2:latitude "46.192143" ;
+    ns2:longitude "6.343587" .
+
+ns2:330 a ns2:point ;
+    ns2:latitude "46.210298" ;
+    ns2:longitude "6.347326" .
+
+ns2:331 a ns2:point ;
+    ns2:latitude "46.210095" ;
+    ns2:longitude "6.347164" .
+
+ns2:332 a ns2:point ;
+    ns2:latitude "46.209955" ;
+    ns2:longitude "6.346909" .
+
+ns2:333 a ns2:point ;
+    ns2:latitude "46.209744" ;
+    ns2:longitude "6.346758" .
+
+ns2:334 a ns2:point ;
+    ns2:latitude "46.209538" ;
+    ns2:longitude "6.346606" .
+
+ns2:335 a ns2:point ;
+    ns2:latitude "46.209252" ;
+    ns2:longitude "6.346541" .
+
+ns2:336 a ns2:point ;
+    ns2:HasPointOfInterest ns1:424,
+        ns1:638,
+        ns1:651 ;
+    ns2:latitude "46.209033" ;
+    ns2:longitude "6.346326" .
+
+ns2:337 a ns2:point ;
+    ns2:HasPointOfInterest ns1:426 ;
+    ns2:latitude "46.208892" ;
+    ns2:longitude "6.345988" .
+
+ns2:338 a ns2:point ;
+    ns2:HasPointOfInterest ns1:422,
+        ns1:423,
+        ns1:425,
+        ns1:585 ;
+    ns2:latitude "46.208873" ;
+    ns2:longitude "6.345438" .
+
+ns2:339 a ns2:point ;
+    ns2:latitude "46.208795" ;
+    ns2:longitude "6.345009" .
+
+ns2:34 a ns2:point ;
+    ns2:HasPointOfInterest ns1:413,
+        ns1:427 ;
+    ns2:latitude "46.191708" ;
+    ns2:longitude "6.34379" .
+
+ns2:340 a ns2:point ;
+    ns2:HasPointOfInterest ns1:539 ;
+    ns2:latitude "46.208735" ;
+    ns2:longitude "6.344684" .
+
+ns2:341 a ns2:point ;
+    ns2:HasPointOfInterest ns1:584 ;
+    ns2:latitude "46.208695" ;
+    ns2:longitude "6.344338" .
+
+ns2:342 a ns2:point ;
+    ns2:latitude "46.208648" ;
+    ns2:longitude "6.344011" .
+
+ns2:343 a ns2:point ;
+    ns2:latitude "46.208516" ;
+    ns2:longitude "6.343431" .
+
+ns2:344 a ns2:point ;
+    ns2:latitude "46.208344" ;
+    ns2:longitude "6.342878" .
+
+ns2:345 a ns2:point ;
+    ns2:latitude "46.208147" ;
+    ns2:longitude "6.342724" .
+
+ns2:346 a ns2:point ;
+    ns2:latitude "46.207957" ;
+    ns2:longitude "6.342551" .
+
+ns2:347 a ns2:point ;
+    ns2:latitude "46.207762" ;
+    ns2:longitude "6.342364" .
+
+ns2:348 a ns2:point ;
+    ns2:latitude "46.207569" ;
+    ns2:longitude "6.342187" .
+
+ns2:349 a ns2:point ;
+    ns2:latitude "46.207162" ;
+    ns2:longitude "6.341872" .
+
+ns2:35 a ns2:point ;
+    ns2:HasPointOfInterest ns1:490 ;
+    ns2:latitude "46.191374" ;
+    ns2:longitude "6.343934" .
+
+ns2:350 a ns2:point ;
+    ns2:latitude "46.206963" ;
+    ns2:longitude "6.341685" .
+
+ns2:351 a ns2:point ;
+    ns2:latitude "46.206736" ;
+    ns2:longitude "6.341647" .
+
+ns2:352 a ns2:point ;
+    ns2:latitude "46.205642" ;
+    ns2:longitude "6.341109" .
+
+ns2:353 a ns2:point ;
+    ns2:latitude "46.205419" ;
+    ns2:longitude "6.341017" .
+
+ns2:354 a ns2:point ;
+    ns2:latitude "46.2052" ;
+    ns2:longitude "6.340899" .
+
+ns2:355 a ns2:point ;
+    ns2:latitude "46.204964" ;
+    ns2:longitude "6.340853" .
+
+ns2:356 a ns2:point ;
+    ns2:latitude "46.204803" ;
+    ns2:longitude "6.3406" .
+
+ns2:357 a ns2:point ;
+    ns2:latitude "46.204656" ;
+    ns2:longitude "6.340316" .
+
+ns2:358 a ns2:point ;
+    ns2:latitude "46.204453" ;
+    ns2:longitude "6.340179" .
+
+ns2:359 a ns2:point ;
+    ns2:latitude "46.204224" ;
+    ns2:longitude "6.340138" .
+
+ns2:36 a ns2:point ;
+    ns2:HasPointOfInterest ns1:488,
+        ns1:616 ;
+    ns2:latitude "46.191011" ;
+    ns2:longitude "6.344171" .
+
+ns2:360 a ns2:point ;
+    ns2:latitude "46.203838" ;
+    ns2:longitude "6.339803" .
+
+ns2:361 a ns2:point ;
+    ns2:latitude "46.203642" ;
+    ns2:longitude "6.339623" .
+
+ns2:362 a ns2:point ;
+    ns2:latitude "46.203434" ;
+    ns2:longitude "6.339486" .
+
+ns2:363 a ns2:point ;
+    ns2:latitude "46.20329" ;
+    ns2:longitude "6.339229" .
+
+ns2:364 a ns2:point ;
+    ns2:latitude "46.203121" ;
+    ns2:longitude "6.33895" .
+
+ns2:365 a ns2:point ;
+    ns2:latitude "46.202985" ;
+    ns2:longitude "6.338685" .
+
+ns2:366 a ns2:point ;
+    ns2:latitude "46.202979" ;
+    ns2:longitude "6.33833" .
+
+ns2:367 a ns2:point ;
+    ns2:latitude "46.202877" ;
+    ns2:longitude "6.338021" .
+
+ns2:368 a ns2:point ;
+    ns2:latitude "46.20269" ;
+    ns2:longitude "6.337807" .
+
+ns2:369 a ns2:point ;
+    ns2:latitude "46.202583" ;
+    ns2:longitude "6.337513" .
+
+ns2:37 a ns2:point ;
+    ns2:latitude "46.191026" ;
+    ns2:longitude "6.344386" .
+
+ns2:370 a ns2:point ;
+    ns2:latitude "46.202299" ;
+    ns2:longitude "6.33679" .
+
+ns2:38 a ns2:point ;
+    ns2:latitude "46.190733" ;
+    ns2:longitude "6.344928" .
+
+ns2:39 a ns2:point ;
+    ns2:HasPointOfInterest ns1:34,
+        ns1:621 ;
+    ns2:latitude "46.190877" ;
+    ns2:longitude "6.345265" .
+
+ns2:4 a ns2:point ;
+    ns2:HasPointOfInterest ns1:637 ;
+    ns2:latitude "46.202337" ;
+    ns2:longitude "6.338406" .
+
+ns2:40 a ns2:point ;
+    ns2:HasPointOfInterest ns1:35,
+        ns1:36,
+        ns1:37 ;
+    ns2:latitude "46.191099" ;
+    ns2:longitude "6.345468" .
+
+ns2:41 a ns2:point ;
+    ns2:HasPointOfInterest ns1:38,
+        ns1:39,
+        ns1:40,
+        ns1:734,
+        ns1:735 ;
+    ns2:latitude "46.190892" ;
+    ns2:longitude "6.346059" .
+
+ns2:42 a ns2:point ;
+    ns2:HasPointOfInterest ns1:41,
+        ns1:733,
+        ns1:736 ;
+    ns2:latitude "46.190832" ;
+    ns2:longitude "6.346338" .
+
+ns2:43 a ns2:point ;
+    ns2:HasPointOfInterest ns1:731,
+        ns1:732 ;
+    ns2:latitude "46.190561" ;
+    ns2:longitude "6.346509" .
+
+ns2:44 a ns2:point ;
+    ns2:HasPointOfInterest ns1:42,
+        ns1:43,
+        ns1:44,
+        ns1:45,
+        ns1:46,
+        ns1:47,
+        ns1:730,
+        ns1:737,
+        ns1:738,
+        ns1:739,
+        ns1:740 ;
+    ns2:latitude "46.190811" ;
+    ns2:longitude "6.346825" .
+
+ns2:45 a ns2:point ;
+    ns2:HasPointOfInterest ns1:48,
+        ns1:49 ;
+    ns2:latitude "46.190565" ;
+    ns2:longitude "6.347154" .
+
+ns2:46 a ns2:point ;
+    ns2:latitude "46.190818" ;
+    ns2:longitude "6.347347" .
+
+ns2:47 a ns2:point ;
+    ns2:HasPointOfInterest ns1:50,
+        ns1:51 ;
+    ns2:latitude "46.190818" ;
+    ns2:longitude "6.347604" .
+
+ns2:48 a ns2:point ;
+    ns2:latitude "46.1911" ;
+    ns2:longitude "6.347669" .
+
+ns2:49 a ns2:point ;
+    ns2:HasPointOfInterest ns1:52,
+        ns1:618 ;
+    ns2:latitude "46.191189" ;
+    ns2:longitude "6.348098" .
+
+ns2:5 a ns2:point ;
+    ns2:latitude "46.202207" ;
+    ns2:longitude "6.339049" .
+
+ns2:50 a ns2:point ;
+    ns2:latitude "46.19143" ;
+    ns2:longitude "6.348325" .
+
+ns2:51 a ns2:point ;
+    ns2:latitude "46.191798" ;
+    ns2:longitude "6.34842" .
+
+ns2:52 a ns2:point ;
+    ns2:HasPointOfInterest ns1:53 ;
+    ns2:latitude "46.191843" ;
+    ns2:longitude "6.348745" .
+
+ns2:53 a ns2:point ;
+    ns2:latitude "46.192048" ;
+    ns2:longitude "6.349103" .
+
+ns2:54 a ns2:point ;
+    ns2:latitude "46.192216" ;
+    ns2:longitude "6.349337" .
+
+ns2:55 a ns2:point ;
+    ns2:latitude "46.192384" ;
+    ns2:longitude "6.349581" .
+
+ns2:56 a ns2:point ;
+    ns2:latitude "46.192579" ;
+    ns2:longitude "6.349767" .
+
+ns2:57 a ns2:point ;
+    ns2:latitude "46.192711" ;
+    ns2:longitude "6.349911" .
+
+ns2:58 a ns2:point ;
+    ns2:latitude "46.192552" ;
+    ns2:longitude "6.350152" .
+
+ns2:59 a ns2:point ;
+    ns2:HasPointOfInterest ns1:620 ;
+    ns2:latitude "46.192283" ;
+    ns2:longitude "6.350291" .
+
+ns2:6 a ns2:point ;
+    ns2:HasPointOfInterest ns1:552,
+        ns1:639 ;
+    ns2:latitude "46.201667" ;
+    ns2:longitude "6.339603" .
+
+ns2:60 a ns2:point ;
+    ns2:HasPointOfInterest ns1:54 ;
+    ns2:latitude "46.192056" ;
+    ns2:longitude "6.350247" .
+
+ns2:61 a ns2:point ;
+    ns2:latitude "46.19183" ;
+    ns2:longitude "6.350151" .
+
+ns2:62 a ns2:point ;
+    ns2:latitude "46.191603" ;
+    ns2:longitude "6.350097" .
+
+ns2:63 a ns2:point ;
+    ns2:latitude "46.191427" ;
+    ns2:longitude "6.350067" .
+
+ns2:64 a ns2:point ;
+    ns2:latitude "46.191162" ;
+    ns2:longitude "6.349878" .
+
+ns2:65 a ns2:point ;
+    ns2:latitude "46.190985" ;
+    ns2:longitude "6.349857" .
+
+ns2:66 a ns2:point ;
+    ns2:latitude "46.190758" ;
+    ns2:longitude "6.349981" .
+
+ns2:67 a ns2:point ;
+    ns2:latitude "46.190496" ;
+    ns2:longitude "6.349931" .
+
+ns2:68 a ns2:point ;
+    ns2:latitude "46.19006" ;
+    ns2:longitude "6.349922" .
+
+ns2:69 a ns2:point ;
+    ns2:latitude "46.189796" ;
+    ns2:longitude "6.350018" .
+
+ns2:7 a ns2:point ;
+    ns2:HasPointOfInterest ns1:640 ;
+    ns2:latitude "46.201213" ;
+    ns2:longitude "6.339743" .
+
+ns2:70 a ns2:point ;
+    ns2:latitude "46.190068" ;
+    ns2:longitude "6.349918" .
+
+ns2:71 a ns2:point ;
+    ns2:latitude "46.190487" ;
+    ns2:longitude "6.349927" .
+
+ns2:72 a ns2:point ;
+    ns2:latitude "46.19077" ;
+    ns2:longitude "6.349969" .
+
+ns2:73 a ns2:point ;
+    ns2:latitude "46.191001" ;
+    ns2:longitude "6.349871" .
+
+ns2:74 a ns2:point ;
+    ns2:latitude "46.191159" ;
+    ns2:longitude "6.349868" .
+
+ns2:75 a ns2:point ;
+    ns2:latitude "46.191427" ;
+    ns2:longitude "6.350075" .
+
+ns2:76 a ns2:point ;
+    ns2:latitude "46.191657" ;
+    ns2:longitude "6.350109" .
+
+ns2:77 a ns2:point ;
+    ns2:latitude "46.191816" ;
+    ns2:longitude "6.350142" .
+
+ns2:78 a ns2:point ;
+    ns2:latitude "46.192107" ;
+    ns2:longitude "6.350287" .
+
+ns2:79 a ns2:point ;
+    ns2:latitude "46.19227" ;
+    ns2:longitude "6.350287" .
+
+ns2:8 a ns2:point ;
+    ns2:latitude "46.200984" ;
+    ns2:longitude "6.339705" .
+
+ns2:80 a ns2:point ;
+    ns2:latitude "46.192561" ;
+    ns2:longitude "6.35015" .
+
+ns2:81 a ns2:point ;
+    ns2:latitude "46.192706" ;
+    ns2:longitude "6.349901" .
+
+ns2:82 a ns2:point ;
+    ns2:latitude "46.192746" ;
+    ns2:longitude "6.349577" .
+
+ns2:83 a ns2:point ;
+    ns2:latitude "46.192935" ;
+    ns2:longitude "6.34938" .
+
+ns2:84 a ns2:point ;
+    ns2:latitude "46.193137" ;
+    ns2:longitude "6.349212" .
+
+ns2:85 a ns2:point ;
+    ns2:latitude "46.19335" ;
+    ns2:longitude "6.349091" .
+
+ns2:86 a ns2:point ;
+    ns2:latitude "46.193552" ;
+    ns2:longitude "6.348927" .
+
+ns2:87 a ns2:point ;
+    ns2:latitude "46.193699" ;
+    ns2:longitude "6.348657" .
+
+ns2:88 a ns2:point ;
+    ns2:latitude "46.19392" ;
+    ns2:longitude "6.348574" .
+
+ns2:89 a ns2:point ;
+    ns2:latitude "46.194053" ;
+    ns2:longitude "6.348306" .
+
+ns2:9 a ns2:point ;
+    ns2:HasPointOfInterest ns1:624 ;
+    ns2:latitude "46.200759" ;
+    ns2:longitude "6.339604" .
+
+ns2:90 a ns2:point ;
+    ns2:latitude "46.194199" ;
+    ns2:longitude "6.348046" .
+
+ns2:91 a ns2:point ;
+    ns2:latitude "46.194314" ;
+    ns2:longitude "6.347762" .
+
+ns2:92 a ns2:point ;
+    ns2:latitude "46.194499" ;
+    ns2:longitude "6.347575" .
+
+ns2:93 a ns2:point ;
+    ns2:latitude "46.194952" ;
+    ns2:longitude "6.347464" .
+
+ns2:94 a ns2:point ;
+    ns2:latitude "46.195191" ;
+    ns2:longitude "6.347523" .
+
+ns2:95 a ns2:point ;
+    ns2:latitude "46.195423" ;
+    ns2:longitude "6.347511" .
+
+ns2:96 a ns2:point ;
+    ns2:latitude "46.195624" ;
+    ns2:longitude "6.347673" .
+
+ns2:97 a ns2:point ;
+    ns2:latitude "46.195839" ;
+    ns2:longitude "6.347823" .
+
+ns2:98 a ns2:point ;
+    ns2:latitude "46.196057" ;
+    ns2:longitude "6.347907" .
+
+ns2:99 a ns2:point ;
+    ns2:latitude "46.196285" ;
+    ns2:longitude "6.347937" .
+
+ns1:10 a ns1:node ;
+    ns1:latitude "46.2356488" ;
+    ns1:longitude "6.3600213" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:3 a ns1:node ;
+    ns1:latitude "46.2317446" ;
+    ns1:longitude "6.3555679" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:33 a ns1:node ;
+    ns1:latitude "46.1931503" ;
+    ns1:longitude "6.3498153" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2008" .
+
+ns1:34 a ns1:node ;
+    ns1:latitude "46.1933542" ;
+    ns1:longitude "6.3504491" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2008" .
+
+ns1:35 a ns1:node ;
+    ns1:latitude "46.1934584" ;
+    ns1:longitude "6.3506502" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2008" .
+
+ns1:36 a ns1:node ;
+    ns1:latitude "46.1935269" ;
+    ns1:longitude "6.3506663" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2008" .
+
+ns1:37 a ns1:node ;
+    ns1:latitude "46.1935943" ;
+    ns1:longitude "6.3508204" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2008" .
+
+ns1:38 a ns1:node ;
+    ns1:latitude "46.1935243" ;
+    ns1:longitude "6.3510639" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2008" .
+
+ns1:39 a ns1:node ;
+    ns1:latitude "46.1934237" ;
+    ns1:longitude "6.3511946" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2008" .
+
+ns1:4 a ns1:node ;
+    ns1:latitude "46.2338894" ;
+    ns1:longitude "6.3570156" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:40 a ns1:node ;
+    ns1:latitude "46.1934040" ;
+    ns1:longitude "6.3514253" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2008" .
+
+ns1:400 a ns1:node ;
+    ns1:highway "turning_circle" ;
+    ns1:latitude "46.2196802" ;
+    ns1:longitude "6.3473671" .
+
+ns1:401 a ns1:node ;
+    ns1:ele "1480" ;
+    ns1:latitude "46.2303853" ;
+    ns1:longitude "6.3552173" ;
+    ns1:name "Signal des Voirons" ;
+    ns1:natural "peak" .
+
+ns1:402 a ns1:node ;
+    ns1:ele "1457" ;
+    ns1:latitude "46.2147584" ;
+    ns1:longitude "6.3554100" ;
+    ns1:name "Pointe de Brantaz" ;
+    ns1:natural "peak" .
+
+ns1:403 a ns1:node ;
+    ns1:description "Borne auxiliaire Est - Point constaté détruit en 1979" ;
+    ns1:latitude "46.2304308" ;
+    ns1:longitude "6.3551670" ;
+    ns1:man_made "survey_point" ;
+    ns1:note "Ne pas déplacer ce point, cf. - Do not move this node, see - http://wiki.openstreetmap.org/wiki/WikiProject_France/Repères_Géodésiques#Permanence_des_rep.C3.A8res" ;
+    ns1:ref "7403701 -" ;
+    ns1:source "©IGN 2010 dans le cadre de la cartographie réglementaire" ;
+    ns1:url "http://geodesie.ign.fr/fiches/index.php?module=e&action=fichepdf&source=carte&sit_no=7403701" .
+
+ns1:404 a ns1:node ;
+    ns1:description "Croix en bois : Centre - Point constaté détruit en 1979" ;
+    ns1:ele "1480" ;
+    ns1:latitude "46.2301183" ;
+    ns1:longitude "6.3550338" ;
+    ns1:man_made "survey_point" ;
+    ns1:note "Ne pas déplacer ce point, cf. - Do not move this node, see - http://wiki.openstreetmap.org/wiki/WikiProject_France/Repères_Géodésiques#Permanence_des_rep.C3.A8res" ;
+    ns1:ref "7403701 -" ;
+    ns1:source "©IGN 2010 dans le cadre de la cartographie réglementaire" ;
+    ns1:url "http://geodesie.ign.fr/fiches/index.php?module=e&action=fichepdf&source=carte&sit_no=7403701" .
+
+ns1:405 a ns1:node ;
+    ns1:description "Borne du SGA : Repère en bronze GM - Point vu en place en 1994. Vu le 13.08.2019" ;
+    ns1:ele "1480.46" ;
+    ns1:latitude "46.2304322" ;
+    ns1:longitude "6.3551410" ;
+    ns1:man_made "survey_point" ;
+    ns1:note "Ne pas déplacer ce point, cf. - Do not move this node, see - http://wiki.openstreetmap.org/wiki/WikiProject_France/Repères_Géodésiques#Permanence_des_rep.C3.A8res" ;
+    ns1:ref "7403701 - A" ;
+    ns1:source "©IGN 2010 dans le cadre de la cartographie réglementaire" ;
+    ns1:url "http://geodesie.ign.fr/fiches/index.php?module=e&action=fichepdf&source=carte&sit_no=7403701" .
+
+ns1:406 a ns1:node ;
+    ns1:description "Borne auxiliaire Sud - Point vu en place en 1979. Vu le 13.08.2019" ;
+    ns1:latitude "46.2304140" ;
+    ns1:longitude "6.3551382" ;
+    ns1:man_made "survey_point" ;
+    ns1:note "Ne pas déplacer ce point, cf. - Do not move this node, see - http://wiki.openstreetmap.org/wiki/WikiProject_France/Repères_Géodésiques#Permanence_des_rep.C3.A8res" ;
+    ns1:ref "7403701 - B" ;
+    ns1:source "©IGN 2010 dans le cadre de la cartographie réglementaire" ;
+    ns1:url "http://geodesie.ign.fr/fiches/index.php?module=e&action=fichepdf&source=carte&sit_no=7403701" .
+
+ns1:407 a ns1:node ;
+    ns1:description "Borne auxiliaire Ouest - Point vu en place en 1979" ;
+    ns1:latitude "46.2304337" ;
+    ns1:longitude "6.3551141" ;
+    ns1:man_made "survey_point" ;
+    ns1:note "Ne pas déplacer ce point, cf. - Do not move this node, see - http://wiki.openstreetmap.org/wiki/WikiProject_France/Repères_Géodésiques#Permanence_des_rep.C3.A8res" ;
+    ns1:ref "7403701 - C" ;
+    ns1:source "©IGN 2010 dans le cadre de la cartographie réglementaire" ;
+    ns1:url "http://geodesie.ign.fr/fiches/index.php?module=e&action=fichepdf&source=carte&sit_no=7403701" .
+
+ns1:408 a ns1:node ;
+    ns1:description "Borne auxiliaire Nord - Point vu en place en 1979. Vu le 13.08.2019" ;
+    ns1:latitude "46.2304503" ;
+    ns1:longitude "6.3551438" ;
+    ns1:man_made "survey_point" ;
+    ns1:note "Ne pas déplacer ce point, cf. - Do not move this node, see - http://wiki.openstreetmap.org/wiki/WikiProject_France/Repères_Géodésiques#Permanence_des_rep.C3.A8res" ;
+    ns1:ref "7403701 - D" ;
+    ns1:source "©IGN 2010 dans le cadre de la cartographie réglementaire" ;
+    ns1:url "http://geodesie.ign.fr/fiches/index.php?module=e&action=fichepdf&source=carte&sit_no=7403701" .
+
+ns1:409 a ns1:node ;
+    ns1:description "Borne auxiliaire Est - Point vu en place en 1979" ;
+    ns1:latitude "46.2304308" ;
+    ns1:longitude "6.3551670" ;
+    ns1:man_made "survey_point" ;
+    ns1:note "Ne pas déplacer ce point, cf. - Do not move this node, see - http://wiki.openstreetmap.org/wiki/WikiProject_France/Repères_Géodésiques#Permanence_des_rep.C3.A8res" ;
+    ns1:ref "7403701 - E" ;
+    ns1:source "©IGN 2010 dans le cadre de la cartographie réglementaire" ;
+    ns1:url "http://geodesie.ign.fr/fiches/index.php?module=e&action=fichepdf&source=carte&sit_no=7403701" .
+
+ns1:41 a ns1:node ;
+    ns1:latitude "46.1933279" ;
+    ns1:longitude "6.3516241" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2008" .
+
+ns1:411 a ns1:node ;
+    ns1:highway "turning_circle" ;
+    ns1:latitude "46.2257693" ;
+    ns1:longitude "6.3493280" .
+
+ns1:412 a ns1:node ;
+    ns1:highway "turning_loop" ;
+    ns1:latitude "46.1993174" ;
+    ns1:longitude "6.3416914" .
+
+ns1:413 a ns1:node ;
+    ns1:ele "1292" ;
+    ns1:latitude "46.1927200" ;
+    ns1:longitude "6.3500751" ;
+    ns1:mountain_pass "yes" ;
+    ns1:name "Col du Pralère" ;
+    ns1:natural "saddle" .
+
+ns1:414 a ns1:node ;
+    ns1:ele "1406" ;
+    ns1:latitude "46.1964571" ;
+    ns1:longitude "6.3480596" ;
+    ns1:name "Le Pralère" ;
+    ns1:natural "peak" .
+
+ns1:416 a ns1:node ;
+    ns1:ford "yes" ;
+    ns1:latitude "46.1919456" ;
+    ns1:longitude "6.3388850" .
+
+ns1:417 a ns1:node ;
+    ns1:barrier "gate" ;
+    ns1:latitude "46.2258104" ;
+    ns1:longitude "6.3582610" .
+
+ns1:418 a ns1:node ;
+    ns1:latitude "46.2290129" ;
+    ns1:longitude "6.3578182" ;
+    ns1:noexit "yes" .
+
+ns1:419 a ns1:node ;
+    ns1:highway "turning_circle" ;
+    ns1:latitude "46.2067107" ;
+    ns1:longitude "6.3467277" .
+
+ns1:42 a ns1:node ;
+    ns1:latitude "46.1933576" ;
+    ns1:longitude "6.3517589" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2008" .
+
+ns1:420 a ns1:node ;
+    ns1:latitude "46.1905984" ;
+    ns1:leaf_type "broadleaved" ;
+    ns1:longitude "6.3414185" ;
+    ns1:natural "tree" .
+
+ns1:421 a ns1:node ;
+    ns1:latitude "46.2061733" ;
+    ns1:leaf_type "needleleaved" ;
+    ns1:longitude "6.3400061" ;
+    ns1:natural "tree" .
+
+ns1:422 a ns1:node ;
+    ns1:latitude "46.2071394" ;
+    ns1:leaf_type "needleleaved" ;
+    ns1:longitude "6.3399184" ;
+    ns1:natural "tree" .
+
+ns1:423 a ns1:node ;
+    ns1:latitude "46.2072387" ;
+    ns1:leaf_type "needleleaved" ;
+    ns1:longitude "6.3399343" ;
+    ns1:natural "tree" .
+
+ns1:424 a ns1:node ;
+    ns1:latitude "46.2083556" ;
+    ns1:leaf_type "needleleaved" ;
+    ns1:longitude "6.3401071" ;
+    ns1:natural "tree" .
+
+ns1:425 a ns1:node ;
+    ns1:latitude "46.2087374" ;
+    ns1:leaf_type "needleleaved" ;
+    ns1:longitude "6.3390170" ;
+    ns1:natural "tree" .
+
+ns1:426 a ns1:node ;
+    ns1:latitude "46.2092915" ;
+    ns1:leaf_type "needleleaved" ;
+    ns1:longitude "6.3396285" ;
+    ns1:natural "tree" .
+
+ns1:427 a ns1:node ;
+    ns1:latitude "46.1898603" ;
+    ns1:leaf_type "broadleaved" ;
+    ns1:longitude "6.3378914" ;
+    ns1:natural "tree" .
+
+ns1:429 a ns1:node ;
+    ns1:latitude "46.2141056" ;
+    ns1:longitude "6.3432460" ;
+    ns1:natural "tree" ;
+    ns1:source "Bing" .
+
+ns1:43 a ns1:node ;
+    ns1:latitude "46.1932085" ;
+    ns1:longitude "6.3520684" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2008" .
+
+ns1:434 a ns1:node ;
+    ns1:latitude "46.2153221" ;
+    ns1:leaf_type "needleleaved" ;
+    ns1:longitude "6.3453299" ;
+    ns1:natural "tree" .
+
+ns1:44 a ns1:node ;
+    ns1:latitude "46.1930014" ;
+    ns1:longitude "6.3521747" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2008" .
+
+ns1:449 a ns1:node ;
+    ns1:latitude "46.2156681" ;
+    ns1:leaf_type "needleleaved" ;
+    ns1:longitude "6.3454332" ;
+    ns1:natural "tree" .
+
+ns1:45 a ns1:node ;
+    ns1:latitude "46.1929902" ;
+    ns1:longitude "6.3522733" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2008" .
+
+ns1:451 a ns1:node ;
+    ns1:latitude "46.2159790" ;
+    ns1:leaf_type "needleleaved" ;
+    ns1:longitude "6.3454072" ;
+    ns1:natural "tree" ;
+    ns1:source "Bing" .
+
+ns1:452 a ns1:node ;
+    ns1:latitude "46.2162403" ;
+    ns1:leaf_type "needleleaved" ;
+    ns1:longitude "6.3452733" ;
+    ns1:natural "tree" .
+
+ns1:453 a ns1:node ;
+    ns1:latitude "46.2168070" ;
+    ns1:leaf_type "needleleaved" ;
+    ns1:longitude "6.3454332" ;
+    ns1:natural "tree" .
+
+ns1:456 a ns1:node ;
+    ns1:latitude "46.2169387" ;
+    ns1:leaf_type "needleleaved" ;
+    ns1:longitude "6.3443650" ;
+    ns1:natural "tree" .
+
+ns1:46 a ns1:node ;
+    ns1:latitude "46.1928452" ;
+    ns1:longitude "6.3524671" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2008" .
+
+ns1:47 a ns1:node ;
+    ns1:latitude "46.1927055" ;
+    ns1:longitude "6.3524015" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2008" .
+
+ns1:473 a ns1:node ;
+    ns1:latitude "46.2162108" ;
+    ns1:leaf_type "needleleaved" ;
+    ns1:longitude "6.3461956" ;
+    ns1:natural "tree" .
+
+ns1:474 a ns1:node ;
+    ns1:latitude "46.2169736" ;
+    ns1:leaf_type "needleleaved" ;
+    ns1:longitude "6.3470636" ;
+    ns1:natural "tree" .
+
+ns1:475 a ns1:node ;
+    ns1:latitude "46.2172190" ;
+    ns1:longitude "6.3452868" ;
+    ns1:natural "tree" ;
+    ns1:source "Bing" .
+
+ns1:476 a ns1:node ;
+    ns1:latitude "46.2173288" ;
+    ns1:longitude "6.3457889" ;
+    ns1:natural "tree" ;
+    ns1:source "Bing" .
+
+ns1:477 a ns1:node ;
+    ns1:latitude "46.2175753" ;
+    ns1:longitude "6.3455787" ;
+    ns1:natural "tree" ;
+    ns1:source "Bing" .
+
+ns1:478 a ns1:node ;
+    ns1:latitude "46.2176258" ;
+    ns1:longitude "6.3458533" ;
+    ns1:natural "tree" ;
+    ns1:source "Bing" .
+
+ns1:479 a ns1:node ;
+    ns1:latitude "46.2176406" ;
+    ns1:longitude "6.3444628" ;
+    ns1:natural "tree" ;
+    ns1:source "Bing" .
+
+ns1:48 a ns1:node ;
+    ns1:latitude "46.1921772" ;
+    ns1:longitude "6.3530146" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2008" .
+
+ns1:480 a ns1:node ;
+    ns1:latitude "46.2177178" ;
+    ns1:longitude "6.3445272" ;
+    ns1:natural "tree" ;
+    ns1:source "Bing" .
+
+ns1:481 a ns1:node ;
+    ns1:latitude "46.2178578" ;
+    ns1:leaf_type "needleleaved" ;
+    ns1:longitude "6.3471425" ;
+    ns1:natural "tree" .
+
+ns1:482 a ns1:node ;
+    ns1:latitude "46.2180059" ;
+    ns1:longitude "6.3459821" ;
+    ns1:natural "tree" ;
+    ns1:source "Bing" .
+
+ns1:483 a ns1:node ;
+    ns1:latitude "46.2183860" ;
+    ns1:longitude "6.3465958" ;
+    ns1:natural "tree" ;
+    ns1:source "Bing" .
+
+ns1:484 a ns1:node ;
+    ns1:direction "295" ;
+    ns1:latitude "46.2243855" ;
+    ns1:longitude "6.3530813" ;
+    ns1:name "Saut de la Pucelle" ;
+    ns1:tourism "viewpoint" .
+
+ns1:485 a ns1:node ;
+    ns1:ele "1045" ;
+    ns1:hiking "yes" ;
+    ns1:information "guidepost" ;
+    ns1:latitude "46.2023253" ;
+    ns1:longitude "6.3373242" ;
+    ns1:name "Les Affamées (Parking)" ;
+    ns1:tourism "information" .
+
+ns1:486 a ns1:node ;
+    ns1:ele "1175" ;
+    ns1:hiking "yes" ;
+    ns1:information "guidepost" ;
+    ns1:latitude "46.2092484" ;
+    ns1:longitude "6.3464558" ;
+    ns1:name "Rochette Dessus" ;
+    ns1:operator "Haute Savoie Conseil Général" ;
+    ns1:tourism "information" .
+
+ns1:487 a ns1:node ;
+    ns1:direction "90" ;
+    ns1:ele "1375" ;
+    ns1:hiking "yes" ;
+    ns1:information "guidepost" ;
+    ns1:latitude "46.2074234" ;
+    ns1:longitude "6.3513668" ;
+    ns1:name "Pas de Marcy" ;
+    ns1:operator "Haute Savoie Conseil Général" ;
+    ns1:tourism "information" .
+
+ns1:488 a ns1:node ;
+    ns1:ele "1290" ;
+    ns1:hiking "yes" ;
+    ns1:information "guidepost" ;
+    ns1:latitude "46.1927089" ;
+    ns1:longitude "6.3501613" ;
+    ns1:name "Col du Pralère" ;
+    ns1:operator "Haute Savoie Conseil Général" ;
+    ns1:tourism "information" .
+
+ns1:489 a ns1:node ;
+    ns1:ele "1406" ;
+    ns1:hiking "yes" ;
+    ns1:information "guidepost" ;
+    ns1:latitude "46.1968652" ;
+    ns1:longitude "6.3482496" ;
+    ns1:name "Le Pralère" ;
+    ns1:operator "Haute Savoie Conseil Général" ;
+    ns1:tourism "information" .
+
+ns1:49 a ns1:node ;
+    ns1:latitude "46.1919757" ;
+    ns1:longitude "6.3532871" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2008" .
+
+ns1:490 a ns1:node ;
+    ns1:ele "1303" ;
+    ns1:hiking "yes" ;
+    ns1:information "guidepost" ;
+    ns1:latitude "46.1898099" ;
+    ns1:longitude "6.3500208" ;
+    ns1:name "Notre-Dame du Pralère" ;
+    ns1:operator "Haute Savoie Conseil Général" ;
+    ns1:tourism "information" .
+
+ns1:491 a ns1:node ;
+    ns1:ele "1435" ;
+    ns1:hiking "yes" ;
+    ns1:information "guidepost" ;
+    ns1:latitude "46.2289986" ;
+    ns1:longitude "6.3575045" ;
+    ns1:name "Parking du Prieuré" ;
+    ns1:operator "Les Voirons par le Reposoir" ;
+    ns1:tourism "information" .
+
+ns1:492 a ns1:node ;
+    ns1:ele "1432" ;
+    ns1:hiking "yes" ;
+    ns1:information "guidepost" ;
+    ns1:latitude "46.2261851" ;
+    ns1:longitude "6.3553790" ;
+    ns1:name "Piste de la transfiguration" ;
+    ns1:tourism "information" .
+
+ns1:493 a ns1:node ;
+    ns1:ele "1358" ;
+    ns1:hiking "yes" ;
+    ns1:information "guidepost" ;
+    ns1:latitude "46.2258282" ;
+    ns1:longitude "6.3581226" ;
+    ns1:name "Monastère des Voirons" ;
+    ns1:tourism "information" .
+
+ns1:494 a ns1:node ;
+    ns1:ele "1460" ;
+    ns1:hiking "yes" ;
+    ns1:information "guidepost" ;
+    ns1:latitude "46.2267940" ;
+    ns1:longitude "6.3539008" ;
+    ns1:name "Crêtes des Voirons" ;
+    ns1:operator "Haute Savoie Conseil Général" ;
+    ns1:tourism "information" .
+
+ns1:495 a ns1:node ;
+    ns1:ele "1430" ;
+    ns1:hiking "yes" ;
+    ns1:information "guidepost" ;
+    ns1:latitude "46.2243604" ;
+    ns1:longitude "6.3532031" ;
+    ns1:name "Saut de la Pucelle" ;
+    ns1:operator "Haute Savoie Conseil Général" ;
+    ns1:tourism "information" .
+
+ns1:496 a ns1:node ;
+    ns1:ele "1392" ;
+    ns1:hiking "yes" ;
+    ns1:information "guidepost" ;
+    ns1:latitude "46.2215470" ;
+    ns1:longitude "6.3525213" ;
+    ns1:name "Col Du Prieuré" ;
+    ns1:operator "Haute Savoie Conseil Général" ;
+    ns1:tourism "information" .
+
+ns1:497 a ns1:node ;
+    ns1:ele "1446" ;
+    ns1:latitude "46.2163275" ;
+    ns1:longitude "6.3543774" ;
+    ns1:tourism "viewpoint" .
+
+ns1:498 a ns1:node ;
+    ns1:direction "0" ;
+    ns1:ele "1457" ;
+    ns1:hiking "yes" ;
+    ns1:information "guidepost" ;
+    ns1:latitude "46.2147013" ;
+    ns1:longitude "6.3553997" ;
+    ns1:name "Pointe de Brantaz" ;
+    ns1:operator "Haute Savoie Conseil Général" ;
+    ns1:tourism "information" .
+
+ns1:499 a ns1:node ;
+    ns1:ele "1480" ;
+    ns1:hiking "yes" ;
+    ns1:information "guidepost" ;
+    ns1:latitude "46.2305428" ;
+    ns1:longitude "6.3551376" ;
+    ns1:name "Signal des Voirons" ;
+    ns1:tourism "information" .
+
+ns1:5 a ns1:node ;
+    ns1:latitude "46.2339339" ;
+    ns1:longitude "6.3568995" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:50 a ns1:node ;
+    ns1:latitude "46.1917599" ;
+    ns1:longitude "6.3537464" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2008" .
+
+ns1:500 a ns1:node ;
+    ns1:direction "270" ;
+    ns1:ele "1445" ;
+    ns1:hiking "yes" ;
+    ns1:information "guidepost" ;
+    ns1:latitude "46.2149903" ;
+    ns1:longitude "6.3547308" ;
+    ns1:name "Pointe de Brantaz" ;
+    ns1:operator "Haute Savoie Conseil Général" ;
+    ns1:tourism "information" .
+
+ns1:501 a ns1:node ;
+    ns1:ele "1371" ;
+    ns1:hiking "yes" ;
+    ns1:information "guidepost" ;
+    ns1:latitude "46.2338835" ;
+    ns1:longitude "6.3571770" ;
+    ns1:name "Notre-Dame des Voirons" ;
+    ns1:tourism "information" .
+
+ns1:502 a ns1:node ;
+    ns1:ele "1458" ;
+    ns1:information "guidepost" ;
+    ns1:latitude "46.2272532" ;
+    ns1:longitude "6.3540320" ;
+    ns1:name "Balcon du Léman" ;
+    ns1:tourism "information" .
+
+ns1:503 a ns1:node ;
+    ns1:ele "1220" ;
+    ns1:hiking "yes" ;
+    ns1:information "guidepost" ;
+    ns1:latitude "46.2296191" ;
+    ns1:longitude "6.3492774" ;
+    ns1:name "La Servette" ;
+    ns1:operator "Haute Savoie Conseil Général" ;
+    ns1:tourism "information" .
+
+ns1:504 a ns1:node ;
+    ns1:ele "1193" ;
+    ns1:hiking "yes" ;
+    ns1:information "guidepost" ;
+    ns1:latitude "46.2291169" ;
+    ns1:longitude "6.3483317" ;
+    ns1:name "La Servette (Maison Forestière)" ;
+    ns1:operator "Haute Savoie Conseil Général" ;
+    ns1:tourism "information" .
+
+ns1:506 a ns1:node ;
+    ns1:latitude "46.2230212" ;
+    ns1:longitude "6.3555759" ;
+    ns1:operator "Enedis" ;
+    ns1:power "terminal" .
+
+ns1:507 a ns1:node ;
+    ns1:latitude "46.2225256" ;
+    ns1:longitude "6.3557880" ;
+    ns1:operator "Enedis" ;
+    ns1:power "pole" .
+
+ns1:508 a ns1:node ;
+    ns1:latitude "46.2222036" ;
+    ns1:longitude "6.3559341" ;
+    ns1:operator "Enedis" ;
+    ns1:power "pole" .
+
+ns1:509 a ns1:node ;
+    ns1:latitude "46.2219716" ;
+    ns1:longitude "6.3565591" ;
+    ns1:operator "Enedis" ;
+    ns1:power "pole" .
+
+ns1:51 a ns1:node ;
+    ns1:latitude "46.1917764" ;
+    ns1:longitude "6.3538380" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2008" .
+
+ns1:510 a ns1:node ;
+    ns1:latitude "46.2217156" ;
+    ns1:longitude "6.3572645" ;
+    ns1:operator "Enedis" ;
+    ns1:power "pole" .
+
+ns1:511 a ns1:node ;
+    ns1:latitude "46.2211032" ;
+    ns1:longitude "6.3590160" ;
+    ns1:operator "Enedis" ;
+    ns1:power "pole" .
+
+ns1:52 a ns1:node ;
+    ns1:latitude "46.1912283" ;
+    ns1:longitude "6.3544730" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2008" .
+
+ns1:525 a ns1:node ;
+    ns1:ele "1358" ;
+    ns1:hiking "yes" ;
+    ns1:information "guidepost" ;
+    ns1:latitude "46.2256114" ;
+    ns1:longitude "6.3575312" ;
+    ns1:name "Monastère des Voirons" ;
+    ns1:tourism "information" .
+
+ns1:526 a ns1:node ;
+    ns1:direction "270" ;
+    ns1:latitude "46.2335420" ;
+    ns1:longitude "6.3567068" ;
+    ns1:tourism "viewpoint" .
+
+ns1:527 a ns1:node ;
+    ns1:latitude "46.2044915" ;
+    ns1:leaf_type "broadleaved" ;
+    ns1:longitude "6.3370878" ;
+    ns1:natural "tree" .
+
+ns1:528 a ns1:node ;
+    ns1:latitude "46.2044126" ;
+    ns1:leaf_type "needleleaved" ;
+    ns1:longitude "6.3370570" ;
+    ns1:natural "tree" .
+
+ns1:529 a ns1:node ;
+    ns1:amenity "bench" ;
+    ns1:backrest "yes" ;
+    ns1:latitude "46.2243646" ;
+    ns1:longitude "6.3531479" ;
+    ns1:material "wood" ;
+    ns1:seats "4" .
+
+ns1:53 a ns1:node ;
+    ns1:latitude "46.1909829" ;
+    ns1:longitude "6.3550914" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2008" .
+
+ns1:533 a ns1:node ;
+    ns1:latitude "46.2011652" ;
+    ns1:longitude "6.3379158" ;
+    ns1:name "Crêt Jacquet" ;
+    ns1:place "locality" .
+
+ns1:534 a ns1:node ;
+    ns1:latitude "46.2012078" ;
+    ns1:longitude "6.3411620" ;
+    ns1:name "Ouaillouds" ;
+    ns1:place "locality" .
+
+ns1:535 a ns1:node ;
+    ns1:disused:place "locality" ;
+    ns1:latitude "46.2018148" ;
+    ns1:longitude "6.3435043" ;
+    ns1:name "Prallets-Nord" .
+
+ns1:536 a ns1:node ;
+    ns1:latitude "46.2032256" ;
+    ns1:longitude "6.3428389" ;
+    ns1:name "Les Crêts" ;
+    ns1:place "locality" .
+
+ns1:537 a ns1:node ;
+    ns1:latitude "46.2038618" ;
+    ns1:longitude "6.3478274" ;
+    ns1:name "Les Jorances" ;
+    ns1:place "locality" .
+
+ns1:538 a ns1:node ;
+    ns1:latitude "46.2094542" ;
+    ns1:longitude "6.3442735" ;
+    ns1:name "Rochette-Dessus" ;
+    ns1:place "locality" .
+
+ns1:539 a ns1:node ;
+    ns1:latitude "46.2068998" ;
+    ns1:longitude "6.3388459" ;
+    ns1:name "Les Prés Jaillet" ;
+    ns1:place "locality" .
+
+ns1:54 a ns1:node ;
+    ns1:latitude "46.1906322" ;
+    ns1:longitude "6.3563916" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2008" .
+
+ns1:540 a ns1:node ;
+    ns1:disused:place "locality" ;
+    ns1:latitude "46.1943582" ;
+    ns1:longitude "6.3479433" ;
+    ns1:name "Le Pralère-Nord" .
+
+ns1:541 a ns1:node ;
+    ns1:latitude "46.1953213" ;
+    ns1:longitude "6.3466104" ;
+    ns1:name "La Roche au Corbeau" ;
+    ns1:place "locality" .
+
+ns1:542 a ns1:node ;
+    ns1:disused:place "locality" ;
+    ns1:latitude "46.1952683" ;
+    ns1:longitude "6.3447104" ;
+    ns1:name "Sous la Roche au Corbeau - Nord" .
+
+ns1:543 a ns1:node ;
+    ns1:disused:place "locality" ;
+    ns1:latitude "46.1929489" ;
+    ns1:longitude "6.3453793" ;
+    ns1:name "Sous la Roche au Corbeau - Sud" .
+
+ns1:544 a ns1:node ;
+    ns1:disused:place "locality" ;
+    ns1:latitude "46.1924589" ;
+    ns1:longitude "6.3438188" ;
+    ns1:name "Prallets-Sud" .
+
+ns1:545 a ns1:node ;
+    ns1:disused:place "locality" ;
+    ns1:latitude "46.1922075" ;
+    ns1:longitude "6.3494207" ;
+    ns1:name "Le Pralère-Sud" .
+
+ns1:546 a ns1:node ;
+    ns1:disused:place "locality" ;
+    ns1:latitude "46.1914908" ;
+    ns1:longitude "6.3464110" ;
+    ns1:name "Les Chables-Nord" .
+
+ns1:547 a ns1:node ;
+    ns1:latitude "46.1905295" ;
+    ns1:longitude "6.3397533" ;
+    ns1:name "Pres Ravouy" ;
+    ns1:place "isolated_dwelling" .
+
+ns1:548 a ns1:node ;
+    ns1:latitude "46.1913854" ;
+    ns1:longitude "6.3413703" ;
+    ns1:name "Sorbier" ;
+    ns1:place "isolated_dwelling" .
+
+ns1:549 a ns1:node ;
+    ns1:latitude "46.2127686" ;
+    ns1:longitude "6.3464764" ;
+    ns1:name "Les Charvets" ;
+    ns1:place "locality" .
+
+ns1:550 a ns1:node ;
+    ns1:latitude "46.2078253" ;
+    ns1:longitude "6.3484973" ;
+    ns1:name "Chatillon" ;
+    ns1:place "locality" .
+
+ns1:551 a ns1:node ;
+    ns1:latitude "46.2096847" ;
+    ns1:longitude "6.3507741" ;
+    ns1:name "Taillis de la Marquise" ;
+    ns1:place "locality" .
+
+ns1:552 a ns1:node ;
+    ns1:disused:place "locality" ;
+    ns1:latitude "46.1974683" ;
+    ns1:longitude "6.3379217" ;
+    ns1:name "Les Molliets-Sud" .
+
+ns1:553 a ns1:node ;
+    ns1:latitude "46.1980971" ;
+    ns1:longitude "6.3393980" ;
+    ns1:name "Les Salins" ;
+    ns1:place "locality" .
+
+ns1:554 a ns1:node ;
+    ns1:disused:place "locality" ;
+    ns1:latitude "46.1996023" ;
+    ns1:longitude "6.3379964" ;
+    ns1:name "Les Molliets-Nord" .
+
+ns1:555 a ns1:node ;
+    ns1:latitude "46.1934422" ;
+    ns1:longitude "6.3394441" ;
+    ns1:name "Les Crottes" ;
+    ns1:place "locality" .
+
+ns1:556 a ns1:node ;
+    ns1:latitude "46.1958978" ;
+    ns1:longitude "6.3396485" ;
+    ns1:name "Cret des Fenils" ;
+    ns1:place "locality" .
+
+ns1:557 a ns1:node ;
+    ns1:latitude "46.1923442" ;
+    ns1:longitude "6.3401300" ;
+    ns1:name "Prés Devant Grange Barthou" ;
+    ns1:place "isolated_dwelling" .
+
+ns1:560 a ns1:node ;
+    ns1:ford "yes" ;
+    ns1:latitude "46.2189393" ;
+    ns1:longitude "6.3470694" .
+
+ns1:562 a ns1:node ;
+    ns1:ford "yes" ;
+    ns1:latitude "46.2142227" ;
+    ns1:longitude "6.3452002" .
+
+ns1:573 a ns1:node ;
+    ns1:ford "yes" ;
+    ns1:latitude "46.1905376" ;
+    ns1:longitude "6.3414008" .
+
+ns1:574 a ns1:node ;
+    ns1:ele "1290" ;
+    ns1:hiking "yes" ;
+    ns1:information "guidepost" ;
+    ns1:latitude "46.1927236" ;
+    ns1:longitude "6.3499420" ;
+    ns1:name "Col du Pralère" ;
+    ns1:operator "Haute Savoie Conseil Général" ;
+    ns1:tourism "information" .
+
+ns1:575 a ns1:node ;
+    ns1:ele "1075" ;
+    ns1:hiking "yes" ;
+    ns1:information "guidepost" ;
+    ns1:latitude "46.1909293" ;
+    ns1:longitude "6.3442967" ;
+    ns1:name "Grange de Boëge Dessus" ;
+    ns1:tourism "information" .
+
+ns1:576 a ns1:node ;
+    ns1:barrier "gate" ;
+    ns1:latitude "46.1903941" ;
+    ns1:longitude "6.3414293" .
+
+ns1:577 a ns1:node ;
+    ns1:barrier "gate" ;
+    ns1:latitude "46.1909530" ;
+    ns1:longitude "6.3397836" .
+
+ns1:578 a ns1:node ;
+    ns1:latitude "46.2024608" ;
+    ns1:longitude "6.3394446" ;
+    ns1:name "Prés Tiellais" ;
+    ns1:place "locality" .
+
+ns1:579 a ns1:node ;
+    ns1:latitude "46.1997995" ;
+    ns1:longitude "6.3464118" ;
+    ns1:name "Mouilles Longues" ;
+    ns1:place "locality" .
+
+ns1:580 a ns1:node ;
+    ns1:latitude "46.1986393" ;
+    ns1:longitude "6.3480066" ;
+    ns1:name "Les Mouilles Rousses" ;
+    ns1:place "locality" .
+
+ns1:584 a ns1:node ;
+    ns1:latitude "46.2101646" ;
+    ns1:longitude "6.3384931" ;
+    ns1:name "Loty" ;
+    ns1:place "isolated_dwelling" .
+
+ns1:585 a ns1:node ;
+    ns1:latitude "46.2118183" ;
+    ns1:longitude "6.3407527" ;
+    ns1:name "Les Paquis" ;
+    ns1:place "locality" .
+
+ns1:589 a ns1:node ;
+    ns1:ford "yes" ;
+    ns1:latitude "46.2138128" ;
+    ns1:longitude "6.3438498" .
+
+ns1:591 a ns1:node ;
+    ns1:latitude "46.2048607" ;
+    ns1:longitude "6.3397475" ;
+    ns1:name "Les Crettets" ;
+    ns1:place "locality" .
+
+ns1:592 a ns1:node ;
+    ns1:latitude "46.2034891" ;
+    ns1:longitude "6.3383362" ;
+    ns1:name "Les Roues" ;
+    ns1:place "isolated_dwelling" .
+
+ns1:593 a ns1:node ;
+    ns1:latitude "46.2033895" ;
+    ns1:longitude "6.3403985" ;
+    ns1:name "Dessous les Crets" ;
+    ns1:place "locality" .
+
+ns1:594 a ns1:node ;
+    ns1:latitude "46.2055464" ;
+    ns1:longitude "6.3370169" ;
+    ns1:name "Ruguay" ;
+    ns1:place "locality" .
+
+ns1:595 a ns1:node ;
+    ns1:latitude "46.2140531" ;
+    ns1:longitude "6.3512053" ;
+    ns1:name "La Marquise" ;
+    ns1:place "locality" .
+
+ns1:596 a ns1:node ;
+    ns1:latitude "46.2166812" ;
+    ns1:longitude "6.3475092" ;
+    ns1:name "La Lethaz" ;
+    ns1:place "locality" .
+
+ns1:598 a ns1:node ;
+    ns1:latitude "46.2248661" ;
+    ns1:longitude "6.3473997" ;
+    ns1:name "Communaux des Voirons" ;
+    ns1:place "locality" .
+
+ns1:6 a ns1:node ;
+    ns1:latitude "46.2341017" ;
+    ns1:longitude "6.3570771" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:600 a ns1:node ;
+    ns1:amenity "fountain" ;
+    ns1:latitude "46.2290729" ;
+    ns1:longitude "6.3482637" .
+
+ns1:601 a ns1:node ;
+    ns1:board_type "nature" ;
+    ns1:information "board" ;
+    ns1:latitude "46.2291585" ;
+    ns1:longitude "6.3483917" ;
+    ns1:name "Forêt Domaniale des Voirons" ;
+    ns1:tourism "information" .
+
+ns1:602 a ns1:node ;
+    ns1:latitude "46.2294570" ;
+    ns1:leisure "picnic_table" ;
+    ns1:longitude "6.3481969" .
+
+ns1:603 a ns1:node ;
+    ns1:latitude "46.2294005" ;
+    ns1:leisure "picnic_table" ;
+    ns1:longitude "6.3481946" .
+
+ns1:604 a ns1:node ;
+    ns1:amenity "bbq" ;
+    ns1:latitude "46.2294674" ;
+    ns1:longitude "6.3482797" .
+
+ns1:605 a ns1:node ;
+    ns1:latitude "46.2293794" ;
+    ns1:longitude "6.3481691" ;
+    ns1:natural "tree" .
+
+ns1:606 a ns1:node ;
+    ns1:amenity "fountain" ;
+    ns1:latitude "46.2295181" ;
+    ns1:longitude "6.3481737" .
+
+ns1:607 a ns1:node ;
+    ns1:amenity "bench" ;
+    ns1:backrest "yes" ;
+    ns1:latitude "46.2334870" ;
+    ns1:longitude "6.3566706" ;
+    ns1:material "wood" ;
+    ns1:name "\"Le Trône\"" ;
+    ns1:seats "1" .
+
+ns1:608 a ns1:node ;
+    ns1:ford "yes" ;
+    ns1:latitude "46.2037991" ;
+    ns1:longitude "6.3397780" .
+
+ns1:609 a ns1:node ;
+    ns1:ford "yes" ;
+    ns1:latitude "46.2024946" ;
+    ns1:longitude "6.3376017" .
+
+ns1:611 a ns1:node ;
+    ns1:latitude "46.2293010" ;
+    ns1:longitude "6.3481924" ;
+    ns1:natural "tree" .
+
+ns1:612 a ns1:node ;
+    ns1:ford "yes" ;
+    ns1:latitude "46.2008258" ;
+    ns1:longitude "6.3441216" .
+
+ns1:613 a ns1:node ;
+    ns1:ford "yes" ;
+    ns1:latitude "46.2002006" ;
+    ns1:longitude "6.3433442" .
+
+ns1:614 a ns1:node ;
+    ns1:historic "wayside_cross" ;
+    ns1:latitude "46.2237045" ;
+    ns1:longitude "6.3576548" .
+
+ns1:615 a ns1:node ;
+    ns1:latitude "46.2151567" ;
+    ns1:longitude "6.3557822" ;
+    ns1:name "Brantaz" ;
+    ns1:place "locality" .
+
+ns1:616 a ns1:node ;
+    ns1:latitude "46.1900119" ;
+    ns1:longitude "6.3502188" ;
+    ns1:name "La Pointe" ;
+    ns1:place "locality" .
+
+ns1:617 a ns1:node ;
+    ns1:disused:place "locality" ;
+    ns1:latitude "46.1901512" ;
+    ns1:longitude "6.3473408" ;
+    ns1:name "Les Chables Sud" .
+
+ns1:618 a ns1:node ;
+    ns1:latitude "46.1904549" ;
+    ns1:longitude "6.3541779" ;
+    ns1:name "Les Poses" ;
+    ns1:place "locality" .
+
+ns1:620 a ns1:node ;
+    ns1:latitude "46.1904565" ;
+    ns1:longitude "6.3561683" ;
+    ns1:name "Les Mouillettes de chez Pa" ;
+    ns1:place "locality" .
+
+ns1:621 a ns1:node ;
+    ns1:latitude "46.1918329" ;
+    ns1:longitude "6.3515248" ;
+    ns1:name "Le Cret Barra" ;
+    ns1:place "locality" .
+
+ns1:622 a ns1:node ;
+    ns1:latitude "46.1993360" ;
+    ns1:longitude "6.3557153" ;
+    ns1:name "La Joux" ;
+    ns1:place "locality" .
+
+ns1:623 a ns1:node ;
+    ns1:latitude "46.2013570" ;
+    ns1:longitude "6.3469194" ;
+    ns1:name "Bois des Fers" ;
+    ns1:place "locality" .
+
+ns1:624 a ns1:node ;
+    ns1:latitude "46.1971400" ;
+    ns1:longitude "6.3431232" ;
+    ns1:name "Prallets" ;
+    ns1:place "locality" .
+
+ns1:625 a ns1:node ;
+    ns1:latitude "46.1978013" ;
+    ns1:longitude "6.3457364" ;
+    ns1:name "Bois Jaillet" ;
+    ns1:place "locality" .
+
+ns1:626 a ns1:node ;
+    ns1:latitude "46.1999791" ;
+    ns1:longitude "6.3404106" ;
+    ns1:name "Prallets Dessous" ;
+    ns1:place "locality" .
+
+ns1:627 a ns1:node ;
+    ns1:ford "yes" ;
+    ns1:latitude "46.1947564" ;
+    ns1:longitude "6.3384999" .
+
+ns1:628 a ns1:node ;
+    ns1:latitude "46.2150715" ;
+    ns1:longitude "6.3555158" ;
+    ns1:name "Brantaz" ;
+    ns1:place "locality" .
+
+ns1:629 a ns1:node ;
+    ns1:amenity "bench" ;
+    ns1:backrest "no" ;
+    ns1:direction "70" ;
+    ns1:latitude "46.2148066" ;
+    ns1:longitude "6.3554138" ;
+    ns1:material "wood" ;
+    ns1:seats "4" .
+
+ns1:630 a ns1:node ;
+    ns1:direction "270" ;
+    ns1:ele "1457" ;
+    ns1:latitude "46.2148487" ;
+    ns1:longitude "6.3554215" ;
+    ns1:tourism "viewpoint" .
+
+ns1:631 a ns1:node ;
+    ns1:latitude "46.1944900" ;
+    ns1:longitude "6.3411592" ;
+    ns1:name "Pres Derrière Grange Barthou" ;
+    ns1:place "locality" .
+
+ns1:632 a ns1:node ;
+    ns1:barrier "gate" ;
+    ns1:latitude "46.1919486" ;
+    ns1:longitude "6.3382760" .
+
+ns1:634 a ns1:node ;
+    ns1:latitude "46.2301852" ;
+    ns1:longitude "6.3567599" ;
+    ns1:name "L'Hermitage" ;
+    ns1:place "isolated_dwelling" .
+
+ns1:635 a ns1:node ;
+    ns1:latitude "46.2223934" ;
+    ns1:longitude "6.3562744" ;
+    ns1:name "Les Chalets" ;
+    ns1:place "hamlet" .
+
+ns1:636 a ns1:node ;
+    ns1:latitude "46.2191050" ;
+    ns1:longitude "6.3569288" ;
+    ns1:name "Les Perrotins" ;
+    ns1:place "locality" .
+
+ns1:637 a ns1:node ;
+    ns1:latitude "46.2066486" ;
+    ns1:leaf_type "needleleaved" ;
+    ns1:longitude "6.3399723" ;
+    ns1:natural "tree" .
+
+ns1:638 a ns1:node ;
+    ns1:latitude "46.2080028" ;
+    ns1:leaf_type "needleleaved" ;
+    ns1:longitude "6.3402204" ;
+    ns1:natural "tree" .
+
+ns1:639 a ns1:node ;
+    ns1:latitude "46.1976339" ;
+    ns1:leaf_type "needleleaved" ;
+    ns1:longitude "6.3380572" ;
+    ns1:natural "tree" .
+
+ns1:640 a ns1:node ;
+    ns1:latitude "46.1972626" ;
+    ns1:leaf_type "broadleaved" ;
+    ns1:longitude "6.3379177" ;
+    ns1:natural "tree" .
+
+ns1:641 a ns1:node ;
+    ns1:latitude "46.2030102" ;
+    ns1:leaf_type "broadleaved" ;
+    ns1:longitude "6.3383912" ;
+    ns1:natural "tree" .
+
+ns1:642 a ns1:node ;
+    ns1:latitude "46.2043654" ;
+    ns1:leaf_type "broadleaved" ;
+    ns1:longitude "6.3371037" ;
+    ns1:natural "tree" .
+
+ns1:643 a ns1:node ;
+    ns1:latitude "46.1979003" ;
+    ns1:leaf_type "broadleaved" ;
+    ns1:longitude "6.3374631" ;
+    ns1:natural "tree" .
+
+ns1:644 a ns1:node ;
+    ns1:latitude "46.2121660" ;
+    ns1:leaf_type "needleleaved" ;
+    ns1:longitude "6.3458745" ;
+    ns1:natural "tree" .
+
+ns1:645 a ns1:node ;
+    ns1:latitude "46.2038437" ;
+    ns1:leaf_type "needleleaved" ;
+    ns1:longitude "6.3372324" ;
+    ns1:natural "tree" .
+
+ns1:646 a ns1:node ;
+    ns1:latitude "46.2038196" ;
+    ns1:leaf_type "broadleaved" ;
+    ns1:longitude "6.3371037" ;
+    ns1:natural "tree" .
+
+ns1:647 a ns1:node ;
+    ns1:latitude "46.1929803" ;
+    ns1:leaf_type "needleleaved" ;
+    ns1:longitude "6.3369334" ;
+    ns1:natural "tree" .
+
+ns1:648 a ns1:node ;
+    ns1:latitude "46.2136629" ;
+    ns1:leaf_type "needleleaved" ;
+    ns1:longitude "6.3490167" ;
+    ns1:natural "tree" .
+
+ns1:649 a ns1:node ;
+    ns1:latitude "46.2135757" ;
+    ns1:leaf_type "needleleaved" ;
+    ns1:longitude "6.3490596" ;
+    ns1:natural "tree" .
+
+ns1:650 a ns1:node ;
+    ns1:latitude "46.1925913" ;
+    ns1:leaf_type "broadleaved" ;
+    ns1:longitude "6.3375489" ;
+    ns1:natural "tree" .
+
+ns1:651 a ns1:node ;
+    ns1:latitude "46.2080083" ;
+    ns1:leaf_type "needleleaved" ;
+    ns1:longitude "6.3402982" ;
+    ns1:natural "tree" .
+
+ns1:652 a ns1:node ;
+    ns1:latitude "46.2071897" ;
+    ns1:leaf_type "needleleaved" ;
+    ns1:longitude "6.3442813" ;
+    ns1:natural "tree" .
+
+ns1:653 a ns1:node ;
+    ns1:latitude "46.2070848" ;
+    ns1:leaf_type "broadleaved" ;
+    ns1:longitude "6.3442679" ;
+    ns1:natural "tree" .
+
+ns1:658 a ns1:node ;
+    ns1:latitude "46.2148906" ;
+    ns1:leaf_type "needleleaved" ;
+    ns1:longitude "6.3453407" ;
+    ns1:natural "tree" .
+
+ns1:659 a ns1:node ;
+    ns1:latitude "46.2156465" ;
+    ns1:leaf_type "needleleaved" ;
+    ns1:longitude "6.3450873" ;
+    ns1:natural "tree" .
+
+ns1:660 a ns1:node ;
+    ns1:latitude "46.2155555" ;
+    ns1:leaf_type "needleleaved" ;
+    ns1:longitude "6.3451778" ;
+    ns1:natural "tree" .
+
+ns1:661 a ns1:node ;
+    ns1:latitude "46.2155003" ;
+    ns1:leaf_type "needleleaved" ;
+    ns1:longitude "6.3451128" ;
+    ns1:natural "tree" .
+
+ns1:662 a ns1:node ;
+    ns1:latitude "46.2156767" ;
+    ns1:leaf_type "needleleaved" ;
+    ns1:longitude "6.3453662" ;
+    ns1:natural "tree" .
+
+ns1:663 a ns1:node ;
+    ns1:latitude "46.1979776" ;
+    ns1:leaf_type "needleleaved" ;
+    ns1:longitude "6.3471587" ;
+    ns1:natural "tree" .
+
+ns1:664 a ns1:node ;
+    ns1:latitude "46.2069462" ;
+    ns1:leaf_type "needleleaved" ;
+    ns1:longitude "6.3457944" ;
+    ns1:natural "tree" .
+
+ns1:665 a ns1:node ;
+    ns1:latitude "46.2072867" ;
+    ns1:leaf_type "needleleaved" ;
+    ns1:longitude "6.3456993" ;
+    ns1:natural "tree" .
+
+ns1:666 a ns1:node ;
+    ns1:latitude "46.2071485" ;
+    ns1:leaf_type "needleleaved" ;
+    ns1:longitude "6.3459037" ;
+    ns1:natural "tree" .
+
+ns1:667 a ns1:node ;
+    ns1:latitude "46.2071132" ;
+    ns1:leaf_type "needleleaved" ;
+    ns1:longitude "6.3457801" ;
+    ns1:natural "tree" .
+
+ns1:668 a ns1:node ;
+    ns1:latitude "46.2070523" ;
+    ns1:leaf_type "needleleaved" ;
+    ns1:longitude "6.3457124" ;
+    ns1:natural "tree" .
+
+ns1:669 a ns1:node ;
+    ns1:latitude "46.2072028" ;
+    ns1:leaf_type "broadleaved" ;
+    ns1:longitude "6.3459049" ;
+    ns1:natural "tree" .
+
+ns1:670 a ns1:node ;
+    ns1:latitude "46.2072595" ;
+    ns1:leaf_type "broadleaved" ;
+    ns1:longitude "6.3458669" ;
+    ns1:natural "tree" .
+
+ns1:671 a ns1:node ;
+    ns1:latitude "46.2069947" ;
+    ns1:leaf_type "needleleaved" ;
+    ns1:longitude "6.3461497" ;
+    ns1:natural "tree" .
+
+ns1:672 a ns1:node ;
+    ns1:latitude "46.2070145" ;
+    ns1:leaf_type "broadleaved" ;
+    ns1:longitude "6.3460725" ;
+    ns1:natural "tree" .
+
+ns1:673 a ns1:node ;
+    ns1:latitude "46.2038340" ;
+    ns1:leaf_type "needleleaved" ;
+    ns1:longitude "6.3475675" ;
+    ns1:natural "tree" .
+
+ns1:674 a ns1:node ;
+    ns1:latitude "46.2041597" ;
+    ns1:leaf_type "needleleaved" ;
+    ns1:longitude "6.3475532" ;
+    ns1:natural "tree" .
+
+ns1:675 a ns1:node ;
+    ns1:latitude "46.2088402" ;
+    ns1:leaf_type "needleleaved" ;
+    ns1:longitude "6.3443196" ;
+    ns1:natural "tree" .
+
+ns1:676 a ns1:node ;
+    ns1:latitude "46.2069388" ;
+    ns1:leaf_type "needleleaved" ;
+    ns1:longitude "6.3455793" ;
+    ns1:natural "tree" .
+
+ns1:678 a ns1:node ;
+    ns1:latitude "46.2142847" ;
+    ns1:leaf_type "broadleaved" ;
+    ns1:longitude "6.3432694" ;
+    ns1:natural "tree" .
+
+ns1:679 a ns1:node ;
+    ns1:latitude "46.2149287" ;
+    ns1:leaf_type "needleleaved" ;
+    ns1:longitude "6.3455513" ;
+    ns1:natural "tree" .
+
+ns1:680 a ns1:node ;
+    ns1:latitude "46.2149083" ;
+    ns1:leaf_type "broadleaved" ;
+    ns1:longitude "6.3456385" ;
+    ns1:natural "tree" .
+
+ns1:681 a ns1:node ;
+    ns1:latitude "46.2149584" ;
+    ns1:leaf_type "broadleaved" ;
+    ns1:longitude "6.3457645" ;
+    ns1:natural "tree" .
+
+ns1:682 a ns1:node ;
+    ns1:latitude "46.2150039" ;
+    ns1:leaf_type "needleleaved" ;
+    ns1:longitude "6.3456143" ;
+    ns1:natural "tree" .
+
+ns1:683 a ns1:node ;
+    ns1:latitude "46.2150261" ;
+    ns1:leaf_type "needleleaved" ;
+    ns1:longitude "6.3457337" ;
+    ns1:natural "tree" .
+
+ns1:684 a ns1:node ;
+    ns1:latitude "46.2150568" ;
+    ns1:leaf_type "needleleaved" ;
+    ns1:longitude "6.3458303" ;
+    ns1:natural "tree" .
+
+ns1:685 a ns1:node ;
+    ns1:latitude "46.2151431" ;
+    ns1:leaf_type "needleleaved" ;
+    ns1:longitude "6.3459590" ;
+    ns1:natural "tree" .
+
+ns1:699 a ns1:node ;
+    ns1:latitude "46.2146058" ;
+    ns1:leaf_type "needleleaved" ;
+    ns1:longitude "6.3527007" ;
+    ns1:natural "tree" .
+
+ns1:7 a ns1:node ;
+    ns1:latitude "46.2343861" ;
+    ns1:longitude "6.3573184" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:700 a ns1:node ;
+    ns1:latitude "46.2144025" ;
+    ns1:leaf_type "broadleaved" ;
+    ns1:longitude "6.3513972" ;
+    ns1:natural "tree" .
+
+ns1:701 a ns1:node ;
+    ns1:latitude "46.1915172" ;
+    ns1:leaf_type "needleleaved" ;
+    ns1:longitude "6.3377139" ;
+    ns1:natural "tree" .
+
+ns1:702 a ns1:node ;
+    ns1:latitude "46.1915803" ;
+    ns1:leaf_type "needleleaved" ;
+    ns1:longitude "6.3376173" ;
+    ns1:natural "tree" .
+
+ns1:703 a ns1:node ;
+    ns1:latitude "46.1916314" ;
+    ns1:leaf_type "needleleaved" ;
+    ns1:longitude "6.3375194" ;
+    ns1:natural "tree" .
+
+ns1:704 a ns1:node ;
+    ns1:latitude "46.1915506" ;
+    ns1:leaf_type "needleleaved" ;
+    ns1:longitude "6.3373424" ;
+    ns1:natural "tree" .
+
+ns1:705 a ns1:node ;
+    ns1:latitude "46.1915942" ;
+    ns1:leaf_type "needleleaved" ;
+    ns1:longitude "6.3372995" ;
+    ns1:natural "tree" .
+
+ns1:706 a ns1:node ;
+    ns1:latitude "46.1921308" ;
+    ns1:leaf_type "broadleaved" ;
+    ns1:longitude "6.3412544" ;
+    ns1:natural "tree" .
+
+ns1:707 a ns1:node ;
+    ns1:latitude "46.1921503" ;
+    ns1:leaf_type "needleleaved" ;
+    ns1:longitude "6.3415669" ;
+    ns1:natural "tree" .
+
+ns1:708 a ns1:node ;
+    ns1:latitude "46.1921475" ;
+    ns1:leaf_type "needleleaved" ;
+    ns1:longitude "6.3415079" ;
+    ns1:natural "tree" .
+
+ns1:709 a ns1:node ;
+    ns1:latitude "46.1921030" ;
+    ns1:leaf_type "needleleaved" ;
+    ns1:longitude "6.3402969" ;
+    ns1:natural "tree" .
+
+ns1:710 a ns1:node ;
+    ns1:latitude "46.1919563" ;
+    ns1:leaf_type "needleleaved" ;
+    ns1:longitude "6.3406335" ;
+    ns1:natural "tree" .
+
+ns1:711 a ns1:node ;
+    ns1:latitude "46.1920222" ;
+    ns1:leaf_type "needleleaved" ;
+    ns1:longitude "6.3411592" ;
+    ns1:natural "tree" .
+
+ns1:712 a ns1:node ;
+    ns1:latitude "46.1907689" ;
+    ns1:leaf_type "needleleaved" ;
+    ns1:longitude "6.3414475" ;
+    ns1:natural "tree" .
+
+ns1:713 a ns1:node ;
+    ns1:latitude "46.1910845" ;
+    ns1:leaf_type "needleleaved" ;
+    ns1:longitude "6.3400716" ;
+    ns1:natural "tree" .
+
+ns1:714 a ns1:node ;
+    ns1:latitude "46.1908757" ;
+    ns1:leaf_type "needleleaved" ;
+    ns1:longitude "6.3402928" ;
+    ns1:natural "tree" .
+
+ns1:715 a ns1:node ;
+    ns1:latitude "46.1908441" ;
+    ns1:leaf_type "needleleaved" ;
+    ns1:longitude "6.3403344" ;
+    ns1:natural "tree" .
+
+ns1:716 a ns1:node ;
+    ns1:latitude "46.1902722" ;
+    ns1:leaf_type "needleleaved" ;
+    ns1:longitude "6.3408226" ;
+    ns1:natural "tree" .
+
+ns1:717 a ns1:node ;
+    ns1:latitude "46.1900160" ;
+    ns1:leaf_type "needleleaved" ;
+    ns1:longitude "6.3407783" ;
+    ns1:natural "tree" .
+
+ns1:718 a ns1:node ;
+    ns1:latitude "46.1900809" ;
+    ns1:leaf_type "needleleaved" ;
+    ns1:longitude "6.3417439" ;
+    ns1:natural "tree" .
+
+ns1:719 a ns1:node ;
+    ns1:latitude "46.1900225" ;
+    ns1:leaf_type "broadleaved" ;
+    ns1:longitude "6.3419732" ;
+    ns1:natural "tree" .
+
+ns1:720 a ns1:node ;
+    ns1:latitude "46.1900689" ;
+    ns1:leaf_type "needleleaved" ;
+    ns1:longitude "6.3418901" ;
+    ns1:natural "tree" .
+
+ns1:721 a ns1:node ;
+    ns1:latitude "46.1901543" ;
+    ns1:leaf_type "needleleaved" ;
+    ns1:longitude "6.3379298" ;
+    ns1:natural "tree" .
+
+ns1:722 a ns1:node ;
+    ns1:latitude "46.1922821" ;
+    ns1:leaf_type "broadleaved" ;
+    ns1:longitude "6.3368113" ;
+    ns1:natural "tree" .
+
+ns1:723 a ns1:node ;
+    ns1:latitude "46.1903929" ;
+    ns1:leaf_type "broadleaved" ;
+    ns1:longitude "6.3391824" ;
+    ns1:natural "tree" .
+
+ns1:724 a ns1:node ;
+    ns1:latitude "46.1907940" ;
+    ns1:leaf_type "broadleaved" ;
+    ns1:longitude "6.3392387" ;
+    ns1:natural "tree" .
+
+ns1:725 a ns1:node ;
+    ns1:latitude "46.1906918" ;
+    ns1:leaf_type "broadleaved" ;
+    ns1:longitude "6.3392803" ;
+    ns1:natural "tree" .
+
+ns1:726 a ns1:node ;
+    ns1:latitude "46.1898813" ;
+    ns1:leaf_type "broadleaved" ;
+    ns1:longitude "6.3409513" ;
+    ns1:natural "tree" .
+
+ns1:727 a ns1:node ;
+    ns1:latitude "46.1914587" ;
+    ns1:leaf_type "broadleaved" ;
+    ns1:longitude "6.3388699" ;
+    ns1:natural "tree" .
+
+ns1:728 a ns1:node ;
+    ns1:barrier "gate" ;
+    ns1:latitude "46.1920186" ;
+    ns1:longitude "6.3367424" .
+
+ns1:730 a ns1:node ;
+    ns1:latitude "46.1919192" ;
+    ns1:leaf_type "needleleaved" ;
+    ns1:longitude "6.3527799" ;
+    ns1:natural "tree" .
+
+ns1:731 a ns1:node ;
+    ns1:latitude "46.1919507" ;
+    ns1:leaf_type "needleleaved" ;
+    ns1:longitude "6.3526565" ;
+    ns1:natural "tree" .
+
+ns1:732 a ns1:node ;
+    ns1:latitude "46.1916146" ;
+    ns1:leaf_type "needleleaved" ;
+    ns1:longitude "6.3527343" ;
+    ns1:natural "tree" .
+
+ns1:733 a ns1:node ;
+    ns1:latitude "46.1916016" ;
+    ns1:leaf_type "needleleaved" ;
+    ns1:longitude "6.3526538" ;
+    ns1:natural "tree" .
+
+ns1:734 a ns1:node ;
+    ns1:latitude "46.1917855" ;
+    ns1:leaf_type "broadleaved" ;
+    ns1:longitude "6.3521817" ;
+    ns1:natural "tree" .
+
+ns1:735 a ns1:node ;
+    ns1:latitude "46.1920027" ;
+    ns1:leaf_type "broadleaved" ;
+    ns1:longitude "6.3519135" ;
+    ns1:natural "tree" .
+
+ns1:736 a ns1:node ;
+    ns1:latitude "46.1923963" ;
+    ns1:leaf_type "broadleaved" ;
+    ns1:longitude "6.3523051" ;
+    ns1:natural "tree" .
+
+ns1:737 a ns1:node ;
+    ns1:latitude "46.1913556" ;
+    ns1:leaf_type "broadleaved" ;
+    ns1:longitude "6.3532144" ;
+    ns1:natural "tree" .
+
+ns1:738 a ns1:node ;
+    ns1:latitude "46.1918124" ;
+    ns1:leaf_type "broadleaved" ;
+    ns1:longitude "6.3528255" ;
+    ns1:natural "tree" .
+
+ns1:739 a ns1:node ;
+    ns1:latitude "46.1919127" ;
+    ns1:leaf_type "broadleaved" ;
+    ns1:longitude "6.3528764" ;
+    ns1:natural "tree" .
+
+ns1:740 a ns1:node ;
+    ns1:latitude "46.1920928" ;
+    ns1:leaf_type "broadleaved" ;
+    ns1:longitude "6.3526243" ;
+    ns1:natural "tree" .
+
+ns1:741 a ns1:node ;
+    ns1:latitude "46.2030938" ;
+    ns1:leaf_type "needleleaved" ;
+    ns1:longitude "6.3525425" ;
+    ns1:natural "tree" .
+
+ns1:742 a ns1:node ;
+    ns1:latitude "46.2020440" ;
+    ns1:leaf_type "needleleaved" ;
+    ns1:longitude "6.3537642" ;
+    ns1:natural "tree" .
+
+ns1:743 a ns1:node ;
+    ns1:latitude "46.2020031" ;
+    ns1:leaf_type "needleleaved" ;
+    ns1:longitude "6.3534679" ;
+    ns1:natural "tree" .
+
+ns1:744 a ns1:node ;
+    ns1:latitude "46.2021702" ;
+    ns1:leaf_type "needleleaved" ;
+    ns1:longitude "6.3536502" ;
+    ns1:natural "tree" .
+
+ns1:749 a ns1:node ;
+    ns1:barrier "bollard" ;
+    ns1:bollard "fixed" ;
+    ns1:height "1" ;
+    ns1:latitude "46.2204679" ;
+    ns1:longitude "6.3515863" ;
+    ns1:material "wood" .
+
+ns1:753 a ns1:node ;
+    ns1:latitude "46.2169157" ;
+    ns1:longitude "6.3513374" ;
+    ns1:name "Taillis de la Marquise" ;
+    ns1:place "locality" .
+
+ns1:754 a ns1:node ;
+    ns1:latitude "46.2239452" ;
+    ns1:leaf_type "broadleaved" ;
+    ns1:longitude "6.3574590" ;
+    ns1:natural "tree" .
+
+ns1:755 a ns1:node ;
+    ns1:barrier "gate" ;
+    ns1:latitude "46.2252079" ;
+    ns1:longitude "6.3580536" .
+
+ns1:756 a ns1:node ;
+    ns1:information "map" ;
+    ns1:latitude "46.2291700" ;
+    ns1:longitude "6.3547265" ;
+    ns1:map_size "region" ;
+    ns1:map_type "toposcope" ;
+    ns1:tourism "information" .
+
+ns1:8 a ns1:node ;
+    ns1:latitude "46.2350131" ;
+    ns1:longitude "6.3574166" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+
+ns1:9 a ns1:node ;
+    ns1:latitude "46.2356875" ;
+    ns1:longitude "6.3590512" ;
+    ns1:source "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008" .
+

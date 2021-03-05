@@ -1,0 +1,43 @@
+body {
+  background-color: gainsboro;
+}
+
+.logo{
+  height: 100px;
+  width: 150 px;
+  background-image: url(../unige_csd.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.text{
+  position: relative;
+  left: 40%;
+  top: 30%;
+  font-family: cursive;
+  font-size: 30px;
+}
+
+.map{
+  position: relative;
+  left: 15%;
+  height: 400px;
+  width: 800px;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-repeat: no-repeat;
+  background-size: cover , contain;
+}
+
+.title{
+  text-transform: capitalize;
+  font-size: 30px;
+  font-family: "Times New Roman", Times, serif;;
+}
+
+.spot {
+  padding-top : 20px;
+  text-transform: capitalize;
+  font-size: 20px;
+  font-family: cursive;
+}

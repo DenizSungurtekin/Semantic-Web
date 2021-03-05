@@ -1,0 +1,1679 @@
+@prefix ns1: <http://osmInfo/> .
+@prefix ns2: <http://trackpoint/> .
+
+ns1:100 a ns1:node ;
+    ns1:information "guidepost" ;
+    ns1:latitude "45.7925201" ;
+    ns1:longitude "6.9833412" .
+
+ns1:102 a ns1:node ;
+    ns1:historic "memorial" ;
+    ns1:latitude "45.7999354" ;
+    ns1:longitude "6.9500212" ;
+    ns1:memorial "statue" ;
+    ns1:name "Statua Madonna" .
+
+ns1:11 a ns1:node ;
+    ns1:amenity "drinking_water" ;
+    ns1:latitude "45.8067778" ;
+    ns1:longitude "6.9310488" .
+
+ns1:130 a ns1:node ;
+    ns1:latitude "45.8081910" ;
+    ns1:longitude "6.9341556" ;
+    ns1:natural "stone" .
+
+ns1:14 a ns1:node ;
+    ns1:ele "2343" ;
+    ns1:latitude "45.7996936" ;
+    ns1:longitude "6.9488029" ;
+    ns1:name "Mont Chetif" ;
+    ns1:natural "peak" ;
+    ns1:wikidata "Q3861450" ;
+    ns1:wikipedia "it:Monte Chétif" .
+
+ns1:146 a ns1:node ;
+    ns1:emergency "fire_hydrant" ;
+    ns1:fire_hydrant:type "pillar" ;
+    ns1:latitude "45.8042797" ;
+    ns1:longitude "6.9660939" .
+
+ns1:147 a ns1:node ;
+    ns1:emergency "fire_hydrant" ;
+    ns1:fire_hydrant:type "pillar" ;
+    ns1:latitude "45.8052482" ;
+    ns1:longitude "6.9652302" .
+
+ns1:148 a ns1:node ;
+    ns1:amenity "bench" ;
+    ns1:backrest "yes" ;
+    ns1:latitude "45.8031167" ;
+    ns1:longitude "6.9672258" .
+
+ns1:149 a ns1:node ;
+    ns1:amenity "bench" ;
+    ns1:backrest "yes" ;
+    ns1:latitude "45.8054240" ;
+    ns1:longitude "6.9651229" .
+
+ns1:15 a ns1:node ;
+    ns1:amenity "restaurant" ;
+    ns1:latitude "45.8037510" ;
+    ns1:longitude "6.9347316" ;
+    ns1:name "La Grolla" .
+
+ns1:154 a ns1:node ;
+    ns1:addr:housenumber "32" ;
+    ns1:addr:street "Via dei Bagni" ;
+    ns1:amenity "restaurant" ;
+    ns1:latitude "45.7973705" ;
+    ns1:longitude "6.9684399" ;
+    ns1:name "Al Cumin. Ristorante" ;
+    ns1:opening_hours "Su 12:30-14:30, 19:30-23:00; Tu-Sa 07:30-23:00" .
+
+ns1:167 a ns1:node ;
+    ns1:latitude "45.8030294" ;
+    ns1:longitude "6.9673107" ;
+    ns1:name "Carrefour Express" ;
+    ns1:opening_hours "Mo-Su 08:00-13:00; Mo-Su 15:30-19:30" ;
+    ns1:shop "supermarket" .
+
+ns1:17 a ns1:node ;
+    ns1:aerialway "station" ;
+    ns1:latitude "45.8137488" ;
+    ns1:longitude "6.9572310" ;
+    ns1:name "Val Veny" .
+
+ns1:18 a ns1:node ;
+    ns1:aerialway "station" ;
+    ns1:aerialway:access "entry" ;
+    ns1:latitude "45.7855889" ;
+    ns1:longitude "6.9330659" ;
+    ns1:name "La Greye" .
+
+ns1:19 a ns1:node ;
+    ns1:aerialway "station" ;
+    ns1:aerialway:access "exit" ;
+    ns1:ele:local "2250" ;
+    ns1:latitude "45.7823126" ;
+    ns1:longitude "6.9214352" ;
+    ns1:name "Aretù" .
+
+ns1:2 a ns1:node ;
+    ns1:aerialway "station" ;
+    ns1:aerialway:access "exit" ;
+    ns1:latitude "45.7826704" ;
+    ns1:longitude "6.9235971" ;
+    ns1:name "Checrouit" .
+
+ns1:21 a ns1:node ;
+    ns1:aerialway "station" ;
+    ns1:aerialway:access "both" ;
+    ns1:aerialway:summer:access "both" ;
+    ns1:latitude "45.7852337" ;
+    ns1:longitude "6.9706102" ;
+    ns1:name "Courmayeur" .
+
+ns1:22 a ns1:node ;
+    ns1:aerialway "station" ;
+    ns1:latitude "45.8062780" ;
+    ns1:longitude "6.9482432" ;
+    ns1:name "Val Veny" .
+
+ns1:24 a ns1:node ;
+    ns1:aerialway "station" ;
+    ns1:ele:local "2030" ;
+    ns1:latitude "45.8028004" ;
+    ns1:longitude "6.9467352" ;
+    ns1:name "Peindeint" .
+
+ns1:25 a ns1:node ;
+    ns1:aerialway "station" ;
+    ns1:ele:local "1664" ;
+    ns1:latitude "45.8016027" ;
+    ns1:longitude "6.9318006" ;
+    ns1:name "Peindeint" .
+
+ns1:28 a ns1:node ;
+    ns1:aerialway "station" ;
+    ns1:ele:local "2080" ;
+    ns1:latitude "45.7985173" ;
+    ns1:longitude "6.9398787" ;
+    ns1:name "Dzeleuna" .
+
+ns1:34 a ns1:node ;
+    ns1:amenity "fast_food" ;
+    ns1:latitude "45.7984036" ;
+    ns1:longitude "6.9380945" ;
+    ns1:name "Courba Dzeleuna" .
+
+ns1:4 a ns1:node ;
+    ns1:aerialway "station" ;
+    ns1:ele:local "1525" ;
+    ns1:latitude "45.8004011" ;
+    ns1:longitude "6.9244199" ;
+    ns1:name "Zerotta" .
+
+ns1:40 a ns1:node ;
+    ns1:latitude "45.8037786" ;
+    ns1:longitude "6.9349523" ;
+    ns1:name "Peindein" ;
+    ns1:place "hamlet" .
+
+ns1:47 a ns1:node ;
+    ns1:latitude "45.7992735" ;
+    ns1:longitude "6.9639975" ;
+    ns1:sport "climbing" .
+
+ns1:48 a ns1:node ;
+    ns1:latitude "45.8019062" ;
+    ns1:longitude "6.9615980" ;
+    ns1:tourism "viewpoint" .
+
+ns1:5 a ns1:node ;
+    ns1:aerialway "station" ;
+    ns1:ele:local "2080" ;
+    ns1:latitude "45.7988031" ;
+    ns1:longitude "6.9396086" ;
+    ns1:name "Zerotta" .
+
+ns1:54 a ns1:node ;
+    ns1:latitude "45.8067339" ;
+    ns1:longitude "6.9316933" ;
+    ns1:name "Lassy Desot" ;
+    ns1:place "hamlet" .
+
+ns1:56 a ns1:node ;
+    ns1:latitude "45.8011054" ;
+    ns1:longitude "6.9699046" ;
+    ns1:name "La Saxe" ;
+    ns1:place "hamlet" .
+
+ns1:57 a ns1:node ;
+    ns1:amenity "parking" ;
+    ns1:latitude "45.8004140" ;
+    ns1:longitude "6.9707052" ;
+    ns1:parking "surface" .
+
+ns1:58 a ns1:node ;
+    ns1:amenity "parking" ;
+    ns1:latitude "45.8036101" ;
+    ns1:longitude "6.9666471" ;
+    ns1:parking "surface" .
+
+ns1:60 a ns1:node ;
+    ns1:latitude "45.8000785" ;
+    ns1:longitude "6.9663528" ;
+    ns1:name "Entrelevie" ;
+    ns1:place "hamlet" .
+
+ns1:68 a ns1:node ;
+    ns1:amenity "parking" ;
+    ns1:latitude "45.8002963" ;
+    ns1:longitude "6.9654423" ;
+    ns1:parking "surface" .
+
+ns1:89 a ns1:node ;
+    ns1:amenity "parking" ;
+    ns1:latitude "45.8056607" ;
+    ns1:longitude "6.9478133" ;
+    ns1:parking "surface" .
+
+ns1:91 a ns1:node ;
+    ns1:amenity "parking" ;
+    ns1:latitude "45.8016258" ;
+    ns1:longitude "6.9686376" .
+
+ns2:0 a ns2:point ;
+    ns2:HasPointOfInterest ns1:10,
+        ns1:104,
+        ns1:155,
+        ns1:16,
+        ns1:23,
+        ns1:31,
+        ns1:32,
+        ns1:6,
+        ns1:8 ;
+    ns2:latitude "45.790956" ;
+    ns2:longitude "6.931023" .
+
+ns2:1 a ns2:point ;
+    ns2:latitude "45.790777" ;
+    ns2:longitude "6.932203" .
+
+ns2:10 a ns2:point ;
+    ns2:HasPointOfInterest ns1:92 ;
+    ns2:latitude "45.792254" ;
+    ns2:longitude "6.943382" .
+
+ns2:100 a ns2:point ;
+    ns2:latitude "45.807127" ;
+    ns2:longitude "6.979903" .
+
+ns2:101 a ns2:point ;
+    ns2:latitude "45.806963" ;
+    ns2:longitude "6.979217" .
+
+ns2:102 a ns2:point ;
+    ns2:latitude "45.807128" ;
+    ns2:longitude "6.978599" .
+
+ns2:103 a ns2:point ;
+    ns2:latitude "45.807367" ;
+    ns2:longitude "6.978272" .
+
+ns2:104 a ns2:point ;
+    ns2:latitude "45.807419" ;
+    ns2:longitude "6.97747" .
+
+ns2:105 a ns2:point ;
+    ns2:latitude "45.807905" ;
+    ns2:longitude "6.977972" .
+
+ns2:106 a ns2:point ;
+    ns2:latitude "45.80807" ;
+    ns2:longitude "6.977307" .
+
+ns2:107 a ns2:point ;
+    ns2:latitude "45.808638" ;
+    ns2:longitude "6.9778" .
+
+ns2:11 a ns2:point ;
+    ns2:latitude "45.792119" ;
+    ns2:longitude "6.945099" .
+
+ns2:12 a ns2:point ;
+    ns2:latitude "45.791525" ;
+    ns2:longitude "6.945743" .
+
+ns2:13 a ns2:point ;
+    ns2:latitude "45.790907" ;
+    ns2:longitude "6.945313" .
+
+ns2:14 a ns2:point ;
+    ns2:latitude "45.790717" ;
+    ns2:longitude "6.945786" .
+
+ns2:15 a ns2:point ;
+    ns2:latitude "45.790309" ;
+    ns2:longitude "6.94512" .
+
+ns2:16 a ns2:point ;
+    ns2:latitude "45.789729" ;
+    ns2:longitude "6.944927" .
+
+ns2:17 a ns2:point ;
+    ns2:latitude "45.789206" ;
+    ns2:longitude "6.945442" .
+
+ns2:18 a ns2:point ;
+    ns2:latitude "45.78968" ;
+    ns2:longitude "6.945528" .
+
+ns2:19 a ns2:point ;
+    ns2:latitude "45.790141" ;
+    ns2:longitude "6.945785" .
+
+ns2:2 a ns2:point ;
+    ns2:HasPointOfInterest ns1:13 ;
+    ns2:latitude "45.791196" ;
+    ns2:longitude "6.932783" .
+
+ns2:20 a ns2:point ;
+    ns2:latitude "45.790249" ;
+    ns2:longitude "6.946944" .
+
+ns2:21 a ns2:point ;
+    ns2:HasPointOfInterest ns1:145 ;
+    ns2:latitude "45.790238" ;
+    ns2:longitude "6.948017" .
+
+ns2:22 a ns2:point ;
+    ns2:latitude "45.790353" ;
+    ns2:longitude "6.948682" .
+
+ns2:23 a ns2:point ;
+    ns2:latitude "45.790728" ;
+    ns2:longitude "6.949305" .
+
+ns2:24 a ns2:point ;
+    ns2:latitude "45.790877" ;
+    ns2:longitude "6.950013" .
+
+ns2:25 a ns2:point ;
+    ns2:latitude "45.790129" ;
+    ns2:longitude "6.949326" .
+
+ns2:26 a ns2:point ;
+    ns2:latitude "45.790234" ;
+    ns2:longitude "6.950807" .
+
+ns2:27 a ns2:point ;
+    ns2:latitude "45.790605" ;
+    ns2:longitude "6.951054" .
+
+ns2:28 a ns2:point ;
+    ns2:latitude "45.790772" ;
+    ns2:longitude "6.951493" .
+
+ns2:29 a ns2:point ;
+    ns2:latitude "45.790941" ;
+    ns2:longitude "6.952073" .
+
+ns2:3 a ns2:point ;
+    ns2:HasPointOfInterest ns1:26,
+        ns1:36,
+        ns1:7 ;
+    ns2:latitude "45.791495" ;
+    ns2:longitude "6.935014" .
+
+ns2:30 a ns2:point ;
+    ns2:latitude "45.791072" ;
+    ns2:longitude "6.952845" .
+
+ns2:31 a ns2:point ;
+    ns2:latitude "45.790772" ;
+    ns2:longitude "6.953231" .
+
+ns2:32 a ns2:point ;
+    ns2:latitude "45.790757" ;
+    ns2:longitude "6.954004" .
+
+ns2:33 a ns2:point ;
+    ns2:latitude "45.790477" ;
+    ns2:longitude "6.955056" .
+
+ns2:34 a ns2:point ;
+    ns2:latitude "45.790099" ;
+    ns2:longitude "6.954047" .
+
+ns2:35 a ns2:point ;
+    ns2:latitude "45.789759" ;
+    ns2:longitude "6.953253" .
+
+ns2:36 a ns2:point ;
+    ns2:latitude "45.789246" ;
+    ns2:longitude "6.952459" .
+
+ns2:37 a ns2:point ;
+    ns2:latitude "45.788513" ;
+    ns2:longitude "6.951987" .
+
+ns2:38 a ns2:point ;
+    ns2:latitude "45.788289" ;
+    ns2:longitude "6.952266" .
+
+ns2:39 a ns2:point ;
+    ns2:latitude "45.788756" ;
+    ns2:longitude "6.95321" .
+
+ns2:4 a ns2:point ;
+    ns2:latitude "45.793051" ;
+    ns2:longitude "6.936537" .
+
+ns2:40 a ns2:point ;
+    ns2:latitude "45.788124" ;
+    ns2:longitude "6.953553" .
+
+ns2:41 a ns2:point ;
+    ns2:latitude "45.788184" ;
+    ns2:longitude "6.954025" .
+
+ns2:42 a ns2:point ;
+    ns2:latitude "45.788954" ;
+    ns2:longitude "6.954937" .
+
+ns2:43 a ns2:point ;
+    ns2:latitude "45.788827" ;
+    ns2:longitude "6.955892" .
+
+ns2:44 a ns2:point ;
+    ns2:latitude "45.788618" ;
+    ns2:longitude "6.956686" .
+
+ns2:45 a ns2:point ;
+    ns2:HasPointOfInterest ns1:76,
+        ns1:77 ;
+    ns2:latitude "45.788468" ;
+    ns2:longitude "6.957737" .
+
+ns2:46 a ns2:point ;
+    ns2:HasPointOfInterest ns1:106,
+        ns1:129,
+        ns1:131,
+        ns1:134,
+        ns1:156 ;
+    ns2:latitude "45.788906" ;
+    ns2:longitude "6.958746" .
+
+ns2:47 a ns2:point ;
+    ns2:HasPointOfInterest ns1:0,
+        ns1:133,
+        ns1:39,
+        ns1:41,
+        ns1:42,
+        ns1:59,
+        ns1:78,
+        ns1:79 ;
+    ns2:latitude "45.788857" ;
+    ns2:longitude "6.960656" .
+
+ns2:48 a ns2:point ;
+    ns2:latitude "45.789097" ;
+    ns2:longitude "6.9619" .
+
+ns2:49 a ns2:point ;
+    ns2:HasPointOfInterest ns1:62,
+        ns1:88 ;
+    ns2:latitude "45.789519" ;
+    ns2:longitude "6.962995" .
+
+ns2:5 a ns2:point ;
+    ns2:HasPointOfInterest ns1:20 ;
+    ns2:latitude "45.792542" ;
+    ns2:longitude "6.937159" .
+
+ns2:50 a ns2:point ;
+    ns2:HasPointOfInterest ns1:114,
+        ns1:115 ;
+    ns2:latitude "45.789905" ;
+    ns2:longitude "6.963617" .
+
+ns2:51 a ns2:point ;
+    ns2:HasPointOfInterest ns1:105,
+        ns1:116,
+        ns1:117,
+        ns1:119,
+        ns1:12,
+        ns1:126,
+        ns1:127,
+        ns1:135,
+        ns1:139,
+        ns1:140,
+        ns1:37,
+        ns1:38,
+        ns1:63,
+        ns1:64,
+        ns1:65,
+        ns1:72,
+        ns1:75,
+        ns1:80,
+        ns1:9,
+        ns1:94,
+        ns1:95,
+        ns1:96,
+        ns1:99 ;
+    ns2:latitude "45.790058" ;
+    ns2:longitude "6.964475" .
+
+ns2:52 a ns2:point ;
+    ns2:HasPointOfInterest ns1:66,
+        ns1:71 ;
+    ns2:latitude "45.789381" ;
+    ns2:longitude "6.964754" .
+
+ns2:53 a ns2:point ;
+    ns2:HasPointOfInterest ns1:125,
+        ns1:144 ;
+    ns2:latitude "45.788741" ;
+    ns2:longitude "6.965258" .
+
+ns2:54 a ns2:point ;
+    ns2:HasPointOfInterest ns1:108,
+        ns1:110,
+        ns1:112,
+        ns1:118,
+        ns1:128,
+        ns1:137,
+        ns1:138,
+        ns1:141,
+        ns1:162,
+        ns1:163,
+        ns1:44,
+        ns1:67,
+        ns1:81,
+        ns1:82,
+        ns1:83,
+        ns1:84,
+        ns1:85,
+        ns1:86,
+        ns1:87,
+        ns1:97,
+        ns1:98 ;
+    ns2:latitude "45.790477" ;
+    ns2:longitude "6.96587" .
+
+ns2:55 a ns2:point ;
+    ns2:HasPointOfInterest ns1:107,
+        ns1:120,
+        ns1:136,
+        ns1:142,
+        ns1:158,
+        ns1:164,
+        ns1:43 ;
+    ns2:latitude "45.791794" ;
+    ns2:longitude "6.965698" .
+
+ns2:56 a ns2:point ;
+    ns2:HasPointOfInterest ns1:111,
+        ns1:132,
+        ns1:152,
+        ns1:157,
+        ns1:159,
+        ns1:160,
+        ns1:161,
+        ns1:166,
+        ns1:45,
+        ns1:73 ;
+    ns2:latitude "45.792493" ;
+    ns2:longitude "6.966921" .
+
+ns2:57 a ns2:point ;
+    ns2:HasPointOfInterest ns1:143,
+        ns1:165 ;
+    ns2:latitude "45.792643" ;
+    ns2:longitude "6.967823" .
+
+ns2:58 a ns2:point ;
+    ns2:HasPointOfInterest ns1:103,
+        ns1:121,
+        ns1:69,
+        ns1:70,
+        ns1:74 ;
+    ns2:latitude "45.792003" ;
+    ns2:longitude "6.968874" .
+
+ns2:59 a ns2:point ;
+    ns2:HasPointOfInterest ns1:109,
+        ns1:55 ;
+    ns2:latitude "45.791281" ;
+    ns2:longitude "6.969239" .
+
+ns2:6 a ns2:point ;
+    ns2:HasPointOfInterest ns1:1 ;
+    ns2:latitude "45.792224" ;
+    ns2:longitude "6.937589" .
+
+ns2:60 a ns2:point ;
+    ns2:HasPointOfInterest ns1:150,
+        ns1:151 ;
+    ns2:latitude "45.791266" ;
+    ns2:longitude "6.970204" .
+
+ns2:61 a ns2:point ;
+    ns2:latitude "45.790952" ;
+    ns2:longitude "6.971127" .
+
+ns2:62 a ns2:point ;
+    ns2:latitude "45.790742" ;
+    ns2:longitude "6.972286" .
+
+ns2:63 a ns2:point ;
+    ns2:HasPointOfInterest ns1:124 ;
+    ns2:latitude "45.792164" ;
+    ns2:longitude "6.972329" .
+
+ns2:64 a ns2:point ;
+    ns2:latitude "45.791685" ;
+    ns2:longitude "6.972908" .
+
+ns2:65 a ns2:point ;
+    ns2:latitude "45.792164" ;
+    ns2:longitude "6.973123" .
+
+ns2:66 a ns2:point ;
+    ns2:latitude "45.792957" ;
+    ns2:longitude "6.973423" .
+
+ns2:67 a ns2:point ;
+    ns2:HasPointOfInterest ns1:122,
+        ns1:51 ;
+    ns2:latitude "45.793989" ;
+    ns2:longitude "6.97411" .
+
+ns2:68 a ns2:point ;
+    ns2:HasPointOfInterest ns1:153,
+        ns1:90 ;
+    ns2:latitude "45.795085" ;
+    ns2:longitude "6.97441" .
+
+ns2:69 a ns2:point ;
+    ns2:HasPointOfInterest ns1:123,
+        ns1:50 ;
+    ns2:latitude "45.795994" ;
+    ns2:longitude "6.975376" .
+
+ns2:7 a ns2:point ;
+    ns2:HasPointOfInterest ns1:27 ;
+    ns2:latitude "45.79179" ;
+    ns2:longitude "6.93776" .
+
+ns2:70 a ns2:point ;
+    ns2:HasPointOfInterest ns1:61 ;
+    ns2:latitude "45.797415" ;
+    ns2:longitude "6.976019" .
+
+ns2:71 a ns2:point ;
+    ns2:HasPointOfInterest ns1:101,
+        ns1:52,
+        ns1:53,
+        ns1:93 ;
+    ns2:latitude "45.799094" ;
+    ns2:longitude "6.978294" .
+
+ns2:72 a ns2:point ;
+    ns2:HasPointOfInterest ns1:49 ;
+    ns2:latitude "45.799932" ;
+    ns2:longitude "6.979517" .
+
+ns2:73 a ns2:point ;
+    ns2:latitude "45.80077" ;
+    ns2:longitude "6.980547" .
+
+ns2:74 a ns2:point ;
+    ns2:latitude "45.800979" ;
+    ns2:longitude "6.981405" .
+
+ns2:75 a ns2:point ;
+    ns2:latitude "45.801009" ;
+    ns2:longitude "6.982178" .
+
+ns2:76 a ns2:point ;
+    ns2:latitude "45.800501" ;
+    ns2:longitude "6.982779" .
+
+ns2:77 a ns2:point ;
+    ns2:latitude "45.800665" ;
+    ns2:longitude "6.984109" .
+
+ns2:78 a ns2:point ;
+    ns2:latitude "45.801219" ;
+    ns2:longitude "6.985225" .
+
+ns2:79 a ns2:point ;
+    ns2:latitude "45.801458" ;
+    ns2:longitude "6.985139" .
+
+ns2:8 a ns2:point ;
+    ns2:HasPointOfInterest ns1:33,
+        ns1:35,
+        ns1:46 ;
+    ns2:latitude "45.791824" ;
+    ns2:longitude "6.939306" .
+
+ns2:80 a ns2:point ;
+    ns2:latitude "45.801323" ;
+    ns2:longitude "6.984538" .
+
+ns2:81 a ns2:point ;
+    ns2:latitude "45.801697" ;
+    ns2:longitude "6.984495" .
+
+ns2:82 a ns2:point ;
+    ns2:latitude "45.801772" ;
+    ns2:longitude "6.983766" .
+
+ns2:83 a ns2:point ;
+    ns2:latitude "45.802162" ;
+    ns2:longitude "6.982886" .
+
+ns2:84 a ns2:point ;
+    ns2:latitude "45.80255" ;
+    ns2:longitude "6.984624" .
+
+ns2:85 a ns2:point ;
+    ns2:latitude "45.803193" ;
+    ns2:longitude "6.984881" .
+
+ns2:86 a ns2:point ;
+    ns2:latitude "45.803059" ;
+    ns2:longitude "6.985933" .
+
+ns2:87 a ns2:point ;
+    ns2:latitude "45.803403" ;
+    ns2:longitude "6.985632" .
+
+ns2:88 a ns2:point ;
+    ns2:latitude "45.803702" ;
+    ns2:longitude "6.985976" .
+
+ns2:89 a ns2:point ;
+    ns2:latitude "45.803747" ;
+    ns2:longitude "6.985504" .
+
+ns2:9 a ns2:point ;
+    ns2:HasPointOfInterest ns1:29,
+        ns1:3,
+        ns1:30 ;
+    ns2:latitude "45.792104" ;
+    ns2:longitude "6.941322" .
+
+ns2:90 a ns2:point ;
+    ns2:latitude "45.80421" ;
+    ns2:longitude "6.985826" .
+
+ns2:91 a ns2:point ;
+    ns2:latitude "45.80421" ;
+    ns2:longitude "6.985246" .
+
+ns2:92 a ns2:point ;
+    ns2:latitude "45.804539" ;
+    ns2:longitude "6.985311" .
+
+ns2:93 a ns2:point ;
+    ns2:HasPointOfInterest ns1:113 ;
+    ns2:latitude "45.804809" ;
+    ns2:longitude "6.983722" .
+
+ns2:94 a ns2:point ;
+    ns2:latitude "45.805707" ;
+    ns2:longitude "6.984838" .
+
+ns2:95 a ns2:point ;
+    ns2:latitude "45.806021" ;
+    ns2:longitude "6.983744" .
+
+ns2:96 a ns2:point ;
+    ns2:latitude "45.806754" ;
+    ns2:longitude "6.983422" .
+
+ns2:97 a ns2:point ;
+    ns2:latitude "45.806544" ;
+    ns2:longitude "6.982113" .
+
+ns2:98 a ns2:point ;
+    ns2:latitude "45.807157" ;
+    ns2:longitude "6.982028" .
+
+ns2:99 a ns2:point ;
+    ns2:latitude "45.807262" ;
+    ns2:longitude "6.981287" .
+
+ns1:0 a ns1:node ;
+    ns1:aerialway "station" ;
+    ns1:ele:local "1211" ;
+    ns1:latitude "45.7925897" ;
+    ns1:longitude "6.9638265" ;
+    ns1:name "Dolonne" .
+
+ns1:1 a ns1:node ;
+    ns1:aerialway "station" ;
+    ns1:aerialway:access "entry" ;
+    ns1:latitude "45.7904273" ;
+    ns1:longitude "6.9434554" ;
+    ns1:name "Checrouit" .
+
+ns1:10 a ns1:node ;
+    ns1:ele "1955" ;
+    ns1:latitude "45.7907870" ;
+    ns1:longitude "6.9310687" ;
+    ns1:name "Rifugio - Restaurante Maison Vieille" ;
+    ns1:source "CAI Valle d'Aosta" ;
+    ns1:tourism "alpine_hut" .
+
+ns1:101 a ns1:node ;
+    ns1:information "guidepost" ;
+    ns1:latitude "45.7959900" ;
+    ns1:longitude "6.9824131" .
+
+ns1:103 a ns1:node ;
+    ns1:amenity "cafe" ;
+    ns1:latitude "45.7904625" ;
+    ns1:longitude "6.9735343" ;
+    ns1:name "Caffè della Posta" .
+
+ns1:104 a ns1:node ;
+    ns1:aerialway "station" ;
+    ns1:aerialway:access "exit" ;
+    ns1:ele:local "2035" ;
+    ns1:latitude "45.7939747" ;
+    ns1:longitude "6.9326830" ;
+    ns1:name "Pra Neyron" .
+
+ns1:105 a ns1:node ;
+    ns1:amenity "parking" ;
+    ns1:fee "yes" ;
+    ns1:latitude "45.7903223" ;
+    ns1:layer "-1" ;
+    ns1:longitude "6.9702853" ;
+    ns1:parking "underground" ;
+    ns1:ref "P2" .
+
+ns1:106 a ns1:node ;
+    ns1:addr:housenumber "6" ;
+    ns1:addr:street "strada della vittoria" ;
+    ns1:latitude "45.7881259" ;
+    ns1:longitude "6.9645432" .
+
+ns1:107 a ns1:node ;
+    ns1:access "customers" ;
+    ns1:amenity "parking" ;
+    ns1:fee "yes" ;
+    ns1:latitude "45.7932725" ;
+    ns1:longitude "6.9713826" ;
+    ns1:park_ride "no" ;
+    ns1:parking "underground" ;
+    ns1:supervised "yes" ;
+    ns1:surface "asphalt" .
+
+ns1:108 a ns1:node ;
+    ns1:amenity "bench" ;
+    ns1:latitude "45.7897623" ;
+    ns1:longitude "6.9719179" .
+
+ns1:109 a ns1:node ;
+    ns1:addr:city "Courmayeur" ;
+    ns1:internet_access "wlan" ;
+    ns1:latitude "45.7881394" ;
+    ns1:longitude "6.9736366" ;
+    ns1:name "Hotel Cristallo" ;
+    ns1:tourism "hotel" .
+
+ns1:110 a ns1:node ;
+    ns1:latitude "45.7909718" ;
+    ns1:longitude "6.9722733" ;
+    ns1:name "Carrefour Express" ;
+    ns1:shop "supermarket" .
+
+ns1:111 a ns1:node ;
+    ns1:addr:city "Courmayeur" ;
+    ns1:addr:housenumber "2" ;
+    ns1:addr:postcode "11013" ;
+    ns1:addr:street "Strada del Villair" ;
+    ns1:email "info@guidecourmayeur.com" ;
+    ns1:latitude "45.7918115" ;
+    ns1:longitude "6.9725857" ;
+    ns1:name "Museo Alpino Duca degli Abruzzi" ;
+    ns1:opening_hours "May, Jun, Sep, Oct, Nov: Tu-Su 08:30-12:30,16:00-18:30; Mo off; Jul 1-Aug 31: Mo-Su 08:30-12:30,16:00-19:00; Dec 1-Apr 30: Mo 16:00-19:00; Tu-Su 08:30-13:00,16:00-19:00" ;
+    ns1:phone "+39 0165 842064" ;
+    ns1:tourism "museum" ;
+    ns1:website "www.guidecourmayeur.com" .
+
+ns1:112 a ns1:node ;
+    ns1:addr:city "Courmayeur" ;
+    ns1:amenity "restaurant" ;
+    ns1:latitude "45.7908851" ;
+    ns1:longitude "6.9714695" ;
+    ns1:name "Ristorante La Padella" .
+
+ns1:113 a ns1:node ;
+    ns1:latitude "45.8070129" ;
+    ns1:longitude "6.9782048" ;
+    ns1:tourism "viewpoint" .
+
+ns1:114 a ns1:node ;
+    ns1:amenity "nightclub" ;
+    ns1:latitude "45.7931341" ;
+    ns1:longitude "6.9670430" ;
+    ns1:name "Club Haus 80's Courmayeur" .
+
+ns1:115 a ns1:node ;
+    ns1:amenity "drinking_water" ;
+    ns1:latitude "45.7914068" ;
+    ns1:longitude "6.9690922" .
+
+ns1:116 a ns1:node ;
+    ns1:latitude "45.7914232" ;
+    ns1:longitude "6.9706002" ;
+    ns1:name "Ufficio del Turismo" ;
+    ns1:tourism "information" .
+
+ns1:117 a ns1:node ;
+    ns1:amenity "bench" ;
+    ns1:latitude "45.7909755" ;
+    ns1:longitude "6.9701141" .
+
+ns1:118 a ns1:node ;
+    ns1:amenity "drinking_water" ;
+    ns1:latitude "45.7913002" ;
+    ns1:longitude "6.9707523" .
+
+ns1:119 a ns1:node ;
+    ns1:amenity "bench" ;
+    ns1:latitude "45.7909633" ;
+    ns1:longitude "6.9701597" .
+
+ns1:12 a ns1:node ;
+    ns1:highway "crossing" ;
+    ns1:latitude "45.7907689" ;
+    ns1:longitude "6.9704039" .
+
+ns1:120 a ns1:node ;
+    ns1:amenity "library" ;
+    ns1:latitude "45.7930643" ;
+    ns1:longitude "6.9711600" .
+
+ns1:121 a ns1:node ;
+    ns1:amenity "drinking_water" ;
+    ns1:latitude "45.7953937" ;
+    ns1:longitude "6.9730739" .
+
+ns1:122 a ns1:node ;
+    ns1:amenity "post_box" ;
+    ns1:latitude "45.7975945" ;
+    ns1:longitude "6.9759477" .
+
+ns1:123 a ns1:node ;
+    ns1:amenity "drinking_water" ;
+    ns1:latitude "45.7992600" ;
+    ns1:longitude "6.9783520" .
+
+ns1:124 a ns1:node ;
+    ns1:amenity "drinking_water" ;
+    ns1:latitude "45.7957326" ;
+    ns1:longitude "6.9746845" .
+
+ns1:125 a ns1:node ;
+    ns1:direction "forward" ;
+    ns1:highway "give_way" ;
+    ns1:latitude "45.7907538" ;
+    ns1:longitude "6.9709831" .
+
+ns1:126 a ns1:node ;
+    ns1:direction "forward" ;
+    ns1:highway "give_way" ;
+    ns1:latitude "45.7909076" ;
+    ns1:longitude "6.9704687" .
+
+ns1:127 a ns1:node ;
+    ns1:direction "forward" ;
+    ns1:highway "give_way" ;
+    ns1:latitude "45.7905686" ;
+    ns1:longitude "6.9708504" .
+
+ns1:128 a ns1:node ;
+    ns1:highway "stop" ;
+    ns1:latitude "45.7912910" ;
+    ns1:longitude "6.9710574" .
+
+ns1:129 a ns1:node ;
+    ns1:addr:city "Courmayeur" ;
+    ns1:addr:housenumber "16" ;
+    ns1:addr:postcode "11013" ;
+    ns1:addr:street "Passaggio la Sorgente" ;
+    ns1:description "Appartamenti per brevi soggiorni." ;
+    ns1:email "lonampio@gmail.com" ;
+    ns1:internet_access "yes" ;
+    ns1:internet_access:fee "no" ;
+    ns1:latitude "45.7891832" ;
+    ns1:longitude "6.9644210" ;
+    ns1:name "Lo Nampio" ;
+    ns1:rooms "4" ;
+    ns1:smoking "no" ;
+    ns1:website "https://lonampio.com/" .
+
+ns1:13 a ns1:node ;
+    ns1:ele "1895" ;
+    ns1:latitude "45.7938836" ;
+    ns1:longitude "6.9378276" ;
+    ns1:name "Rifugio Le Randonneur" ;
+    ns1:tourism "alpine_hut" .
+
+ns1:131 a ns1:node ;
+    ns1:addr:housenumber "16" ;
+    ns1:addr:postcode "11013" ;
+    ns1:addr:street "Passaggio la Sorgente" ;
+    ns1:email "info@lonampio.com" ;
+    ns1:internet_access "wlan" ;
+    ns1:latitude "45.7891700" ;
+    ns1:longitude "6.9644281" ;
+    ns1:name "Lo Nampio" ;
+    ns1:name:en "Français" ;
+    ns1:name:it "Lo Nampio" ;
+    ns1:opening_hours "24/7" ;
+    ns1:operator "Nelly" ;
+    ns1:phone "+393491442516" ;
+    ns1:tourism "chalet" ;
+    ns1:website "https://lonampio.com/" .
+
+ns1:132 a ns1:node ;
+    ns1:amenity "atm" ;
+    ns1:latitude "45.7924811" ;
+    ns1:longitude "6.9721073" ;
+    ns1:opening_hours "24/7" ;
+    ns1:operator "BCC" .
+
+ns1:133 a ns1:node ;
+    ns1:amenity "waste_basket" ;
+    ns1:latitude "45.7919990" ;
+    ns1:longitude "6.9650985" .
+
+ns1:134 a ns1:node ;
+    ns1:amenity "recycling" ;
+    ns1:latitude "45.7885041" ;
+    ns1:longitude "6.9649034" .
+
+ns1:135 a ns1:node ;
+    ns1:amenity "waste_basket" ;
+    ns1:latitude "45.7939784" ;
+    ns1:longitude "6.9663485" .
+
+ns1:136 a ns1:node ;
+    ns1:highway "bus_stop" ;
+    ns1:latitude "45.7931806" ;
+    ns1:longitude "6.9713342" .
+
+ns1:137 a ns1:node ;
+    ns1:crossing "zebra" ;
+    ns1:highway "crossing" ;
+    ns1:latitude "45.7911958" ;
+    ns1:longitude "6.9707951" .
+
+ns1:138 a ns1:node ;
+    ns1:crossing "zebra" ;
+    ns1:highway "crossing" ;
+    ns1:latitude "45.7908591" ;
+    ns1:longitude "6.9711364" .
+
+ns1:139 a ns1:node ;
+    ns1:highway "give_way" ;
+    ns1:latitude "45.7906497" ;
+    ns1:longitude "6.9702444" .
+
+ns1:140 a ns1:node ;
+    ns1:highway "stop" ;
+    ns1:latitude "45.7910712" ;
+    ns1:longitude "6.9704772" .
+
+ns1:141 a ns1:node ;
+    ns1:amenity "restaurant" ;
+    ns1:cuisine "italian" ;
+    ns1:delivery "no" ;
+    ns1:latitude "45.7921864" ;
+    ns1:longitude "6.9717260" ;
+    ns1:name "La Terraza" ;
+    ns1:opening_hours "Mo-Su 12:00-14:30, 19:00-22:30" ;
+    ns1:outdoor_seating "yes" ;
+    ns1:smoking "outside" ;
+    ns1:takeaway "no" ;
+    ns1:website "http://www.ristorantelaterrazza.com/courmayeur/sito-it-8.html" .
+
+ns1:142 a ns1:node ;
+    ns1:latitude "45.7940421" ;
+    ns1:longitude "6.9702060" ;
+    ns1:name "Enoteca Goio" ;
+    ns1:shop "alcohol" .
+
+ns1:143 a ns1:node ;
+    ns1:amenity "bar" ;
+    ns1:latitude "45.7907023" ;
+    ns1:longitude "6.9735139" ;
+    ns1:name "Le Prive" .
+
+ns1:144 a ns1:node ;
+    ns1:amenity "restaurant" ;
+    ns1:latitude "45.7903558" ;
+    ns1:longitude "6.9710683" ;
+    ns1:name "Le Vieux Pommieres" ;
+    ns1:website "http://levieuxpommier.it/courmayeur/sito-it-8.html" .
+
+ns1:145 a ns1:node ;
+    ns1:denotation "natural_monument" ;
+    ns1:latitude "45.7889764" ;
+    ns1:leaf_cycle "evergreen" ;
+    ns1:leaf_type "needleleaved" ;
+    ns1:longitude "6.9534125" ;
+    ns1:name "Picea abies" ;
+    ns1:name:de "Gemeine Fichte" ;
+    ns1:name:en "Norway spruce" ;
+    ns1:name:es "Picea de Noruega" ;
+    ns1:name:fr "Épicéa commun" ;
+    ns1:name:it "Abete rosso" ;
+    ns1:natural "tree" ;
+    ns1:source "mipaaf D.M. N.5450 del 19/12/2017" ;
+    ns1:species "Picea abies" ;
+    ns1:species:de "Gemeine Fichte" ;
+    ns1:species:en "Norway Spruce" ;
+    ns1:species:es "Pícea de Noruega" ;
+    ns1:species:fr "Epicea commun" ;
+    ns1:species:it "Abete rosso" ;
+    ns1:wikidata "Q55743226" .
+
+ns1:150 a ns1:node ;
+    ns1:amenity "restaurant" ;
+    ns1:contact:phone "+39 0165 841 988" ;
+    ns1:latitude "45.7926606" ;
+    ns1:longitude "6.9762911" ;
+    ns1:name "Ristorante Chalet Plan Gorret" .
+
+ns1:151 a ns1:node ;
+    ns1:latitude "45.7925503" ;
+    ns1:longitude "6.9762743" ;
+    ns1:name "Chalet Plan Gorret" ;
+    ns1:tourism "hotel" .
+
+ns1:152 a ns1:node ;
+    ns1:amenity "post_box" ;
+    ns1:latitude "45.7919332" ;
+    ns1:longitude "6.9724620" ;
+    ns1:name "Post box" .
+
+ns1:153 a ns1:node ;
+    ns1:access "yes" ;
+    ns1:amenity "drinking_water" ;
+    ns1:latitude "45.7973199" ;
+    ns1:longitude "6.9690334" ;
+    ns1:wheelchair "yes" .
+
+ns1:155 a ns1:node ;
+    ns1:latitude "45.7942497" ;
+    ns1:longitude "6.9320656" ;
+    ns1:tourism "viewpoint" .
+
+ns1:156 a ns1:node ;
+    ns1:emergency "fire_alarm_box" ;
+    ns1:indoor "no" ;
+    ns1:latitude "45.7892512" ;
+    ns1:longitude "6.9643823" .
+
+ns1:157 a ns1:node ;
+    ns1:addr:street "Via Roma" ;
+    ns1:amenity "bar" ;
+    ns1:brewery "yes" ;
+    ns1:latitude "45.7918407" ;
+    ns1:longitude "6.9725065" ;
+    ns1:min_age "18" ;
+    ns1:name "Bar delle Guide" .
+
+ns1:158 a ns1:node ;
+    ns1:amenity "cafe" ;
+    ns1:internet_access "yes" ;
+    ns1:latitude "45.7922941" ;
+    ns1:longitude "6.9718991" ;
+    ns1:name "Caffetteria cremes et chocolat" .
+
+ns1:159 a ns1:node ;
+    ns1:amenity "bar" ;
+    ns1:latitude "45.7921586" ;
+    ns1:longitude "6.9722713" ;
+    ns1:name "zillos" .
+
+ns1:16 a ns1:node ;
+    ns1:aerialway "station" ;
+    ns1:aerialway:access "entry" ;
+    ns1:ele:local "1895" ;
+    ns1:latitude "45.7894854" ;
+    ns1:longitude "6.9357642" ;
+    ns1:name "Aretù" .
+
+ns1:160 a ns1:node ;
+    ns1:amenity "bar" ;
+    ns1:latitude "45.7922935" ;
+    ns1:longitude "6.9724142" ;
+    ns1:name "Bar centro" .
+
+ns1:161 a ns1:node ;
+    ns1:latitude "45.7917838" ;
+    ns1:longitude "6.9724099" ;
+    ns1:name "Ardi Sport" ;
+    ns1:shop "supermarket" .
+
+ns1:162 a ns1:node ;
+    ns1:amenity "fast_food" ;
+    ns1:latitude "45.7920438" ;
+    ns1:longitude "6.9713374" ;
+    ns1:name "pizzeria" .
+
+ns1:163 a ns1:node ;
+    ns1:amenity "bank" ;
+    ns1:latitude "45.7912496" ;
+    ns1:longitude "6.9715533" ;
+    ns1:name "Biverbanca" .
+
+ns1:164 a ns1:node ;
+    ns1:amenity "restaurant" ;
+    ns1:latitude "45.7934930" ;
+    ns1:longitude "6.9713037" ;
+    ns1:name "Lo scoiattolo" .
+
+ns1:165 a ns1:node ;
+    ns1:amenity "bar" ;
+    ns1:latitude "45.7911743" ;
+    ns1:longitude "6.9732126" ;
+    ns1:name "Dahu" .
+
+ns1:166 a ns1:node ;
+    ns1:amenity "restaurant" ;
+    ns1:latitude "45.7911320" ;
+    ns1:longitude "6.9728821" ;
+    ns1:name "la piazzetta" .
+
+ns1:20 a ns1:node ;
+    ns1:amenity "restaurant" ;
+    ns1:latitude "45.7912679" ;
+    ns1:longitude "6.9427314" ;
+    ns1:name "La Chaumière" .
+
+ns1:23 a ns1:node ;
+    ns1:aerialway "station" ;
+    ns1:aerialway:access "exit" ;
+    ns1:aerialway:summer:access "both" ;
+    ns1:ele:local "1960" ;
+    ns1:latitude "45.7909066" ;
+    ns1:longitude "6.9332343" ;
+    ns1:name "Maison Vieille" .
+
+ns1:26 a ns1:node ;
+    ns1:aerialway "station" ;
+    ns1:aerialway:access "entry" ;
+    ns1:ele:local "1892" ;
+    ns1:latitude "45.7930727" ;
+    ns1:longitude "6.9390375" ;
+    ns1:name "Dzeleuna" .
+
+ns1:27 a ns1:node ;
+    ns1:aerialway "station" ;
+    ns1:ele:local "1703" ;
+    ns1:latitude "45.7906709" ;
+    ns1:longitude "6.9439604" ;
+    ns1:name "Maison Vieille" .
+
+ns1:29 a ns1:node ;
+    ns1:aerialway "station" ;
+    ns1:aerialway:access "both" ;
+    ns1:aerialway:summer:access "both" ;
+    ns1:ele:local "1704" ;
+    ns1:latitude "45.7916545" ;
+    ns1:longitude "6.9471973" ;
+    ns1:name "Dolonne" .
+
+ns1:3 a ns1:node ;
+    ns1:aerialway "station" ;
+    ns1:aerialway:access "entry" ;
+    ns1:ele:local "1688" ;
+    ns1:latitude "45.7909264" ;
+    ns1:longitude "6.9462081" ;
+    ns1:name "Pra Neyron" .
+
+ns1:30 a ns1:node ;
+    ns1:aerialway "station" ;
+    ns1:aerialway:access "entry" ;
+    ns1:latitude "45.7891784" ;
+    ns1:longitude "6.9451246" ;
+    ns1:name "Chiecco" .
+
+ns1:31 a ns1:node ;
+    ns1:ele "2035" ;
+    ns1:latitude "45.7940576" ;
+    ns1:longitude "6.9329512" ;
+    ns1:name "Tête Neyron" ;
+    ns1:natural "peak" .
+
+ns1:32 a ns1:node ;
+    ns1:abandoned "yes" ;
+    ns1:aerialway "station" ;
+    ns1:comment "Des Eves, quota 1960, dislivello 193, p/h 650" ;
+    ns1:ele:local "1960" ;
+    ns1:latitude "45.7914245" ;
+    ns1:longitude "6.9312821" .
+
+ns1:33 a ns1:node ;
+    ns1:aerialway "station" ;
+    ns1:aerialway:access "exit" ;
+    ns1:latitude "45.7879891" ;
+    ns1:longitude "6.9418943" ;
+    ns1:name "Chiecco" .
+
+ns1:35 a ns1:node ;
+    ns1:amenity "restaurant" ;
+    ns1:latitude "45.7907325" ;
+    ns1:longitude "6.9448974" ;
+    ns1:name "Christiania" .
+
+ns1:36 a ns1:node ;
+    ns1:amenity "fast_food" ;
+    ns1:latitude "45.7933294" ;
+    ns1:longitude "6.9387444" .
+
+ns1:37 a ns1:node ;
+    ns1:direction "forward" ;
+    ns1:highway "give_way" ;
+    ns1:latitude "45.7910214" ;
+    ns1:longitude "6.9705751" .
+
+ns1:38 a ns1:node ;
+    ns1:bus "yes" ;
+    ns1:bus_routes "Flixbus 405, 472, 507, N504; Arriva 581, 590" ;
+    ns1:highway "bus_stop" ;
+    ns1:latitude "45.7913464" ;
+    ns1:longitude "6.9702664" ;
+    ns1:name "Piazzale Monte Bianco" ;
+    ns1:public_transport "stop_position" .
+
+ns1:39 a ns1:node ;
+    ns1:highway "bus_stop" ;
+    ns1:latitude "45.7888794" ;
+    ns1:longitude "6.9652361" .
+
+ns1:41 a ns1:node ;
+    ns1:highway "bus_stop" ;
+    ns1:latitude "45.7888416" ;
+    ns1:longitude "6.9653263" .
+
+ns1:42 a ns1:node ;
+    ns1:highway "bus_stop" ;
+    ns1:latitude "45.7922954" ;
+    ns1:longitude "6.9639752" ;
+    ns1:name "Dolonne" ;
+    ns1:shelter "no" .
+
+ns1:43 a ns1:node ;
+    ns1:highway "bus_stop" ;
+    ns1:latitude "45.7959007" ;
+    ns1:longitude "6.9667392" .
+
+ns1:44 a ns1:node ;
+    ns1:highway "bus_stop" ;
+    ns1:latitude "45.7949240" ;
+    ns1:longitude "6.9663234" .
+
+ns1:45 a ns1:node ;
+    ns1:amenity "parking" ;
+    ns1:latitude "45.7939948" ;
+    ns1:longitude "6.9724918" ;
+    ns1:parking "surface" .
+
+ns1:46 a ns1:node ;
+    ns1:latitude "45.7906354" ;
+    ns1:longitude "6.9453679" ;
+    ns1:name "Plan Checrouit" ;
+    ns1:place "hamlet" .
+
+ns1:49 a ns1:node ;
+    ns1:latitude "45.8012183" ;
+    ns1:longitude "6.9847798" ;
+    ns1:name "Raffort" ;
+    ns1:place "locality" .
+
+ns1:50 a ns1:node ;
+    ns1:alt_name "Villair Dessus" ;
+    ns1:alt_name_1 "Villair Superiore" ;
+    ns1:latitude "45.7994386" ;
+    ns1:longitude "6.9789384" ;
+    ns1:name "Villair Damon" ;
+    ns1:place "hamlet" .
+
+ns1:51 a ns1:node ;
+    ns1:alt_name "Villair Dessous" ;
+    ns1:alt_name_1 "Villair Inferiore" ;
+    ns1:latitude "45.7972665" ;
+    ns1:longitude "6.9762969" ;
+    ns1:name "Villair Desot" ;
+    ns1:place "hamlet" .
+
+ns1:52 a ns1:node ;
+    ns1:amenity "parking" ;
+    ns1:capacity "12" ;
+    ns1:ele "1375" ;
+    ns1:fee "no" ;
+    ns1:latitude "45.8009848" ;
+    ns1:longitude "6.9838080" ;
+    ns1:name "Parcheggio della Val Sapin" ;
+    ns1:parking "surface" .
+
+ns1:53 a ns1:node ;
+    ns1:latitude "45.7960373" ;
+    ns1:longitude "6.9826700" ;
+    ns1:name "Ermitage" ;
+    ns1:place "hamlet" .
+
+ns1:55 a ns1:node ;
+    ns1:amenity "drinking_water" ;
+    ns1:latitude "45.7889801" ;
+    ns1:longitude "6.9737051" .
+
+ns1:59 a ns1:node ;
+    ns1:latitude "45.7899627" ;
+    ns1:longitude "6.9652008" ;
+    ns1:name "Dolonne" ;
+    ns1:place "hamlet" .
+
+ns1:6 a ns1:node ;
+    ns1:created_by "JOSM" ;
+    ns1:latitude "45.7948262" ;
+    ns1:longitude "6.9338623" .
+
+ns1:61 a ns1:node ;
+    ns1:latitude "45.7988692" ;
+    ns1:longitude "6.9703808" ;
+    ns1:name "Larzey" ;
+    ns1:place "hamlet" .
+
+ns1:62 a ns1:node ;
+    ns1:latitude "45.7932910" ;
+    ns1:longitude "6.9654366" ;
+    ns1:name "Les Forges" ;
+    ns1:place "hamlet" .
+
+ns1:63 a ns1:node ;
+    ns1:fee "yes" ;
+    ns1:latitude "45.7902570" ;
+    ns1:longitude "6.9702514" ;
+    ns1:parking "underground" .
+
+ns1:64 a ns1:node ;
+    ns1:access "private" ;
+    ns1:amenity "parking" ;
+    ns1:latitude "45.7902759" ;
+    ns1:longitude "6.9709112" ;
+    ns1:parking "surface" .
+
+ns1:65 a ns1:node ;
+    ns1:highway "crossing" ;
+    ns1:latitude "45.7903994" ;
+    ns1:longitude "6.9707486" .
+
+ns1:66 a ns1:node ;
+    ns1:access "private" ;
+    ns1:amenity "parking" ;
+    ns1:latitude "45.7905016" ;
+    ns1:longitude "6.9709689" ;
+    ns1:parking "surface" .
+
+ns1:67 a ns1:node ;
+    ns1:amenity "parking" ;
+    ns1:latitude "45.7929567" ;
+    ns1:longitude "6.9704441" ;
+    ns1:parking "surface" .
+
+ns1:69 a ns1:node ;
+    ns1:amenity "parking" ;
+    ns1:latitude "45.7885055" ;
+    ns1:longitude "6.9728352" ;
+    ns1:parking "surface" .
+
+ns1:7 a ns1:node ;
+    ns1:created_by "JOSM" ;
+    ns1:latitude "45.7956741" ;
+    ns1:longitude "6.9351765" .
+
+ns1:70 a ns1:node ;
+    ns1:amenity "parking" ;
+    ns1:latitude "45.7889068" ;
+    ns1:longitude "6.9721043" ;
+    ns1:parking "surface" .
+
+ns1:71 a ns1:node ;
+    ns1:amenity "parking" ;
+    ns1:latitude "45.7890417" ;
+    ns1:longitude "6.9709550" ;
+    ns1:parking "surface" .
+
+ns1:72 a ns1:node ;
+    ns1:amenity "parking" ;
+    ns1:latitude "45.7923091" ;
+    ns1:longitude "6.9698267" ;
+    ns1:parking "surface" .
+
+ns1:73 a ns1:node ;
+    ns1:amenity "parking" ;
+    ns1:latitude "45.7926467" ;
+    ns1:longitude "6.9722989" ;
+    ns1:parking "surface" .
+
+ns1:74 a ns1:node ;
+    ns1:amenity "parking" ;
+    ns1:latitude "45.7930069" ;
+    ns1:longitude "6.9748486" ;
+    ns1:parking "surface" .
+
+ns1:75 a ns1:node ;
+    ns1:amenity "parking" ;
+    ns1:latitude "45.7937175" ;
+    ns1:longitude "6.9682000" ;
+    ns1:parking "surface" .
+
+ns1:76 a ns1:node ;
+    ns1:access "private" ;
+    ns1:amenity "parking" ;
+    ns1:latitude "45.7896880" ;
+    ns1:longitude "6.9633449" ;
+    ns1:parking "surface" .
+
+ns1:77 a ns1:node ;
+    ns1:access "private" ;
+    ns1:amenity "parking" ;
+    ns1:latitude "45.7898504" ;
+    ns1:longitude "6.9638122" ;
+    ns1:parking "surface" .
+
+ns1:78 a ns1:node ;
+    ns1:access "private" ;
+    ns1:amenity "parking" ;
+    ns1:latitude "45.7907321" ;
+    ns1:longitude "6.9655903" ;
+    ns1:parking "surface" .
+
+ns1:79 a ns1:node ;
+    ns1:addr:housenumber "1" ;
+    ns1:addr:street "Via Grapillon" ;
+    ns1:latitude "45.7906195" ;
+    ns1:longitude "6.9654923" .
+
+ns1:8 a ns1:node ;
+    ns1:ele "1952" ;
+    ns1:latitude "45.7908628" ;
+    ns1:longitude "6.9313349" ;
+    ns1:mountain_pass "yes" ;
+    ns1:name "ColChécrouit" ;
+    ns1:natural "saddle" .
+
+ns1:80 a ns1:node ;
+    ns1:direction "forward" ;
+    ns1:highway "give_way" ;
+    ns1:latitude "45.7907043" ;
+    ns1:longitude "6.9706230" .
+
+ns1:81 a ns1:node ;
+    ns1:addr:housenumber "1" ;
+    ns1:addr:street "Via Croux" ;
+    ns1:amenity "restaurant" ;
+    ns1:cuisine "italian" ;
+    ns1:latitude "45.7915250" ;
+    ns1:longitude "6.9713686" ;
+    ns1:name "Du Parc" ;
+    ns1:phone "+39 0165 842590" .
+
+ns1:82 a ns1:node ;
+    ns1:addr:housenumber "41" ;
+    ns1:addr:street "Via Circonvallazione" ;
+    ns1:latitude "45.7910494" ;
+    ns1:longitude "6.9719467" ;
+    ns1:name "Fromagi Tipici" ;
+    ns1:name:it "Fratelli Panizzi" ;
+    ns1:shop "deli" .
+
+ns1:83 a ns1:node ;
+    ns1:hiking "yes" ;
+    ns1:information "guidepost" ;
+    ns1:latitude "45.7912547" ;
+    ns1:longitude "6.9707808" ;
+    ns1:tourism "information" .
+
+ns1:84 a ns1:node ;
+    ns1:highway "crossing" ;
+    ns1:latitude "45.7915090" ;
+    ns1:longitude "6.9708971" .
+
+ns1:85 a ns1:node ;
+    ns1:crossing "zebra" ;
+    ns1:highway "crossing" ;
+    ns1:latitude "45.7918886" ;
+    ns1:longitude "6.9715648" .
+
+ns1:86 a ns1:node ;
+    ns1:internet_access "no" ;
+    ns1:latitude "45.7925327" ;
+    ns1:longitude "6.9710339" ;
+    ns1:name "Venezia" ;
+    ns1:tourism "hotel" .
+
+ns1:87 a ns1:node ;
+    ns1:amenity "post_office" ;
+    ns1:latitude "45.7914703" ;
+    ns1:longitude "6.9707140" .
+
+ns1:88 a ns1:node ;
+    ns1:amenity "parking" ;
+    ns1:latitude "45.7936290" ;
+    ns1:longitude "6.9632459" ;
+    ns1:parking "surface" .
+
+ns1:9 a ns1:node ;
+    ns1:highway "crossing" ;
+    ns1:latitude "45.7909070" ;
+    ns1:longitude "6.9703923" .
+
+ns1:90 a ns1:node ;
+    ns1:addr:housenumber "14" ;
+    ns1:addr:street "strada Gran Ru" ;
+    ns1:latitude "45.7978957" ;
+    ns1:longitude "6.9704437" .
+
+ns1:92 a ns1:node ;
+    ns1:aerialway "station" ;
+    ns1:aerialway:access "both" ;
+    ns1:aerialway:summer:access "both" ;
+    ns1:latitude "45.7914416" ;
+    ns1:longitude "6.9480386" ;
+    ns1:name "Courmayeur" .
+
+ns1:93 a ns1:node ;
+    ns1:amenity "restaurant" ;
+    ns1:latitude "45.7961252" ;
+    ns1:longitude "6.9828025" ;
+    ns1:name "Baita Ermitage" .
+
+ns1:94 a ns1:node ;
+    ns1:highway "crossing" ;
+    ns1:latitude "45.7906940" ;
+    ns1:longitude "6.9704120" .
+
+ns1:95 a ns1:node ;
+    ns1:crossing "zebra" ;
+    ns1:highway "crossing" ;
+    ns1:latitude "45.7910626" ;
+    ns1:longitude "6.9704997" .
+
+ns1:96 a ns1:node ;
+    ns1:crossing "zebra" ;
+    ns1:highway "crossing" ;
+    ns1:latitude "45.7912198" ;
+    ns1:longitude "6.9706926" .
+
+ns1:97 a ns1:node ;
+    ns1:information "board" ;
+    ns1:latitude "45.7913006" ;
+    ns1:longitude "6.9707998" ;
+    ns1:tourism "information" .
+
+ns1:98 a ns1:node ;
+    ns1:amenity "toilets" ;
+    ns1:latitude "45.7914088" ;
+    ns1:longitude "6.9707932" .
+
+ns1:99 a ns1:node ;
+    ns1:amenity "cinema" ;
+    ns1:latitude "45.7915752" ;
+    ns1:longitude "6.9699768" .
+
